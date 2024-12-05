@@ -1,0 +1,76 @@
+name: Deploy to GitHub Pages
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # 每天运行
+  workflow_dispatch:      # 手动触发
+  push:
+    branches: [ main ]   # 当 main 分支有推送时也触发
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write     # 允许写入内容
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0  # 获取完整的git历史
+
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
+
+      - name: Install Python dependencies
+        run: |
+          pip install httpx
+
+      - name: Fetch articles and update data
+        run: |
+          python backend/main.py
+          
+      - name: Commit and Push if changed
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add frontend/src/data/articles.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update articles.json by GitHub Action" && git push)
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16'
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 8
+
+      - name: Install dependencies
+        run: |
+          cd frontend
+          pnpm install
+
+      - name: Build
+        run: |
+          cd frontend
+          pnpm build
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./frontend/dist
+
+  # 部署工作
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    needs: build
+    runs-on: ubuntu-latest
+    name: Deploy
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

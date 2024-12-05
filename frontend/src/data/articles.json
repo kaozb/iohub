@@ -1,0 +1,848 @@
+[
+  {
+    "id": 5654,
+    "title": "【网站自荐】Genie 2：首个大规模基础世界模型，能将单张图像转换为完全交互式的 3D 环境",
+    "content": "Genie 2 是一个突破性的基础世界模型，能够生成无限多样的、可操控的、可玩的 3D 环境。\r\n\r\nGenie 2 代表着世界建模技术的重大突破。是 Google DeepMind 最新的创新成果，能够从单个提示图像生成无限多样的丰富交互式 3D 环境，为 AI 训练和评估开创了前所未有的可能性。\r\n\r\n与仅限于 2D 世界的前代 Genie 1 不同，Genie 2 创建了具有复杂物理特性、角色动画和对象交互的 3D 环境。从模拟水效果到建模重力和光照，Genie 2 展示了在生成持续一分钟的连贯可玩世界方面的卓越能力。\r\n\r\n我开发了一个网站，介绍了关于 Genie 2 的详细情况。\r\n\r\n网站地址：https://genie2.co/",
+    "created_at": "2024-12-05T10:05:52Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5654"
+  },
+  {
+    "id": 5653,
+    "title": "【网站自荐】EasyTransfer：匿名、加密、方便易用的端到端文件传输工具",
+    "content": "## 一句话简介\r\n\r\n一款端到端文件传输工具，主打匿名和方便易用。\r\n\r\n**👉链接：[file.ch3nyang.top](https://file.ch3nyang.top/)**\r\n\r\n**👉GitHub 地址：[WCY-dt/EasyTransfer](https://github.com/WCY-dt/EasyTransfer)**\r\n\r\n## 应用简介\r\n\r\n![example](https://github.com/user-attachments/assets/8f542bea-42a8-494d-868e-57c49f67421f)\r\n\r\n该工具使用 WebRTC 实现端到端加密传输。\r\n\r\n使用时，在需要传输文件的两台设备上都打开网站，在其中一台设备上输入另一台的四位代码，即可完成连接。\r\n\r\n该工具支持文件、文字、拍照等多种传输格式。\r\n\r\n该项目全部开源。如果不放心，一行命令也不用输入就可以自行部署。\r\n\r\n## 应用特色\r\n\r\n- 免费：都开源了，运营成本也极低，当然免费\r\n- 匿名：无需登录，且每次连接的信息会在 10 分钟内销毁\r\n- 加密：WebRTC 默认加密传输\r\n- 去中心化：服务器仅用于辅助连接，后续传输不会通过服务器（需要内网穿透的除外）\r\n- 适应性强：部署了 STUN 和 TURN 服务器，支持各种网络环境，局域网和广域网都能传\r\n- 易用：输入四位代码就能连接，不需要分享链接等繁琐操作\r\n- 高速：支持并行传输，加快传输速度\r\n\r\n## 备注\r\n\r\n对于个人开发者，这个功能很难在国内备案通过。因此暂时部署在境外。不过有需求的话，自行部署也很方便。",
+    "created_at": "2024-12-05T08:21:00Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5653"
+  },
+  {
+    "id": 5652,
+    "title": "【开源推荐】一个简洁、美观、实用的提示词管理网站。",
+    "content": "# PromptManager\r\n一个简洁、美观、实用的提示词管理网站。\r\n\r\n## 特性\r\n\r\n- 简洁美观的界面设计\r\n- 完全开源，可以自行部署和修改\r\n- 支持提示词标签\r\n- 支持提示词版本管理\r\n- 移动端适配\r\n- 简化的登录系统，使用毫无压力\r\n\r\ngithub地址：https://github.com/liujuntao123/prompt-manager\r\n\r\n网站预览：\r\n![Clip_2024-12-05_14-18-57](https://github.com/user-attachments/assets/67280d3b-6d96-48cf-8a3e-bc9f17fb3bfd)\r\n![Clip_2024-12-05_14-19-14](https://github.com/user-attachments/assets/f1cdaba3-9623-4ed8-9778-4d90797d0bc6)\r\n",
+    "created_at": "2024-12-05T06:36:16Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5652"
+  },
+  {
+    "id": 5651,
+    "title": "【开源推荐】nodejs 下采用c++实现的内存使用率极小的违禁词 / 敏感词 检测工具",
+    "content": "npm地址 https://www.npmjs.com/package/node-word-detection\r\n相比目前其它的违禁词库，内存可以减小一半，性能一样。\r\n[github地址](https://github.com/xiaobaidadada/node-word-detection)",
+    "created_at": "2024-12-05T03:44:12Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5651"
+  },
+  {
+    "id": 5650,
+    "title": "【工具自荐】AutoAPI - 简化前端开发的自动化 API 生成工具",
+    "content": "API 请求和响应类型管理是现代前端开发中的一项重要任务。为了简化这一过程，提高开发效率，AutoAPI 提供了一套基于 OpenAPI / Swagger 文档的自动化解决方案。本文将深入探讨 AutoAPI 的特性、工作原理、使用场景以及它如何解决常见的开发痛点。\r\n\r\n## AutoAPI 的核心特性\r\n\r\n### 1. 原子化请求方法\r\n\r\nAutoAPI 的原子化请求方法是其核心特性之一。每个 API 请求方法都是独立的模块，可以在项目中随处调用。这种设计不仅有助于代码的模块化和可维护性，还支持摇树优化（Tree Shaking），从而减少打包体积并提高应用性能。\r\n\r\n#### 优点：\r\n- **模块化设计**：使得代码更易于管理和重构。\r\n- **性能优化**：通过摇树优化，减少不必要的代码打包。\r\n\r\n### 2. 自动生成类型\r\n\r\n在传统开发中，开发者需要手动编写 API 请求和响应的 TypeScript 类型，这是一项繁琐且容易出错的任务。AutoAPI 通过解析 OpenAPI / Swagger 文档，自动生成这些类型，确保类型定义的准确性和一致性。\r\n\r\n#### 优点：\r\n- **减少错误**：自动生成类型，降低手动书写时的错误风险。\r\n- **提高效率**：开发者无需手动维护类型定义，节省了大量时间。\r\n\r\n### 3. 类型推断\r\n\r\nAutoAPI 提供了类型推断功能，可以根据 JSON 数据自动推断出 TypeScript 类型。这对于没有完整文档或文档中缺少结构定义的情况尤为有用。\r\n\r\n#### 优点：\r\n- **灵活性**：即使没有完整的文档，也能确保类型安全。\r\n- **适应性**：可以根据实际数据快速生成类型定义。\r\n\r\n### 4. 精细化控制\r\n\r\nAutoAPI 提供了丰富的配置选项，允许开发者对生成的代码进行精细化控制。这包括过滤、分组、命名规则、类型结构等方面的设置。\r\n\r\n#### 优点：\r\n- **自定义能力**：开发者可以根据项目需求调整生成的代码结构。\r\n- **灵活配置**：适应不同项目的特定需求。\r\n\r\n### 5. 适配器机制\r\n\r\n通过适配器机制，AutoAPI 可以适应不同的业务场景。开发者可以编写自定义适配器，调整请求方法的生成逻辑，以满足项目的特定需求。\r\n\r\n#### 优点：\r\n- **业务适配**：确保生成的请求方法符合特定业务逻辑。\r\n- **扩展性**：可以轻松添加新的适配器以适应变化的需求。\r\n\r\n### 6. 支持 SSR\r\n\r\n在服务端渲染（SSR）场景下，AutoAPI 支持传递上下文参数。开发者可以在适配器中添加参数透传逻辑，确保 API 请求在服务端和客户端都能正常工作。\r\n\r\n#### 优点：\r\n- **一致性**：确保在不同渲染环境下的请求一致性。\r\n- **灵活性**：支持复杂的 SSR 场景需求。\r\n\r\n### 7. 优秀的 API 结构管理\r\n\r\nAutoAPI 支持多文档、多分组的 API 结构管理。开发者可以在一个项目中管理多个 API 文档，并对其进行分组组织，增强代码的可维护性和可读性。\r\n\r\n#### 优点：\r\n- **组织性**：清晰的 API 结构管理，提升代码可读性。\r\n- **可扩展性**：轻松管理大型项目中的多个 API 文档。\r\n\r\n## 使用场景\r\n\r\n### 1. 快速原型开发\r\n\r\n在快速原型开发中，AutoAPI 可以帮助团队快速生成 API 请求方法和类型定义，减少初始开发时间。\r\n\r\n### 2. 大型项目的类型管理\r\n\r\n对于大型项目，手动管理类型定义可能会导致错误和不一致。AutoAPI 的自动化功能确保了类型定义的一致性和准确性。\r\n\r\n### 3. 动态 API 文档\r\n\r\n在 API 文档频繁变化的项目中，AutoAPI 可以自动调整生成的代码，确保项目始终与最新的文档保持一致。\r\n\r\n## 结论\r\n\r\nAutoAPI 是一个功能强大且灵活的工具，可以显著提高前端开发的效率和代码质量。通过自动生成请求方法和类型定义，它帮助开发者减少手动工作量，降低错误风险，并适应复杂的业务场景。如果你正在寻找一种简化 API 管理的解决方案，AutoAPI 无疑是一个值得尝试的选择。\r\n\r\n了解更多关于 AutoAPI 的信息，请访问 [AutoAPI GitHub 仓库](https://github.com/shixianqin/autoapi)。",
+    "created_at": "2024-12-04T16:55:05Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5650"
+  },
+  {
+    "id": 5649,
+    "title": "【开源自荐】Kusion：以应用为中心的平台编排器，简化软件交付中的协同",
+    "content": "### 项目地址\r\n\r\nhttps://github.com/KusionStack/kusion\r\n\r\n### 项目简介\r\n\r\n* 是什么: 轻量的、以应用为中心的、意图驱动的平台编排器。\r\n* 为什么: 现代软件复杂度高，跨组织的协同困难，影响交付效率。\r\n    * 交付一个业务可能涉及到业务开发、SRE、基础设施、PaaS、网络、安全、合规等等。\r\n    * 随着基础设施复杂度上升，影响业务交付效率和安全性。\r\n* 怎么做:\r\n    * **连接多方意图和基础设施**\r\n        * 对开发者屏蔽基础设施的复杂性，提供开发者友好的概念\r\n        * 代码化应用全生命周期的需求\r\n        * 把用户抽象的、代码化的意图转化为基础设施的Manifest (Kusion Spec)\r\n    * **定义协作范式**\r\n        * 理想的业务交付是高效、安全、低认知负担的\r\n        * 提供模块化(Kusion Modules）框架，支持用户自定义抽象逻辑\r\n    * **动态配置管理(DCM)**\r\n        * 对于多个来源意图的编织\r\n        * 通过Kusion Spec统一了应用资源Source Of Truth的管理，不管是K8s资源还是云资源\r\n        * 配置生效完成后提供应用视角的资源拓扑\r\n\r\n### 项目文档\r\n\r\n* KusionStack官网: https://kusionstack.io/\r\n* Kusion文档: https://www.kusionstack.io/docs/next/\r\n* README: https://github.com/KusionStack/kusion/blob/main/README.md\r\n\r\n### 使用案例\r\n* 快速上手: https://www.kusionstack.io/docs/next/getting-started/deliver-quickstart\r\n* 同时管理K8s和云资源: https://www.kusionstack.io/docs/next/user-guides/cloud-resources/database\r\n* 大模型部署: https://www.kusionstack.io/docs/next/user-guides/llm-ops/inference\r\n* 自定义Module: https://www.kusionstack.io/docs/next/concepts/module/develop-guide\r\n\r\n### 产品截图\r\n![image](https://github.com/user-attachments/assets/2dc0c9a1-8240-459a-9587-913ccde62d7b)\r\n![image](https://www.kusionstack.io/assets/images/kusion_re_apply_quickstart_0.12-91a562c87125b0a83e3c1e971940c30a.gif)\r\n![image](https://github.com/user-attachments/assets/ebb9b4f0-c9fa-4b2f-bb93-74412aa0afde)",
+    "created_at": "2024-12-04T10:08:23Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5649"
+  },
+  {
+    "id": 5648,
+    "title": "Image to Video AI - AI图片转视频工具",
+    "content": "一键将静态图片转换为动态视频，支持多种动画效果和音乐背景。无需专业技能，适合社媒创作、营销展示、产品介绍等场景。操作简单，快速出片，是内容创作者的得力助手。\r\n网站地址:[https://image2video.ai/](url)\r\n\r\n### **Image2Video.ai 差异化优势**\r\n\r\n📈 相比传统方案：\r\n• 无需复杂视频编辑软件\r\n- 传统：需要After Effects等专业软件，学习成本高\r\n- 现在：网页即可操作，零门槛使用\r\n⚡️ 相比同类AI工具：\r\n• 更快的处理速度\r\n- 竞品：通常需要15-30分钟处理\r\n- 本产品：几分钟内完成生成\r\n🎯 独特优势：\r\n• 更自然的动画效果\r\n- 运动轨迹更流畅\r\n- 细节处理更真实\r\n💰 成本效益：\r\n• 降低制作成本\r\n- 无需聘请专业视频制作人员\r\n- 批量处理更经济高效\r\n🔄 工作流程：\r\n• 更简化的操作步骤\r\n- 竞品：多步骤复杂配置\r\n- 本产品：上传即可一键生成\r\n\r\n### **工具页面截图：**\r\n\r\n![特色1](https://github.com/user-attachments/assets/9962004e-f175-46bc-a9e0-2cb602b4b19a)\r\n![特色2](https://github.com/user-attachments/assets/0c81c96e-5a29-44bf-9e76-d78a48bf3f96)\r\n![特色3](https://github.com/user-attachments/assets/5b133271-ec74-47d0-9dc5-e68573976797)\r\n",
+    "created_at": "2024-12-04T08:23:06Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5648"
+  },
+  {
+    "id": 5647,
+    "title": "你的 iPhone 上安装了哪些优秀的 App？",
+    "content": "[https://www.zhihu.com/question/20857355/answer/2868036876](url)",
+    "created_at": "2024-12-04T08:10:58Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5647"
+  },
+  {
+    "id": 5646,
+    "title": "【工具自荐】twitterdown.com 在推文 URL 添加 down 快速下载视频",
+    "content": "特点：通过在任何推文地址后添加“down”跳转，即可快速下载推文中的视频，无需访问网站或手动粘贴推文链接。\r\n\r\n示例：\r\nhttps://twitterdown.com/elonmusk/status/1853860311335334392\r\n\r\n效果：\r\n![90a146123e2d2d9becf406829184188c.png](https://ice.frostsky.com/2024/12/04/90a146123e2d2d9becf406829184188c.png)\r\n\r\n适用人群及场景：适合需要快速下载推特视频的用户，尤其是推特上常分享高清视频的用户。\r\n\r\n感谢您的体验，Made with ❤️ and ☕️ by [Jewel](https://x.com/Real_Jewel_AI)。",
+    "created_at": "2024-12-04T07:50:18Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5646"
+  },
+  {
+    "id": 5644,
+    "title": "【软件自荐】Mac和Windows多项目图片资源预览和分类管理软件",
+    "content": "## 推荐项目\r\n\r\n<!-- 这里是 HelloGitHub 月刊推荐项目的入口，欢迎自荐和推荐开源项目，唯一要求：请按照下面的提示介绍项目。-->\r\n\r\n\r\n<!-- 点击上方 “Preview” 立刻查看提交的内容 -->\r\n\r\n\r\n<!--仅收录 GitHub 上的开源项目，请填写 GitHub 的项目地址-->\r\n- 项目地址：https://github.com/JiuRanYa/IconEase\r\n\r\n<!--请从中选择（C、C#、C++、CSS、Go、Java、JS、Kotlin、Objective-C、PHP、Python、Ruby、Rust、Swift、其它、书籍、机器学习）-->\r\n- 类别：Mac软件\r\n\r\n<!--请用 20 个左右的字描述它是做什么的，类似文章标题让人一目了然 -->\r\n- 项目标题：专门解决开发者和设计师管理图标的烦恼\r\n\r\n<!--这是个什么项目、能用来干什么、有什么特点或解决了什么痛点，适用于什么场景、能够让初学者学到什么。长度 32-256 字符-->\r\n- 项目描述：\r\n\r\n  😫 以前的痛点：\r\n    - 图标散落在各个文件夹，找起来超麻烦\r\n    - 同一个图标存了好几份，搞不清哪个是最新的\r\n    - 预览图标还得打开文件，太浪费时间\r\n    - 多个项目的图标混在一起，乱得要命\r\n\r\n<!--令人眼前一亮的点是什么？类比同类型项目有什么特点！-->\r\n- 亮点：\r\n\r\n  ✨ 现在用 IconEase：\r\n    - 拖拽导入，自动分类，告别手动整理\r\n    - 秒级搜索，再多图标都不怕\r\n    - 悬停即可预览，支持收藏常用图标\r\n    - 多工作区隔离，项目管理超清晰\r\n    - 支持中英文，界面简洁好看\r\n\r\n- 截图：\r\n\r\n![image](https://github.com/user-attachments/assets/381bbe3e-6087-443f-aed8-531c8850afb6)\r\n\r\n![image](https://github.com/user-attachments/assets/ce9ce607-b4e9-4c54-9b37-78cf47afc1c1)\r\n\r\n![image](https://github.com/user-attachments/assets/5c58d80a-b160-43a8-a7ed-5fbc54f17705)\r\n",
+    "created_at": "2024-12-04T03:57:51Z",
+    "labels": [
+      "weekly"
+    ],
+    "url": "https://github.com/ruanyf/weekly/issues/5644"
+  },
+  {
+    "id": 5643,
+    "title": "【插件自荐】支持FlinkSQL极好的IDEA、VS Code插件",
+    "content": "名字：FlinkSQL-Helper\r\nName：FlinkSQL-Helper\r\n\r\n\r\n插件简介：一款支持FlinkSQL(v1.20)语法检测，高亮，代码补全提示，重命名，Snippets，以及CodeFormat的两个插件，可以有效提升日常的开发效率，给你带来IDE般的体验。\r\nDescription： Help you efficiently and focus on FlinkSQL development. support Flink SQL error grammar check, syntax highlighting, complete keywords, rename, find all references and code format, including user-defined functions. Bringing you an IDE like experience.\r\n\r\n# VS Code版本\r\n插件地址(Address)：https://marketplace.visualstudio.com/items?itemName=CamileSing.flink-sql\r\n \r\n\r\n## 部分功能截图(Part feature show)：\r\n\r\n### 语法检测(Grammar Check)：\r\n![select_not_expect_comma_v3](https://github.com/ruanyf/weekly/assets/11649145/4659632d-d1b8-4569-843c-a3f29fb96733)\r\n![unexpect_input_v2](https://github.com/ruanyf/weekly/assets/11649145/c50e918e-8e8e-405f-8a95-00b18dd2f8c9)\r\n![expect_semicolon_v3](https://github.com/ruanyf/weekly/assets/11649145/b159f782-0176-4f66-ba77-32604d0c21dc)\r\n\r\n### 重命名(Rename)：\r\n![refactorings](https://github.com/ruanyf/weekly/assets/11649145/2a5e42d3-10e1-4dd6-b8ae-ad630452c724)\r\n\r\n### 代码补全提示(Code Composal)：\r\n\r\n![code_completion_proposal_v3](https://github.com/ruanyf/weekly/assets/11649145/6aa48977-f922-4f94-9b68-8c222a06533e)\r\n\r\n### 格式化(Format):\r\n![](https://github.com/user-attachments/assets/35042bc3-70a7-422e-a2a8-05a24f1e1fdf)\r\n\r\n### Snippets：\r\n![create_snippets_v2](https://github.com/ruanyf/weekly/assets/11649145/7a40c490-c293-4a8c-9ddc-5bf1fb8fe0f5)\r\n![insert_snippets_v2](https://github.com/ruanyf/weekly/assets/11649145/4dadc921-f8a2-4964-9417-29b3fe465f83)\r\n![join_snippets_v2](https://github.com/ruanyf/weekly/assets/11649145/d50cb8c5-506d-49b8-b46d-81d4545007c6)\r\n![select_snippets_v3](https://github.com/ruanyf/weekly/assets/11649145/3494d207-93c4-4b2d-930b-ffe2e1f1fcab)\r\n![windows_snippets](https://github.com/ruanyf/weekly/assets/11649145/f515cedd-6d91-4ee0-b9f8-60b24f796466)\r\n\r\n### 代码查找(Find references):\r\n\r\n![find-all-references](https://github.com/ruanyf/weekly/assets/11649145/ac431c9a-2737-40e4-ab40-cff54012c78f)\r\n![show_references](https://github.com/ruanyf/weekly/assets/11649145/c1ec6afc-4ca4-4693-bd4c-414ecf9d1e8e)\r\n\r\n \r\n# IDEA版本\r\n插件地址(Address)：https://plugins.jetbrains.com/plugin/25912-flink-sql-helper\r\n\r\n## 部分功能截图(Part feature show)：\r\n\r\n### 语法检测(Grammar Check)：\r\n![](https://github.com/user-attachments/assets/c584ea69-6d80-4d00-9185-89f3969104c9)\r\n![](https://github.com/user-attachments/assets/a4a23b69-04a6-4cdc-aa40-a013c2413787)\r\n![](https://github.com/user-attachments/assets/6e7e54dc-2270-4cf2-9849-0a543eda0031)\r\n![](https://github.com/user-attachments/assets/5180e52c-8c60-4a51-ad07-f5dc7cbbfa78)\r\n\r\n\r\n### 重命名(Rename)：\r\n \r\n![](https://github.com/user-attachments/assets/cd11f9c8-185f-418e-a994-64c57b2de53d)\r\n\r\n### 代码补全提示(Code Composal)：\r\n![](https://github.com/user-attachments/assets/1112d099-42b0-46f8-b0bc-1dd156b2f322)\r\n\r\n###  格式化(Format):\r\n\r\n![](https://github.com/user-attachments/assets/1347ddd9-3c14-4e01-8cf6-7a59b8b205d7)\r\n\r\n",
+    "created_at": "2024-12-04T03:30:12Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5643"
+  },
+  {
+    "id": 5642,
+    "title": "【产品自荐】ECSPY: 电商网站分析工具",
+    "content": "这是一款 All in one 浏览器插件，适用于做电商独立站的朋友，包括：\r\n\r\n- 流量分析(基于similarweb，可以分析访问量、访问来源、主要访问国家、搜索关键词)\r\n- Shopify、WooCommerce类平台的产品导出\r\n- 分析Shopify、WooCommerce类平台的产品上架时间、价格数据等\r\n- 找出 Shopify 平台卖的最好的产品\r\n- Shopify、WordPress 安装的主题和插件检测\r\n- 关键词分析\r\n\r\n使用上也很简单，只要安装好插件，固定在浏览器右上角，打开要分析的网站，点一下插件图标就会自动分析\r\n\r\n- 网站地址: [https://ecspy.net](https://ecspy.net)\r\n- 插件安装地址：[ECSPY Chrome extension](https://chromewebstore.google.com/detail/ecspy-shopifywoocommerce/dmkddagkgcpicocplcljimhnmpkjjcga)\r\n\r\n![WX20240910-114140@2x](https://github.com/user-attachments/assets/86157e31-ff09-47c7-afad-659b9a4eec83)\r\n![WX20240910-114242@2x](https://github.com/user-attachments/assets/6843a430-e735-42ca-aee5-5a6677e60d0c)\r\n",
+    "created_at": "2024-12-04T03:28:21Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5642"
+  },
+  {
+    "id": 5641,
+    "title": "【工具自荐】Peninsula：基于macOS刘海的窗口管理器和消息中心",
+    "content": "## Overview\r\nRepo Link: [GitHub - Celve/Peninsula: A macOS notch app.](https://github.com/Celve/Peninsula)\r\nDownload: [Release v0.0.1 · Celve/Peninsula](https://github.com/Celve/Peninsula/releases/tag/v0.0.1)\r\niPhone的灵动岛出现之后，我就很期待着 Apple 能为 macOS 上的刘海设计一些类似的功能，很可惜并没有发生，于是近几个月间抽时间为自己写了一个基于刘海的工具。既然 iPhone 叫做 Dynamic Island，我不如就叫这个工具Peninsula（半岛）好了。毕竟 Dynamic Island 四面环像素，而刘海只有三面。\r\n对我来说最重要的是一个窗口切换软件，毕竟 macOS 上的相关体验比较糟心：在多显示器的情况下，打开某个窗口，将会在所有屏幕同时打开这个程序的相关窗口。https://github.com/lwouis/alt-tab-macos很完美地解决了这个问题，但是我不太喜欢他的设计风格。相比之下，[Contexts - Radically simpler & faster window switcher for Mac](https://contexts.co/) 显得更加的简洁且易于查找，不过也已经挺多年没有更新了，且它的设计依旧差了点意思。\r\n与此同时，我还想要一个消息提醒软件。我不希望所有的消息都在屏幕右上方突兀地弹出来——这很干扰我的工作流。我也不想要错过一些重要的信息，直接打开勿扰模式并不现实。我希望在我一段注意力集中的时间结束之后对各种即时信息软件/邮件进行轮询，看看是否漏掉了一些重要的消息。\r\n我想把这两个功能全都集成到刘海上，消息提醒模仿 iPhone 上的即时消息，窗口切换则是基于刘海创造一个更流畅的动画。于是有了：\r\n\r\nhttps://github.com/user-attachments/assets/d58ce0d5-c685-44df-9a50-4afe99a710db\r\n​\r\n点击刘海会出现 Peninsula，再次点击刘海可以切换其中的窗口。这是我想到的比较好的切换方式，后续可以集成触控板手势进行切换。\r\n总共有五个窗口，前两个对应着我想实现的程序切换以及消息中心。当有人给我发送信息时：\r\n\r\nhttps://github.com/user-attachments/assets/37d7d89c-57ad-49b9-a8cf-8bedd3971458\r\n\r\n我很喜欢这个设计，视觉占比不大，认真做事时影响不到；闲了下来看向刘海就能知道有没有信息了。你可以把任何程序放到消息中心里，只要它的通知方式是基于 dock 的即可（即 dock 上会出现消息的总条数）。\r\n接下来是替换掉macOS难用的cmd + tab:\r\n\r\nhttps://github.com/user-attachments/assets/876388d9-a1cf-4317-b799-48c8ba5b0c85\r\n\r\n如果你喜欢的话，欢迎来[repo](https://github.com/Celve/Peninsula)点个 star！限于时间，我只将 Peninsula 实现到了这里，但基于刘海的设计显然远不止于此。欢迎大家基于Peninsula二次开发！如果你嫌弃 Peninsula 过于笨重，想在更简洁的框架上定制刘海，请参考（Peninsula同样基于这个repo开发）：[GitHub - Lakr233/NotchDrop: Use your MacBook's notch like Dynamic Island for temporary storing files and AirDrop](https://github.com/Lakr233/NotchDrop)。\r\n\r\n## Reference\r\nPeninsula 的开发基于以下三个 projects：\r\n[GitHub - lwouis/alt-tab-macos: Windows alt-tab on macOS](https://github.com/lwouis/alt-tab-macos)\r\n[GitHub - Lakr233/NotchDrop: Use your MacBook's notch like Dynamic Island for temporary storing files and AirDrop](https://github.com/Lakr233/NotchDrop)\r\n[GitHub - xiaogdgenuine/Doll: A mac app to help monitor your app badges!](https://github.com/xiaogdgenuine/Doll)\r\nPeninsula 采用 MIT 协议，欢迎大家使用！",
+    "created_at": "2024-12-03T23:14:34Z",
+    "labels": [
+      "weekly"
+    ],
+    "url": "https://github.com/ruanyf/weekly/issues/5641"
+  },
+  {
+    "id": 5640,
+    "title": "[产品自荐] 基于Java和Vue编写的股票筛选系统",
+    "content": "## 轻量级股票数据中台\r\n简单易用的数据中台，服务于韭皇的可自控应用，方便二次开发；无复杂数据库依赖，启动即可得，追求至简，方便韭皇部署；外部接口可扩展，与核心功能隔离，可快速切换服务\r\n\r\n## 使用场景\r\n搭建自己的选股平台，分析数据私有化保存，二次开发私有化指标，自定义选股策略\r\n\r\n## 设计理念\r\n为了方便快速开发，尽可能减少相关依赖，简化开发流程，主要服务于个人，不考虑分布式，集群化部署，相当于个人的数据中台；\r\n接口和页面多集中在一个项目里面，启动即可调试开发，方便再次开发；外部接口剥离，方便不同平台接口兼容，而不改变现有功能。\r\n\r\n## 已有功能\r\n* 股票搜索，详情页，第三方K线图\r\n* 指标筛选(三连阳，财务，RSI/KDJ/WR/MACD等)\r\n* 收藏，分析股票，添加分析结果，添加备注信息\r\n* 用户登陆，添加子账户，管理子账户的相关信息\r\n* 外部服务可配置，自定义相关参数，启停相关服务\r\n\r\n## 安装方式\r\n* [去下载该系统,点\"克隆/下载\"，再点\"下载ZIP\"](https://gitee.com/doobo/stock-analysis)\r\n* [下载解压软件，解压下载的系统，解压密码:123456](https://sfdl.360safe.com/netunion/20140425/360zip_yqlm_168097.exe)\r\n* [安装系统执行所需的SDK环境，搜索\"JDK 8\",下载安装](https://sfdl.360safe.com/netunion/20140425/360safejisu+168097+n2a27c3f091.exe)\r\n* 启动系统(安装一次后，以后只需启动即可，无需重复安装）\r\n* 在浏览器(支持ES6)上进入系统[,如无ES6浏览器，可点击下载ES6浏览器安装](https://sfdl.360safe.com/netunion/20140425/360cse+168097+n2a27c3f091.exe)\r\n![JDK 8环境下载](https://s2.loli.net/2024/12/02/O2PGU7V9FHgrkw6.png)\r\n## 相关界面图\r\n![首页看板](https://s2.loli.net/2024/12/02/UjGHl8BP5rALZOS.png)\r\n![股票详情页](https://s2.loli.net/2024/12/02/93bFSxKQslpetYD.png)\r\n![分析策略列表](https://s2.loli.net/2024/12/02/IPNDahZYdEysJz9.png)",
+    "created_at": "2024-12-03T16:22:42Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5640"
+  },
+  {
+    "id": 5639,
+    "title": "【开源自荐】一款web开发框架，基于React、Vite和Spring Boot，集成AI功能",
+    "content": "# X.Ryder\r\n开源地址：https://github.com/pipijoe/xryder-web\r\n\r\n## 简介\r\n这是一个基于vite、react、tailwindcss和shadcn的中后台ui快速开发模板。搭配[xryder-server](https://github.com/pipijoe/xryder-server)这个基于Spring Boot的后台程序,可快速构建一个带有AI对话功能的中后台系统的基础代码开发框架。\r\n\r\n演示系统地址：[X.Ryder](https://xryder.cn/)\r\n账号：admin\r\n密码：admin123\r\n\r\n## 前端技术栈\r\n- 状态管理：zustand\r\n- 路由：react-router-dom\r\n- UI: [tailwindcss](https://tailwindcss.com/docs/installation) + [shadcn/ui](https://ui.shadcn.com/)\r\n- icon: [react-icons](https://react-icons.github.io/react-icons/) + [lucide](https://lucide.dev/icons/)\r\n- 网络请求: axios\r\n- 表单参数校验：zod \r\n- 动效：framer-motion\r\n\r\n## 后端技术栈\r\n- Spring Boot\r\n- Java 21\r\n- Spring Data Jpa\r\n- Spring AI\r\n- Spring Security\r\n\r\n## 已完成的功能\r\n- 登录、token刷新、多次登录失败锁定\r\n- 深色模式\r\n- AI对话\r\n- 用户管理\r\n- 角色管理、权限校验\r\n- 部门管理\r\n- 操作日志\r\n- 登录日志\r\n- 账户管理、头像修改、密码重置等\r\n- 职位管理\r\n- 通知公告\r\n- uv统计 \r\n",
+    "created_at": "2024-12-03T13:14:35Z",
+    "labels": [
+      "weekly"
+    ],
+    "url": "https://github.com/ruanyf/weekly/issues/5639"
+  },
+  {
+    "id": 5638,
+    "title": "【产品自荐】深度指纹浏览器（ideepauto.com）",
+    "content": "**一人公司的趁手兵器来了**\r\n\r\n> 在今天，个体的能力可以通过互联网被无限放大，即使是一个人，也能完成从前需要一家公司才能做到的事，随着大环境的周期变化，这种模式在可预见的未来会越来越多。可以说，我们已经步入“一人公司”的时代。不久前人民邮电出版社了一本《一人公司》，也侧面说明了它顺应时代发展而来。\r\n\r\n现如今零零后不再钟情职场，他们是自媒体的半边天，他们的创作、传播、营销、运营等能力都在不断创新；他们是电商的新生力量，他们的创意、设计、制造、销售等能力都在不断提升。三两志同道合的人，就能组成一个小团队，做出一些大公司都做不到的事情。这种“一人公司”的模式，不仅能够让个体的能力得到最大化的发挥，也能够让团队的效率得到最大化的提升。\r\n\r\n大语言模型的火爆，也让一人公司的能力短板减小，大部分工作都可以交给AI来完成，人们只需要专注于自己的核心业务，这样一来，一人公司的效率就会更高，成本也会更低。当然，一人公司也有它的短板，比如说，一个人的精力是有限的，这个时候趁手兵器就显得尤为重要了。\r\n\r\n比如做自媒体的每天都要手动分别上传视频到各大平台、做电商的每天都要做详情页、看数据、回消息，或者每天固定时间点要做一些重复性的工作，这些都是一人公司的痛点。\r\n\r\n这里要介绍的软件就是可以帮助你自动化完成这些重复性的工作，让你的效率更高，让你的时间更自由。这款软件就是[深度指纹浏览器](https://www.ideepauto.com)，它主要由指纹浏览器、深度RPA自动化、以及工具应用市场三大主要模块组成。\r\n\r\n指纹浏览器简单讲就是可以实现网站账号多开，以前桌面上下载一堆浏览器用来登不同账号，现在只需要一个指纹浏览器就可以了，一人管理多个账号，不用担心账号混乱，也不用担心账号被封。\r\n\r\n深度RPA自动化是指可以实现网页的自动化操作，比如说自动化登录、自动化填表、自动化点击等等，只要你会操作，就可以让软件帮你自动化完成，这里需要你会一点点Python代码，不过不用担心，它提供了很多界面操作，基本上只要点点填填，就可以完成自动化操作。\r\n\r\n工具应用市场是指软件内置了很多实用的工具，比如说各大短视频视频批量发布、电商图片免费AI处理等等，只要你需要，打开就可以使用。\r\n\r\n更强大的是，这款软件还支持自定义工具应用，但是需要你会一点代码，JavaScript或者Python，它提供了很多有用的指纹浏览器API和自动化API，就可让软件帮你完成更多的工作。\r\n\r\n总的来说，这款软件可以帮助你提高效率，让你的时间更自由，让你的工作更轻松，让你的生活更美好。如果你是一人公司，那么这款软件就是你的最佳选择。\r\n![微信截图_20241129100822](https://github.com/user-attachments/assets/1a7f34b9-2be4-4424-a4d9-73299388d6a6)\r\n![微信截图_20241129100806](https://github.com/user-attachments/assets/44146135-0841-40cf-8131-6d63183b8a59)\r\n![微信截图_20241129100759](https://github.com/user-attachments/assets/c811bb0e-76fd-41d1-913e-63b9a0c491ab)\r\n![微信截图_20241129100749](https://github.com/user-attachments/assets/5da984a7-7919-48d9-a6d9-55bc6675aab1)\r\n",
+    "created_at": "2024-12-03T10:10:02Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5638"
+  },
+  {
+    "id": 5637,
+    "title": "[产品自荐] AICodeConverter 基于gpt支持多种计算机语言进行代码转化,代码翻译,代码生成.",
+    "content": "# [AICodeConverter](https://convertercode.com/)\r\n\r\n## [地址点我](https://convertercode.com/)\r\n\r\n## 产品简介\r\n\r\n支持多种计算机语言进行\r\n- 代码转化\r\n- 代码翻译\r\n- 代码生成\r\n\r\n## 产品截图\r\n\r\n![convertercode](https://github.com/user-attachments/assets/b6cea60e-13b9-436c-983c-5216da797369)\r\n",
+    "created_at": "2024-12-03T02:53:00Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5637"
+  },
+  {
+    "id": 5636,
+    "title": "[网站自建]Brat Generator",
+    "content": "名称：Brat Generator\r\n介绍：The Free Brat Generator is an online tool that allows users to create custom images resembling the album cover of \"Brat\" by Charli XCX. It features a distinctive green background and lowercase \"brat\" typography, perfect for sharing on social media.\r\n\r\n网址：\r\nhttps://brat-generator.online/",
+    "created_at": "2024-12-03T01:38:22Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5636"
+  },
+  {
+    "id": 5635,
+    "title": "【产品自荐】游戏聚合站",
+    "content": "网站名称：drive mad 游戏聚合站\r\n\r\n网址链接：https://drivemad.win\r\n\r\n工具简介：\r\n集合了各种H5网页小游戏，单人、双人、流程、火热、动作、射击等分类\r\n\r\n产品截图：\r\n![drivemad_01](https://github.com/user-attachments/assets/e78c97e1-a612-4530-8048-1462fb1ac2ca)\r\n![drivemad_02](https://github.com/user-attachments/assets/fd37f360-c424-4cd4-9f4b-f4ea6d300b4b)\r\n![drivemad_03](https://github.com/user-attachments/assets/69275806-6ca3-46b7-b92d-abccdac04891)\r\n",
+    "created_at": "2024-12-02T16:27:55Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5635"
+  },
+  {
+    "id": 5634,
+    "title": "【工具自荐】PageGen - AI Page Generator",
+    "content": "工具名称：\r\nPageGen：AI Page Generator\r\n\r\n网址链接：\r\nhttps://pagegen.ai/\r\n\r\n工具简介：\r\nPageGen: 10x Faster Page Generation with PageGen AI\r\n\r\n详细介绍：\r\nPageGen 利用最强大的AI 模型 (Claude 3.5 Sonnet) 和最流行的前端框架 (React + Tailwind + Shadcn UI), 几秒为你生成生产可用的 UI页面。\r\n支持从文本，截图，模板一键生成网页。\r\n\r\n支持以下功能：\r\n\r\n🖥️ 实时 UI 预览: 所见即所得的开发体验\r\n\r\n🔍 AI驱动的内容搜索： 利用 AI 搜索丰富UI内容\r\n\r\n📑 丰富的页面模板：从模板一键快速生成\r\n\r\n🖼 图像生成：生成和截图几乎一致的 UI 界面\r\n\r\n⚛️ React + TailWind + Shadcn UI 集成\r\n\r\n🚀 一键发布生成的 UI Page\r\n\r\n🎯 一键切换页面主题颜色\r\n\r\n📱 Responsive Code and Preview：代码生成和实时预览均支持响应式\r\n\r\n🌓 暗黑模式支持 ：代码生成和实时预览均支持暗黑模式\r\n\r\n📸 截图导出： 一键截图导出 UI Page\r\n\r\n🛠️ 一键纠错： 一键自动修复极低概率出现的代码错误\r\n\r\n\r\n![PageGen](https://image.memfree.me/pagegen-template.png)",
+    "created_at": "2024-12-02T12:24:08Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5634"
+  },
+  {
+    "id": 5633,
+    "title": "【产品自荐】XiaobaoTo - 小报童历史数据与排行榜工具",
+    "content": "1. 找不到小报童的历史数据\r\n2. 不容易找相关内容且持续更新的专栏\r\n3. 不知道哪些专栏增长最快\r\n\r\n解决方案：\r\n1. 通过排行榜（支持每周的销售数据）发现增长快的专栏，为创作者提供帮助：https://xiaobaoto.com/ranking/\r\n2. 完整的筛选功能，支持关键词匹配、最近更新等：https://xiaobaoto.com/discover/\r\n4. 每个专栏都带有历史数据📊\r\n\r\n![Xnapper-2024-11-25-13 51 48](https://github.com/user-attachments/assets/5ca718ad-addc-4ab7-a522-922b2e540f8c)",
+    "created_at": "2024-12-02T11:35:04Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5633"
+  },
+  {
+    "id": 5632,
+    "title": "【文章自荐】如何做好网站的备份工作",
+    "content": "聊一聊如何做好一个网站的备份工作。先从手动备份聊起，再循序渐进优化和补充细节，编写脚本，使用定时任务，使用rsync增量备份，md5变更校验，发送邮件通知等。除了讲demo，还会深入讲解命令的配置项，原理等\r\n\r\n[如何做好网站的备份工作](https://blog.warmplace.cn:11443/post/backup)",
+    "created_at": "2024-12-02T08:21:01Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5632"
+  },
+  {
+    "id": 5631,
+    "title": "【工具自荐】BeGuess - 一款简单好用的智能格式转换工具",
+    "content": "工具名称：\r\nBeGuess：智能格式转换工具\r\n\r\n网址链接：\r\nhttps://beguess.com\r\n\r\n工具简介：\r\n轻松转换数据格式，化繁为简的智能工具。BeGuess 能够识别多种格式，自动化转换流程，让数据处理更加高效。\r\n\r\n详细介绍：\r\nBeGuess 是一款专注于数据格式转换的在线工具，旨在为开发者和数据工作者提供便捷的解决方案。只需将数据粘贴到工具中，BeGuess 就能通过智能算法猜测格式类型并快速完成转换。无论是开发者、运维人员，还是普通用户，都可以享受简洁、高效的操作体验。\r\n\r\n✨ 主要特点：\r\n\t1.\t多格式支持：支持 YAML、JSON、XML、Properties 等多种格式互转，并计划扩展到 Markdown、HTML、SQL 等。\r\n\t2.\t智能格式检测：无需手动选择，工具可自动识别输入格式。\r\n\t3.\t深色模式：支持护眼的深色界面。\r\n\t4.\t代码高亮：提供直观的转换结果展示，助力开发者快速查阅。\r\n\t5.\t扩展功能丰富：未来支持更多开发者工具和数据处理功能，如 JWT 解析、OCR 文字识别、语音转文字等。\r\n\t6.\t费用：完全免费。\r\n\r\n未来发展：\r\nBeGuess 的目标是成为开发者工具生态中的重要一员，计划在 2025 年实现国际化扩展并推出更多创新功能。\r\n\r\n工具页面截图：\r\n<img width=\"1349\" alt=\"iShot_2024-12-02_15 47 34\" src=\"https://github.com/user-attachments/assets/614da2f5-3e9a-4cbc-aef3-651cacae92cb\">\r\n",
+    "created_at": "2024-12-02T07:58:19Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5631"
+  },
+  {
+    "id": 5630,
+    "title": "【工具自荐】Bylo.ai: 免费的 AI 图像生成器",
+    "content": "**工具名称：**\r\nBylo.ai: 免费的 AI 图像生成器\r\n\r\n**网址链接：**\r\nhttps://bylo.ai\r\n\r\n**工具简介：**\r\n将文本转换为令人惊叹的图像 — 免费、快速且可定制。\r\n\r\n**详细介绍：**\r\nBylo.ai 是一款尖端的 AI 图像生成器，可在几秒钟内将文本转换为高质量的视觉效果。Bylo.ai 具有负提示和 Flux AI 图像生成器等高级工具，允许用户根据自己的需求创建自定义图像。\r\n\r\n✨ 主要特点：\r\n\r\n- 免费在线工具：无需下载或付费即可创建视觉效果，可直接在浏览器中使用。\r\n- 高级定制：有负提示、多种模型和自定义设置。\r\n- 文本到图像的转换：可将文本提示转换为符合需求的图像。\r\n- 快速生成：可以在几秒钟内生成专业质量的图像，节省宝贵的时间。\r\n- 高质量图像：可生成适合个人或商业项目的专业图像。\r\n\r\nBylo.ai 将易用性与强大功能相结合，使其成为创作者和专业人士的首选免费 AI 图像生成器。\r\n\r\n**工具页面截图：**\r\n![bylo ai-01](https://github.com/user-attachments/assets/9fb656e7-2544-45ad-a6e3-85d903cb4d90)\r\n\r\n![bylo ai-02](https://github.com/user-attachments/assets/bc444e95-eb48-4cdc-8741-51148b6e3caa)\r\n\r\n![bylo ai-03](https://github.com/user-attachments/assets/b2857b10-4411-4d3b-8ed5-a61b8943ed45)\r\n\r\n\r\n",
+    "created_at": "2024-12-02T06:58:38Z",
+    "labels": [
+      "weekly"
+    ],
+    "url": "https://github.com/ruanyf/weekly/issues/5630"
+  },
+  {
+    "id": 5629,
+    "title": "【文章自荐】独立开发周刊 Solopreneur Weekly",
+    "content": "自荐一下自己的独立开发周刊\r\n\r\n相比于其他的互联网周刊，我们的区别和优势\r\n1. 专注在独立开发领域，分享一切有关独立开发出海的主题，分享开发者在做什么，遇到的有意思的产品，值得学习的产品，和有用工具\r\n2. 鼓励分享成功/失败经验，更多关注开发之外的事情\r\n3. 收录产品形式多样，不局限于网站，客户端，小程序产品，也接受博客，自媒体形式的产品投稿\r\n4. 中英双语，中文发布在公众号，英文发布在网站和配套的Newsletter\r\n\r\n投稿链接：https://github.com/hr98w/solopreneur\r\n\r\n[中文版链接](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzkwODcyNDgyMQ==&action=getalbum&album_id=3744741765530796042#wechat_redirect)\r\n[英文版链接](https://digitalmarketings.io/solopreneur)\r\n<img width=\"1451\" alt=\"image\" src=\"https://github.com/user-attachments/assets/c07f4672-683e-4c29-8b53-de2a122381f6\">\r\n",
+    "created_at": "2024-12-02T05:51:27Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5629"
+  },
+  {
+    "id": 5628,
+    "title": "【文章自荐】2024年我用哪些AI工具写代码？",
+    "content": "[2024年我用哪些AI工具写代码？](https://mp.weixin.qq.com/s/JCv9bGz92R86I2zOroDWkA)",
+    "created_at": "2024-12-02T03:37:06Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5628"
+  },
+  {
+    "id": 5627,
+    "title": "【开源自荐】🚀一款轻量级云原生监控报警管理系统（运维研发必备能力）",
+    "content": "## 💎 项目介绍\r\nWatchAlert 是一款为云原生环境量身打造的轻量级监控告警系统，专注于**可观测稳定性**主题，提供全面的监控与告警支持。\r\n\r\n**能力**\r\n- Metrics 监控\r\n    - 集成：Prometheus、VictoriaMetrics\r\n- Logs 监控\r\n    - 集成：Loki、ElasticSearch、阿里云日志服务 (AliCloud SLS)\r\n- Traces 监控\r\n    - 集成：Jaeger\r\n- Events 监控\r\n    - 集成：Kubernetes\r\n- Network 监控\r\n    - 集成：HTTP、ICMP、TCP、SSL\r\n\r\n\r\n**为什么选择 WatchAlert？**\r\n- 针对云原生环境优化，轻量易用。\r\n- 灵活的告警规则配置，支持多种数据源。\r\n- 专注于稳定性场景，助力快速发现与解决问题。\r\n- 提供稳定可靠的监控告警解决方案，助力用户提升运维效率，降低维护成本。\r\n\r\n## 📄 项目文档\r\n- GitHub：https://github.com/opsre/WatchAlert\r\n- 功能介绍：https://cairry.github.io/docs/\r\n- 快速部署：https://cairry.github.io/docs/install/docker.html\r\n",
+    "created_at": "2024-12-02T03:12:31Z",
+    "labels": [
+      "weekly"
+    ],
+    "url": "https://github.com/ruanyf/weekly/issues/5627"
+  },
+  {
+    "id": 5625,
+    "title": "【产品自荐】沉浸式英语跟读 Hi Speaking",
+    "content": "hispeaking.com 是一个沉浸式英语跟读应用平台，它通过 AI 声音检测技术为用户提供了一种全新的跟读体验。应用允许用户在跟读完一句后，自动播放下一句跟读内容。 消除了手动点击对学习体验的干扰，实现了一气呵成的沉浸式学习体验。",
+    "created_at": "2024-11-30T18:19:12Z",
+    "labels": [
+      "weekly"
+    ],
+    "url": "https://github.com/ruanyf/weekly/issues/5625"
+  },
+  {
+    "id": 5624,
+    "title": "【工具自荐】LookLog - 极简衣橱记录工具",
+    "content": "我开发了一个衣橱管理 App，主要解决以下痛点：\r\n1. 衣柜塞满衣服，却总在发愁穿什么\r\n2. 买了很多\"凑合\"的衣服，最后都闲置了\r\n3. 不知道哪些衣服真正物有所值\r\n\r\n特点：\r\n- 无需注册，数据完全本地存储\r\n- 极简操作：拍照 → 填价格 → 完成\r\n- AI 自动抠图和识别品类\r\n- 统计单品穿着次数，发现真正的\"长期主义\"单品\r\n- 记录每日穿搭，找到适合自己的风格\r\n\r\n\r\n技术亮点：\r\n- 使用 iOS Vision API 实现零延时的抠图和品类识别\r\n- 完全本地化存储，保护用户隐私\r\n- 极简设计理念，降低用户使用门槛\r\n\r\nApp Store 下载链接：https://apps.apple.com/cn/app/looklog/id6738351992?l=en-GB\r\n\r\n开发者：dengxian0714@gmail.com\r\n\r\n![Group 1](https://github.com/user-attachments/assets/8a2b7734-bcc6-4d48-85c4-e1d47c75ac96)\r\n![Group 6](https://github.com/user-attachments/assets/217d2232-3957-40ab-b408-e081b609cdab)\r\n![Group 8](https://github.com/user-attachments/assets/6677f269-3592-418b-875c-44446b02d03e)\r\n![Group 18](https://github.com/user-attachments/assets/f163a5d6-91a4-457c-9ab5-4e33103ba63f)",
+    "created_at": "2024-11-30T13:53:57Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5624"
+  },
+  {
+    "id": 5623,
+    "title": "【产品自荐】AI音乐生成器 ToMusic.ai",
+    "content": "**网站地址：** https://tomusic.ai/\r\nToMusic.ai 是一款免费的在线歌曲生成器工具，可以根据文本制作出优美的音乐。您可以通过添加提示轻松创建可爱的歌曲文本，然后使用 ToMusic，这款易于使用的文本音乐生成器旨在节省时间，并立即将您的想法变成真正的旋律。\r\n产品优势：\r\n- 界面简洁直观，用户友好\r\n- 支持多种音乐风格和情感生成\r\n- 价格相对较低\r\n- 简单易用，有特色功能：如情感驱动的音乐生成\r\n\r\n",
+    "created_at": "2024-11-30T10:01:35Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5623"
+  },
+  {
+    "id": 5622,
+    "title": "【网站自荐】一个免费的开放式的关于计算机学习资源和工具的导航网页Learn-it。",
+    "content": "**网站地址**：\r\nhttps://go.learnit.us.kg/\r\n\r\n**仓库地址**：\r\nhttps://github.com/gvcgo/learn_it\r\n\r\n**网站特色**：\r\n基于Github Pages的开放式导航网页，任何感兴趣的小伙伴都能将自己搜集的学习资源或者工具资源添加到该网站。\r\n网站永久免费，永不失联。\r\n聚沙成塔，集腋成裘。让小伙伴们始终以更高效的方式学习成长。\r\n\r\n**网站截图**：\r\n\r\n![learn_it_capture](https://github.com/user-attachments/assets/17cc3fe9-e902-4703-a8ab-e0869ccdf463)\r\n\r\n![learn_it_content](https://github.com/user-attachments/assets/e92ca770-00b0-4f7c-8924-05ac6ad95234)\r\n",
+    "created_at": "2024-11-30T06:50:39Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5622"
+  },
+  {
+    "id": 5621,
+    "title": "【文章自荐】这些年走过的路：从广州到温哥华",
+    "content": "[这些年走过的路：从广州到温哥华](https://ramsayleung.github.io/zh/post/2023/%E8%BF%99%E4%BA%9B%E5%B9%B4%E8%B5%B0%E8%BF%87%E7%9A%84%E8%B7%AF_%E4%BB%8E%E5%B9%BF%E5%B7%9E%E5%88%B0%E6%B8%A9%E5%93%A5%E5%8D%8E/)",
+    "created_at": "2024-11-29T10:06:16Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5621"
+  },
+  {
+    "id": 5620,
+    "title": "【产品自荐】YouTuBe 周边工具导航站",
+    "content": "# [Y2bTools](https://y2btools.org/)\r\n## [Y2bTools](https://y2btools.org/) 是什么？\r\nY2bTools 是一个专注于 YouTube 用户需求的工具导航平台。我们汇集并筛选了多种与 YouTube 相关的工具网站，提供高效的导航服务。例如，YouTube 到 MP3 转换器等工具。我们不提供工具本身，而是根据用户需求推荐优质网站，标明每个网站的优缺点，帮助用户快速找到最适合的工具。\r\n\r\n## [Y2bTools](https://y2btools.org/) 的主要特点是什么？\r\n[Y2bTools](https://y2btools.org/) 为每个工具网站提供详细的参数、优缺点评估，帮助用户过滤无效网站并做出明智选择。除了 YouTube 到 MP3 和 MP4 转换工具外，我们还计划提供更多服务，打造更完善的 YouTube 用户环境。未来，我们将开启社区功能，进一步支持 YouTube 用户的需求。\r\n\r\n## [Y2bTools](https://y2btools.org/) 是否支持自荐工具站？\r\n我们非常欢迎工具站自荐。自荐的工具站会经过审核后进行发布，以确保为用户提供高质量的服务和工具。自荐请通过邮件发送至 [zbo70759@gmail.com](mailto:zbo70759@gmail.com)，期待您的推荐。\r\n\r\n## [Y2bTools](https://y2btools.org/) 会收费吗？\r\n[Y2bTools](https://y2btools.org/) 对用户完全免费，但我们会通过展示广告来支持网站运营，希望用户能理解并支持这一部分。网站运营需要一定的成本，我们会尽力保持平台的良性发展。",
+    "created_at": "2024-11-29T09:52:42Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5620"
+  },
+  {
+    "id": 5619,
+    "title": "【大模型多智能体博客分享】",
+    "content": "[https://llmmultiagents.com/](https://llmmultiagents.com/)\r\n\r\n我目前在做大模型应用开发相关的工作，也在研究基于大模型的多智能体技术，会在这个网站上分享一些内容，希望大家给一些建议～",
+    "created_at": "2024-11-29T08:40:16Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5619"
+  },
+  {
+    "id": 5618,
+    "title": "【开源自荐】可创建带公钥的分享链接的 RSA 在线加密工具",
+    "content": "开源地址：https://github.com/s1ntoneli/rsa\r\n在线使用：https://rsa.cleanclip.cc/\r\n\r\nv2ex 上面很多帖子要求评论区发邮箱。一般人想发邮箱，但是又出于隐私考虑，只能发一个 base64 的邮箱。然而，这样仍然不安全，因为 base64 可以很简单地被解码。 \r\n\r\n为此，便可以使用 RSA 非对称加密来做这件事情。\r\n\r\n但是，现在网站上所有的在线工具 RSA 都必须自己手动输入公钥以及要加密的内容。这就非常不方便。\r\n\r\n**这个在线工具主要特点就是支持了分享链接功能**，分享的链接自动携带公钥。\r\n\r\n这样，当你发帖子要求用户输入邮箱的时候，只需要把带有自己公钥的链接发出去。这样用户直接点击链接输入他们要加密的邮箱，就可以得到加密好的数据。 \r\n\r\n帖主拿到加密后的数据后，在自己的页面用自己的私钥进行解密，这样可以保证用户在评论中回复帖主的要求时，隐私数据只能被帖主解密。 \r\n\r\n贴主管理密钥对及解密：\r\n![CleanShot 2024-11-29 at 14 00 02@2x](https://github.com/user-attachments/assets/f74e78c4-1d0c-4424-b80c-a0567cc0c394)\r\n\r\n\r\n评论者公钥加密：\r\n![CleanShot 2024-11-29 at 14 00 22@2x](https://github.com/user-attachments/assets/4319fafe-bf62-414d-9286-0dbf89292638)\r\n\r\n",
+    "created_at": "2024-11-29T06:03:24Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5618"
+  },
+  {
+    "id": 5617,
+    "title": "【工具自荐】Api 开发工具 ApiHug",
+    "content": "Api 开发效率工具\r\n\r\n1.  [apihug](https://apihug.com/zhCN)\r\n2.  [快速启动](https://apihug.com/zhCN-docs/start) \r\n3.  统一设计，实现，测试，管理，发布 API\r\n4. DSL 模块化设计\r\n5. 可视化设计\r\n6. 工具链集成\r\n7. 代码生成\r\n\r\n\r\n让开发更有趣，更轻松！",
+    "created_at": "2024-11-29T03:38:02Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5617"
+  },
+  {
+    "id": 5616,
+    "title": "【产品自荐】AI聚合搜索引擎OnionAI",
+    "content": "OnionAI-AI聚合搜索引擎\r\n网址：https://onionai.so\r\n1.支持快捷切换不同的AI搜索引擎进行搜索；\r\n2.支持保存提示词到本地，一键填充提示词到搜索框；\r\n3.支持保存常用网址；\r\n4.配套1个持续更新的提示词网站；",
+    "created_at": "2024-11-29T02:04:51Z",
+    "labels": [
+      "weekly"
+    ],
+    "url": "https://github.com/ruanyf/weekly/issues/5616"
+  },
+  {
+    "id": 5614,
+    "title": "【浏览器插件自荐】Compare And Pull Request Prompt Box Killer For Github：Github Compare & pull request 提示框屏蔽器",
+    "content": "1. 插件使用前\r\n\r\n![插件使用前](https://github.com/user-attachments/assets/59879552-22e6-421e-9114-d70cfe3a07a6)\r\n\r\n2. 插件使用后\r\n\r\n![插件使用后](https://github.com/user-attachments/assets/451162d7-61e3-4f13-8a4f-2892e00823f5)\r\n\r\n3. 插件下载地址\r\n\r\n[Compare And Pull Request Prompt Box Killer For Github](https://chromewebstore.google.com/detail/compare-and-pull-request/hdkglmhfoeolnejbnigbenegkgdfebhh)\r\n\r\n4. 插件项目地址\r\n\r\n[compare-and-pull-request-prompt-box-killer-for-github](https://github.com/liuliangsir/compare-and-pull-request-prompt-box-killer-for-github)",
+    "created_at": "2024-11-29T01:53:35Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5614"
+  },
+  {
+    "id": 5613,
+    "title": "【浏览器插件自荐】Title Mirror：把网页中任意元素内容投射在网页title区域（盯盘摸鱼必备）",
+    "content": "你可以用来：\r\n1.  股市盯盘\r\n<img width=\"1266\" alt=\"image\" src=\"https://github.com/user-attachments/assets/746d29fa-3e3d-4bbb-ac29-64efca65fdd4\">\r\n\r\n2. 球赛比分关注\r\n<img width=\"1357\" alt=\"image\" src=\"https://github.com/user-attachments/assets/fbebe32a-3d00-4365-8681-6d5e4788f05d\">\r\n\r\n3. 在浏览器活动页面生成监控浮层如幽灵般跟随您\r\n<img width=\"647\" alt=\"image\" src=\"https://github.com/user-attachments/assets/c28432d5-f73a-4f26-b6be-0447370b31a7\">\r\n\r\n[商店地址下载](https://chromewebstore.google.com/detail/title-mirror/mkffplgaiikhbnihpedpmgkkpemmlohf?utm_source=ruanyf)",
+    "created_at": "2024-11-28T11:24:26Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5613"
+  },
+  {
+    "id": 5612,
+    "title": "【工具自荐】Easy Resizer - 批量调整图片的尺寸大小",
+    "content": "该网站支持5种图片尺寸调整模式，分别是：自动宽度或高度，固定宽度和高度，最大宽度和高度，按比例缩放，按比例填充。\r\n可以批量修改图像的尺寸，批量缩小或批量放大图片等，没有图片数量和文件大小限制。\r\nhttps://easyresizer.com/zh-cn/",
+    "created_at": "2024-11-28T06:41:08Z",
+    "labels": [
+      "weekly"
+    ],
+    "url": "https://github.com/ruanyf/weekly/issues/5612"
+  },
+  {
+    "id": 5611,
+    "title": "推荐一个关于人工智能的未来发展设想路径推演网站",
+    "content": "推荐一个关于人工智能的未来发展设想路径推演网站，[swantescholz.github.io/aifutures](https://swantescholz.github.io/aifutures)\r\n\r\nSwante Scholz的AI未来地图（AI Futures Map）不仅是一幅展示人工智能发展蓝图的静态图表，更是一个高度互动的探索工具。它通过精心设计的交互式界面，允许用户在不同的AI技术领域和未来趋势之间自由探索，带来了前所未有的沉浸感和启发性。用户可以通过点击不同的节点，深入了解每个AI技术的潜力、发展方向以及它们与社会、伦理等其他领域的关系。\r\n\r\n这一互动性不仅让用户能够定制自己的学习路径，还能够动态地展示AI未来可能的演变过程。无论是对人工通用智能（AGI）的展望，还是对AI伦理框架的深度探讨，地图的每一次点击都可能带来新的视角和理解。通过这种方式，AI未来地图打破了传统单向信息传递的界限，赋予用户在未来探索中主动性和参与感。\r\n\r\n这种互动式设计让地图不再是一个单纯的展示工具，而成为了一个活跃的思维平台，促使人们深入思考AI如何与社会、经济、文化等多重维度交织在一起。它不仅能激发了技术人员的想象力，也可以启发普通用户对未来技术的认知。这种互动性增强了未来预测的可操作性，使得用户能够更为灵活地把握AI未来发展中的复杂关联，从而获得更具深度的思考和启示。\r\n\r\n",
+    "created_at": "2024-11-27T23:30:46Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5611"
+  },
+  {
+    "id": 5610,
+    "title": "谁在招人？（2024年12月）",
+    "content": "这里是免费的程序员招聘服务。\r\n\r\n如果你们团队正在招人，欢迎把招聘信息发在这个帖子里面。请简要描述，岗位名称、工作地点、岗位要求、团队简介、联系方式等等。\r\n\r\n**注意：同一个团队如果招聘多个岗位，请写在一起，不要分成多个部分张贴。**\r\n\r\n读者可以咨询，但请不要发布与招聘无关的内容，禁止对公司或岗位进行评论或抱怨。如果有意应聘，请直接与发帖人联系。\r\n\r\n谢绝中介和猎头发帖，违者拉黑。\r\n\r\n## 历史帖\r\n\r\n程序员的招聘往往长期有效，大家别忘了查看上月的岗位。\r\n\r\n- 2024年：[11月](https://github.com/ruanyf/weekly/issues/5445)，[10月](https://github.com/ruanyf/weekly/issues/5253)，[9月](https://github.com/ruanyf/weekly/issues/5090)， [8月](https://github.com/ruanyf/weekly/issues/4911)，[7月](https://github.com/ruanyf/weekly/issues/4743)，[6月](https://github.com/ruanyf/weekly/issues/4550)，[5月](https://github.com/ruanyf/weekly/issues/4390)，[4月](https://github.com/ruanyf/weekly/issues/4204)，[3月](https://github.com/ruanyf/weekly/issues/4075)，[2月](https://github.com/ruanyf/weekly/issues/4002)，[1月](https://github.com/ruanyf/weekly/issues/3814)\r\n- 2023年：[12月](https://github.com/ruanyf/weekly/issues/3684)，[11月](https://github.com/ruanyf/weekly/issues/3599)，[10月](https://github.com/ruanyf/weekly/issues/3529)，[9月](https://github.com/ruanyf/weekly/issues/3425)，[8月](https://github.com/ruanyf/weekly/issues/3324)，[7月](https://github.com/ruanyf/weekly/issues/3222)，[6月](https://github.com/ruanyf/weekly/issues/3157)，[5月](https://github.com/ruanyf/weekly/issues/3091)，[4月](https://github.com/ruanyf/weekly/issues/3022)，[3月](https://github.com/ruanyf/weekly/issues/2960)，[1月～2月](https://github.com/ruanyf/weekly/issues/2827)\r\n- 2022年：[12月](https://github.com/ruanyf/weekly/issues/2771)，[11月](https://github.com/ruanyf/weekly/issues/2715)，[10月](https://github.com/ruanyf/weekly/issues/2666)，[9月](https://github.com/ruanyf/weekly/issues/2599)，[8月](https://github.com/ruanyf/weekly/issues/2542)，[7月](https://github.com/ruanyf/weekly/issues/2483)，[6月](https://github.com/ruanyf/weekly/issues/2426)，[5月](https://github.com/ruanyf/weekly/issues/2356)，[4月](https://github.com/ruanyf/weekly/issues/2309)，[3月](https://github.com/ruanyf/weekly/issues/2234)，[2月](https://github.com/ruanyf/weekly/issues/2188)，[1月](https://github.com/ruanyf/weekly/issues/2139)\r\n- 2021年：[12月](https://github.com/ruanyf/weekly/issues/2092)，[11月](https://github.com/ruanyf/weekly/issues/2032)，[10月](https://github.com/ruanyf/weekly/issues/1980)，[9月](https://github.com/ruanyf/weekly/issues/1913)，[8月](https://github.com/ruanyf/weekly/issues/1870)，[7月](https://github.com/ruanyf/weekly/issues/1826)，[6月](https://github.com/ruanyf/weekly/issues/1784)，[5月](https://github.com/ruanyf/weekly/issues/1747)，[4月](https://github.com/ruanyf/weekly/issues/1709)，[3月](https://github.com/ruanyf/weekly/issues/1652)，[2月](https://github.com/ruanyf/weekly/issues/1629)，[1月](https://github.com/ruanyf/weekly/issues/1580)\r\n- 2020年：[12月](https://github.com/ruanyf/weekly/issues/1520)，[11月](https://github.com/ruanyf/weekly/issues/1473)，[9月-10月](https://github.com/ruanyf/weekly/issues/1392)，[7月-8月](https://github.com/ruanyf/weekly/issues/1315)，[5月-6月](https://github.com/ruanyf/weekly/issues/1206)，[4月](https://github.com/ruanyf/weekly/issues/1148)，[3月](https://github.com/ruanyf/weekly/issues/1106)， [1月-2月](https://github.com/ruanyf/weekly/issues/983)\r\n- 2019年：[12月](https://github.com/ruanyf/weekly/issues/983)，[9月-11月](https://github.com/ruanyf/weekly/issues/798)，[8月](https://github.com/ruanyf/weekly/issues/692)",
+    "created_at": "2024-11-27T23:23:02Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5610"
+  },
+  {
+    "id": 5609,
+    "title": "【工具自荐】Curved Text弯曲文本设计工具 - 花式文字、文字logo",
+    "content": "这个网站可以将你输入的文字转换成各种形状。 例如：圆形，波浪，拱形，凸起，挤压，螺旋形，之字形，透视，反弹等等。 你甚至可以用它来为你的网站或个人资料创建一个免费的logo。 \r\n[https://curvedtext.co/](https://curvedtext.co/)",
+    "created_at": "2024-11-27T18:18:03Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5609"
+  },
+  {
+    "id": 5608,
+    "title": "【开源自荐】Ollama-OCR - 使用 Ollama 支持的视觉模型（llama 3.2-vision/minicpm-v 等）实现图片 OCR，支持中文识别和输出 Markdown 文档。",
+    "content": "## Ollama-OCR 项目地址\r\n[https://github.com/bytefer/ollama-ocr](https://github.com/bytefer/ollama-ocr)\r\n\r\n## Ollama-OCR 的特点\r\n- 支持使用 Llama 3.2-Vision/ minicpm-v 等 Ollama 支持的视觉模型，进行 OCR 识别\r\n- 保留原始文本格式和结构\r\n- 支持多种图像格式：JPG、JPEG、PNG\r\n- 可自定义的识别提示词和模型\r\n- 支持输出 Markdown 格式文档\r\n\r\n## 使用示例\r\nOllama-OCR 默认使用 [llama3.2-vision](https://ollama.com/library/llama3.2-vision) 模型，可以通过 `model` 属性配置其它模型，比如 [minicpm-v](https://ollama.com/library/minicpm-v)。\r\n\r\n```shell\r\nollama run llama3.2-vision # 下载模型\r\n\r\nnpm install ollama-ocr\r\n# or using pnpm\r\npnpm add ollama-ocr\r\n```\r\n\r\n### 手写图片识别\r\n```js\r\nimport { ollamaOCR, DEFAULT_OCR_SYSTEM_PROMPT } from \"ollama-ocr\";\r\n\r\nasync function runOCR() {\r\n  const text = await ollamaOCR({\r\n    filePath: \"./handwriting.jpg\",\r\n    systemPrompt: DEFAULT_OCR_SYSTEM_PROMPT,\r\n  });\r\n  console.log(text);\r\n}\r\n```\r\n\r\n输入图片：\r\n![handwriting](https://github.com/user-attachments/assets/229bc97f-cddf-48fa-85a0-e89414ee433f)\r\n\r\n识别结果：\r\nThe Llama 3.2-Vision collection of multimodal large language models (LLMs) is a collection of instruction-tuned image reasoning generative models in 118 and 908 sizes (text + images in / text out). The Llama 3.2-Vision instruction-tuned models are optimized for visual recognition, image reasoning, captioning, and answering general questions about an image. The models outperform many of the available open source and closed multimodal models on common industry benchmarks.\r\n\r\n### 输出 Markdown 格式\r\n```js\r\nimport { ollamaOCR, DEFAULT_MARKDOWN_SYSTEM_PROMPT } from \"ollama-ocr\";\r\n\r\nasync function runOCR() {\r\n  const text = await ollamaOCR({\r\n    filePath: \"./trader-joes-receipt.jpg\",\r\n    systemPrompt: DEFAULT_MARKDOWN_SYSTEM_PROMPT,\r\n  });\r\n  console.log(text);\r\n}\r\n```\r\n输入图片：\r\n![trader-joes-receipt](https://github.com/user-attachments/assets/f73a5529-a6f8-4eca-bd3c-d3451b5d82ad)\r\n\r\n识别结果：\r\n![trader-joes-receipt-md-result](https://github.com/user-attachments/assets/25f1e50a-5f55-4a70-8f66-4112f06cd0b3)\r\n\r\n### 使用 [minicpm-v](https://ollama.com/library/minicpm-v) 模型\r\n```js\r\n\r\nasync function runOCR() {\r\n  const text = await ollamaOCR({\r\n    model: \"minicpm-v\",\r\n    filePath: \"./trader-joes-receipt.jpg\",\r\n    systemPrompt: DEFAULT_MARKDOWN_SYSTEM_PROMPT,\r\n  });\r\n  console.log(text);\r\n}\r\n```\r\n\r\n在项目中，可以根据实际的应用场景，调整对应的提示词。\r\n",
+    "created_at": "2024-11-27T13:27:45Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5608"
+  },
+  {
+    "id": 5607,
+    "title": "【浏览器插件自荐】Neonlingo-把浏览器变成学习外语的笔记本",
+    "content": "## 网址：\r\nhttps://www.neonlingo.com\r\n\r\nhttps://github.com/user-attachments/assets/48161f8b-8704-4e8a-9ad9-1f5c28ee5b02\r\n\r\n\r\nNeonlingo是一款可以让用户在浏览外文网页的同时无痛学习英语的浏览器插件\r\n## 它解决了我的什么痛点：\r\n我大概是去年开始接触海外业务，每天都需要阅读大量的外文网站。\r\n如果用整页翻译工具例如谷歌、沉浸式翻译，我发现是看的快了，但是不免会有一些翻译不准确的地方，而且我发现整页翻译不能让我看外文的能力有什么提升。\r\n于是我开始尝试使用划词翻译插件，市面上的插件都需要我手动收藏我不会的单词到单词本里，下次再在网页里见到这个词，我还是不认识，还得再翻译一次。在英文里，单词的重复率其实还挺高的，一个词一般我划一次也记不住是啥意思，所以我得经常划我已经划过的词来翻译。\r\n这就让我觉得这个劳动仿佛有点重复且没必要。\r\n于是我就在想，有没有什么工具，可以自动收藏+在浏览器标记我划过的词？这样我下次再看见也不需要重新翻译了，而且我也能知道这个词是我翻译过的。\r\n调研了一番，我发现市面上没有符合我心意的工具，于是 Neonlingo 诞生了。\r\n## 它有什么功能：\r\n1. 支持 29 种语言的学习&翻译\r\n2. 支持 Deepl/微软/AI 三种翻译引擎\r\n3. 翻译框的位置自定义\r\n4. 标记颜色的自定义（这个功能目前只有会员可以使用）\r\n5. 单词本\r\n6. 划词后立即翻译（无需再点击图标）\r\n## 它和市面上的翻译插件有什么区别：\r\n1. 它可以更节省用户的时间：\r\n  1. 自动标记：可以省去用户重复划词的时间，时间长了以后，你的浏览器会只标记出你不会的词汇，甚至阅读外文几乎不需要划词翻译\r\n  2. 超简UX：假如一个词已经学会了，那再在浏览器看见它的时候，鼠标放上去，就可以看见取消标记的按钮，不需要你再去单词本里取消\r\n  3. 符合上下文的词义解释：直接给你一个最符合语境的翻译，不需要用户去一堆词义里面寻找哪个才是这个句子里的意思了\r\n2. 它可以加强用户对外语的记忆：\r\n  1. 高亮展示：对于已经划过的词汇，高亮展示，这是为了给用户一个回忆的时间，如果实在没想起来，鼠标放上去就可以弹出词义气泡\r\n  2. 单词本：如果你想针对性学习，打开单词本，里面全是你在浏览器里遇到的生词，在不知不觉中形成的词汇积累\r\n## 适合谁\r\n1. 留学生\r\n2. 需要经常阅读外文网站的白领\r\n3. 有第二语言学习需求的朋友",
+    "created_at": "2024-11-27T09:08:52Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5607"
+  },
+  {
+    "id": 5606,
+    "title": "【开源自荐】`rmtrash` - macOS 上完全兼容`rm`命令的安全替代品",
+    "content": "macOS 命令行工具 `rm` 的替代方案，用于将文件移动到废纸篓。 目前可用的 Objective-C 版本 [trash](https://github.com/ali-rantakari/trash) 和 Swift 版本 [macos-trash](https://github.com/sindresorhus/macos-trash) 分别已有 6 年和 2 年未更新，且存在一些不足：`trash` 未采用最新的废纸篓 API；`macos-trash` 实现过于简陋，缺乏对 `rm` 命令标志位的支持。\r\n\r\n[rmtrash](https://github.com/TBXark/rmtrash) 提供了与 Linux 和 macOS 版本 `rm` 命令完全兼容的标志位支持，是更理想的替代方案。",
+    "created_at": "2024-11-27T06:36:42Z",
+    "labels": [
+      "weekly"
+    ],
+    "url": "https://github.com/ruanyf/weekly/issues/5606"
+  },
+  {
+    "id": 5605,
+    "title": "【产品自荐】Clicknow: 极致便捷的 Mac 划词 \"AI 搜索 + 解释 + 翻译\"",
+    "content": "[Clicknow](https://clicknow.ai) 是一款极致便捷的 **AI 搜索 + 解释 + 总结 + 翻译** Mac app，主打一个开箱即用，哪里不会点哪里：\r\n\r\n## 主要功能\r\n- 联网搜索\r\n\r\n   https://github.com/user-attachments/assets/b9190fc6-6759-4109-9181-7e032befe756\r\n\r\n- 翻译\r\n   ![image](https://github.com/user-attachments/assets/6f6a3262-f510-4250-a967-3d770aa9fe67)\r\n\r\n- 解释\r\n   ![image](https://github.com/user-attachments/assets/9ac621b2-fe99-453a-b8c5-e7340a09071d)\r\n\r\n## 产品特色\r\n\r\n⭐ 下载直接使用（可试用），无需 API key，无需注册\r\n⭐ 超越传统翻译软件，联网 AI 搜索给你最准确的信息\r\n⭐ 在任何 app 里都能用。支持划词 + 快捷键触发\r\n⭐ 是买断制！买断制！\r\n⭐ 超多实用小功能：拼写检查、日历、航班查询\r\n\r\n为庆祝产品发布+黑五，特推出。**35% OFF 限时优惠码：BF2024**（至 2024-11-30）\r\n这种折扣以后不会再有，感兴趣的朋友千万不要错过😃\r\n\r\n介绍文章：\r\n- [Clicknow - 让你的工作和学习效率翻倍](https://clicknow.ai/blog/clicknow-intro-chinese)\r\n- [Clicknow vs Dictionary, Perplexity, Apple Intelligence, PopClip](https://clicknow.ai/blog/clicknow-vs-other-tools)\r\n\r\n下面是介绍视频（YouTube）：  \r\n[![](https://img.youtube.com/vi/_bcqOmu4gOc/0.jpg)](https://www.youtube.com/watch?v=_bcqOmu4gOc)\r\n",
+    "created_at": "2024-11-26T23:59:39Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5605"
+  },
+  {
+    "id": 5604,
+    "title": "【图文效率工具】流光卡片2.0，免费够用、精美图文、长文拆分、批量创建",
+    "content": "产品官网：https://textcard.shushiai.com/zh\r\n\r\n视频使用教程：https://www.bilibili.com/video/BV1eMmzYoEV4/?spm_id_from=333.999.0.0\r\n\r\n流光卡片制作的卡片案例展示：https://ew6rccvpnmz.feishu.cn/wiki/OHZFwIREFiNrzZkQ0s8c2G54nee\r\n\r\n![image-20241127023600041](https://mrxc-1300093961.cos.ap-shanghai.myqcloud.com/mrxc-1300093961/typoratyporatyporaimage-20241127023600041.png)\r\n\r\n### 应用平台：\r\n\r\n网站、浏览器插件（可以在 Google/Edge 插件商店中搜索到）\r\n\r\n流光卡片致力于提供一种全新的文字体验。让你分享的文字，书摘，小红书帖子，歌词，朋友圈语录变得更优雅有吸引力，成为视觉与思想的完美融合。\r\n\r\n信息爆炸的时代，如何让你的声音被听见？流光卡片独特的视觉设计，让你的分享瞬间吸引眼球，在社交媒体中脱颖而出\r\n\r\n### 应用简介\r\n\r\n1、编辑支持：markdown 实时渲染，数学公式渲染，复制粘贴图片混排，自由调整大小\r\n\r\n2、多种配色模板，请看制作案例：https://ew6rccvpnmz.feishu.cn/wiki/OHZFwIREFiNrzZkQ0s8c2G54nee\r\n\r\n3、长文拆分：一键将长图卡片拆分多张指定比例小图文卡片，轻松发布小红书等各大平台\r\n\r\n4、批量创建：支持 csv、json、excel 导入批量创建卡片内容，轻松搞定大量图文\r\n\r\n5、像 canva 可画一样多页面编辑卡片的模式，对于图文内容有更好编辑体验\r\n\r\n6、较高的自定义权限：自定义显示隐藏、背景图片、写实阴影、上传字体、内边距、圆角、文字大小、选中高亮、两端对齐、尺寸比例、拖拽宽度等等\r\n\r\n7、Chrome插件：一键选文，即刻美化，快速将推特（X）帖子转换精美卡片（演示：https://www.bilibili.com/video/BV1fcmzYaEgz）\r\n\r\n8、开源 API + 批量金句解决方案\r\n\r\n* 开源 api 地址：https://github.com/ygh3279799773/streamer-card\r\n* 开源 api 视频教程：https://www.xiaohongshu.com/discovery/item/66f6fab6000000001902fa4d?source=webshare&xhsshare=pc_web&xsec_token=ABHpTOYeA4KBf_ls8V-sP3-uH45ek24rOiSVJhK0kITbM=&xsec_source=pc_share\r\n* 基于流光卡片API的完全自动化生成金句名人名言卡片开源解决方案：https://github.com/someone1128/streamerCardAutomate\r\n* 开源自动化生成金句视频教程：https://www.xiaohongshu.com/discovery/item/66f6fcc2000000001a022828?source=webshare&xhsshare=pc_web&xsec_token=ABHpTOYeA4KBf_ls8V-sP3-hYcU4k_HSHaccCHczszkU0=&xsec_source=pc_share\r\n\r\n### 卡片案例\r\n\r\n卡片制作案例 👉：https://ew6rccvpnmz.feishu.cn/wiki/OHZFwIREFiNrzZkQ0s8c2G54nee?from=from_copylink\r\n\r\n![image-20241127023629323](https://mrxc-1300093961.cos.ap-shanghai.myqcloud.com/mrxc-1300093961/typoratyporaimage-20241127023629323.png)\r\n\r\n",
+    "created_at": "2024-11-26T18:57:55Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5604"
+  },
+  {
+    "id": 5603,
+    "title": "【产品自荐】在线免费制作字幕拼图工具",
+    "content": "产品链接：[33字幕图](https://zmt.agilestudio.cn/)\r\n\r\n##  产品简介\r\n\r\n一款免费在线制作电影字幕拼图工具，只需要记得大概的台词，就能通过关键词找到台词上下文，选择感兴趣的台词，然后就能自动生成一张完美的字幕图了，高清无水印。非常便捷方便，是自媒体运营必不可少的常备工具。\r\n\r\n##  开发动机\r\n\r\n\r\n我们经常在小红书、微博等社交媒体平台上会刷到一些经典台词的字幕图。那么这些字幕图是怎么做出来的呢？\r\n\r\n首先很容易想到用 PS ，如果是正好看电影的的时候，顺便把图截下来，用 PS 也不会很麻烦。如果是后面需要才去弄，翻视频，拖进度条，想想都折腾…\r\n\r\n所以我想到了做个工具来解决这个痛点，通过 33 字幕图，制作字幕拼图将可以非常优雅舒适。\r\n\r\n\r\n## 网站截图\r\n\r\n![33字幕图-首页图](https://github.com/user-attachments/assets/0807580c-71aa-4231-ae81-804b7238f82c)\r\n\r\n![33字幕图-搜索页](https://github.com/user-attachments/assets/44a012c9-4a71-4f3a-91cb-852afd12b4ca)\r\n\r\n![33字幕图-编辑页面](https://github.com/user-attachments/assets/decb7b77-fc28-41f1-8639-c2aedbad41fc)\r\n\r\n\r\n\r\n\r\n\r\n",
+    "created_at": "2024-11-26T16:48:07Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5603"
+  },
+  {
+    "id": 5602,
+    "title": "【开源自荐】MagicMirror 一键 AI 换脸、发型、穿搭，发现更美的自己 ✨ ",
+    "content": "## 项目地址\r\n\r\nhttps://github.com/idootop/MagicMirror\r\n\r\n## 功能亮点\r\n\r\n- 一键换脸：打开安装包，拖张照片进去就能换脸，无需配置各种复杂参数。\r\n- 超低门槛：不用 GPU 也能运行，普通的小白电脑也可以轻松玩转 AI 换脸。\r\n- 隐私安全：完全在你的电脑本地运行，不需要联网，不用担心你的图片会被上传到任何地方。\r\n- 极致精简：安装包不到 10 MB，模型文件加起来不到 1 GB，这可能是最轻量的离线换脸应用之一。\r\n\r\n## 动机\r\n\r\n![](https://github.com/idootop/MagicMirror/raw/main/docs/assets/demo.webp)\r\n\r\n我想你跟我一样，有时会纠结：自己适合哪种发型，或者哪种穿搭最好看？\r\n\r\n要是有一个应用，可以把我们看到的喜欢的发型或心动的穿搭，直接放到自己的身上预览效果，那真是太好了。\r\n\r\n现在的 AI 技术已经很成熟了，但是市面上大部分的 AI 换脸应用：\r\n\r\n- 要么需要配置复杂的参数和运行环境，要有性能足够强劲的 GPU 才能运行，使用门槛和成本偏高；\r\n- 要么需要上传自己的图片到服务器进行转换，存在隐私泄漏的风险。\r\n\r\n理想的解决方案应该像自拍一样简单：不需要设置复杂的参数，不用购买昂贵的设备，也无需担心隐私泄漏的问题。\r\n\r\n所以，为什么不自己做一个呢？\r\n\r\n于是便有了 MagicMirror ✨\r\n\r\nEnjoy! ;)\r\n\r\n",
+    "created_at": "2024-11-26T15:45:25Z",
+    "labels": [
+      "weekly"
+    ],
+    "url": "https://github.com/ruanyf/weekly/issues/5602"
+  },
+  {
+    "id": 5601,
+    "title": "【开源自荐】BRL - 与 Bootstrap 集成的 React 组件库",
+    "content": "\r\n![brl2](https://github.com/user-attachments/assets/725a5891-a80c-424b-a711-1262cf24f0c4)\r\n\r\n## 简介\r\n\r\nBRL 是一个基于 React 构建的组件库，与 Bootstrap UI 集成，以框架化方式替代原生 JavaScript，助力开发者构建界面，提升开发效率与用户体验\r\n\r\n## 链接\r\n\r\n文档地址：[https://dafengzhen.github.io/bootstrap-react-logic](https://dafengzhen.github.io/bootstrap-react-logic)\r\n\r\nGithub：[https://github.com/dafengzhen/bootstrap-react-logic](https://github.com/dafengzhen/bootstrap-react-logic)\r\n\r\n",
+    "created_at": "2024-11-26T15:20:52Z",
+    "labels": [
+      "weekly"
+    ],
+    "url": "https://github.com/ruanyf/weekly/issues/5601"
+  },
+  {
+    "id": 5600,
+    "title": "安卓应用推荐 Periodical",
+    "content": "一款可以用来记录及跟踪月经生理期并计算可能的受孕日期的应用，不建议用来避孕。特点：开源，隐私友好，使用无须联网等\r\n\r\nhttps://github.com/arnowelzel/periodical",
+    "created_at": "2024-11-26T13:29:42Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5600"
+  },
+  {
+    "id": 5599,
+    "title": "【工具自荐】Block Blast Cheat-为你提供游戏最佳思路",
+    "content": "网址：[https://blockblastcheat.com/](https://blockblastcheat.com/)\r\nBlock Blast 卡在哪一步？试试这个 Block Blast Cheat 最佳游戏解法提示小工具，只需上传游戏截图，等待数秒，便可获取游戏最佳解法思路💡",
+    "created_at": "2024-11-26T11:46:32Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5599"
+  },
+  {
+    "id": 5598,
+    "title": "个人互联网简历（仿做的小车游戏简历）",
+    "content": "项目链接：https://car-portfolio.pages.dev/\r\n![76e69a60cd54f0e9b5909a3a45a53249_720](https://github.com/user-attachments/assets/a7cffe57-ea4b-4fb1-b7e2-e86d7d8b6321)\r\n此项目是在外网跟随课程制作，想在前端方向有更好发展，希望更多人看到\r\n前端基于：three.js\r\n建模工具：blender",
+    "created_at": "2024-11-26T08:26:46Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5598"
+  },
+  {
+    "id": 5597,
+    "title": "【文章自荐】 《中国是如何通过美元来对这个世界实现“再美元化”的？》",
+    "content": "原文：[《中国是如何通过美元来对这个世界实现“再美元化”的？》](https://indi.ca/how-china-starts-printing-usd/)",
+    "created_at": "2024-11-26T08:22:45Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5597"
+  },
+  {
+    "id": 5596,
+    "title": "Feature: 希望内容能够更科技、更IT ",
+    "content": "希望每周内容更科技、更IT， 内容少些往往也比塞很多并不有趣的东西要好 \r\n仅个人意见",
+    "created_at": "2024-11-26T07:03:42Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5596"
+  },
+  {
+    "id": 5595,
+    "title": "【网站自荐】\"看见概率论\" - 通过生动有趣的交互式可视化演示，让抽象的数学概念变得可见且易懂，助您掌握概率统计的核心思想，深入理解大数定理、贝叶斯定理和凯利公式等经典概率论知识。",
+    "content": "## 一、网站简介\r\n\r\n\"看见概率论\"是一个创新型数学教育平台，通过生动有趣的交互式可视化演示，让抽象的数学概念变得可见且易懂，助您掌握概率统计的核心思想，深入理解大数定理、贝叶斯定理和凯利公式等经典概率论知识。\r\n\r\n官网：[ https://probability.visualized.fun/ ]( https://probability.visualized.fun/ )\r\n\r\n截图：\r\n\r\n![01-看见概率论-交互式可视化数学教育平台-通过交互式演示理解经典定理-probability visualized fun-首页](https://github.com/user-attachments/assets/cff66215-5d51-4c45-996e-d4f431d41bf5)\r\n\r\n![02-看见概率论-交互式可视化数学教育平台-通过交互式演示理解经典定理-probability visualized fun-大数定理-law-of-large-numbers](https://github.com/user-attachments/assets/a466a423-8995-44d0-8585-3abc8a6c723c)\r\n\r\n![03-看见概率论-交互式可视化数学教育平台-通过交互式演示理解经典定理-probability visualized fun-贝叶斯定理-bayes-theorem](https://github.com/user-attachments/assets/d9302d91-48cc-4ce7-90b2-b86af08eb7bb)\r\n\r\n![04-看见概率论-交互式可视化数学教育平台-通过交互式演示理解经典定理-probability visualized fun-凯利公式-kelly-criterion](https://github.com/user-attachments/assets/a40d75cf-2fe3-4b94-a0b5-b201171d36c6)\r\n\r\n![05-看见概率论-交互式可视化数学教育平台-通过交互式演示理解经典定理-probability visualized fun-关于我们-about-us](https://github.com/user-attachments/assets/173d21a2-bf15-43da-83c6-0e6db67eb442)\r\n\r\n\r\n## 二、核心特色\r\n\r\n### 1. 游戏化学习体验\r\n- 抽卡模拟大数定理\r\n- 侦探解谜学贝叶斯\r\n- 投资游戏悟凯利公式\r\n- 寓教于乐，趣味至上\r\n\r\n### 2. 生活化教学案例\r\n- 相亲配对中的概率奥秘\r\n- 职场升迁的数学分析\r\n- 垃圾邮件分类的统计学\r\n- 理论联系实际，知识即应用\r\n\r\n### 3. 极致交互设计\r\n- 一键演示概率收敛\r\n- 实时动态数据可视化\r\n- 拖拽式参数调节\r\n- 即时反馈学习效果\r\n\r\n### 4. 人性化学习节奏\r\n- 碎片时间即可入门\r\n- 循序渐进的难度设计\r\n- 清晰的学习路径规划\r\n- 灵活的进度安排\r\n\r\n## 三、目标用户\r\n\r\n### 1. 数学小白\r\n- 零基础也能轻松入门\r\n- 图形化理解抽象概念\r\n- 趣味性降低学习门槛\r\n- 建立数学学习信心\r\n\r\n### 2. 在校学生\r\n- 课程知识点辅导\r\n- 考试重点强化\r\n- 实践案例参考\r\n- 深入理解原理\r\n\r\n### 3. 职场人士\r\n- 数据分析能力提升\r\n- 决策思维培养\r\n- 投资理财指导\r\n- 职业技能进阶\r\n\r\n## 四、发展规划\r\n\r\n### 1. 内容升级\r\n- 马尔可夫链可视化\r\n- 随机游走模拟器\r\n- 蒙特卡洛演示\r\n- 概率分布探索\r\n\r\n### 2. 功能拓展\r\n- 移动端应用开发\r\n- 离线学习支持\r\n- 社区互动系统\r\n- 专家在线答疑\r\n\r\n### 3. 用户体验\r\n- 更多趣味性互动\r\n- 个性化学习路径\r\n- 学习进度追踪\r\n- 知识图谱构建",
+    "created_at": "2024-11-26T04:52:59Z",
+    "labels": [
+      "weekly"
+    ],
+    "url": "https://github.com/ruanyf/weekly/issues/5595"
+  },
+  {
+    "id": 5594,
+    "title": "【网站自荐】Youtube 英语听写网站——输入任意 YouTube 视频地址，对每一段话生成字幕，进行口语跟读练习",
+    "content": "[FluentDictation](https://www.fluentdictation.com/) 是我开发的一个网站，起初的想法是优化我使用 YouTube 视频学习英语的方式。\r\n\r\n🔥 主要功能：\r\n\r\n- 选择任何 YouTube 视频进行学习\r\n\r\n- 自动生成基于句子的字幕\r\n\r\n- AI 语音识别用于口语练习\r\n\r\n- 不用再反复回放某段句子，可设置自动重播1-10次\r\n\r\n\r\n🚀 适合人群：\r\n\r\n- 各个级别的英语学习者\r\n\r\n- 任何练习听写或跟读的人\r\n\r\n- 寻找交互式工具的教师\r\n\r\n\r\n 👍目前免登录即可使用！\r\n\r\n**[Home Page](https://www.fluentdictation.com/)**\r\n![home](https://github.com/user-attachments/assets/7e9c716e-c0f9-477d-b0ed-09bb6129085d)\r\n\r\n**[Start Page](https://www.fluentdictation.com/en/start)**\r\n![start](https://github.com/user-attachments/assets/b8dc8f2b-1268-4717-9800-26a464d807ea)\r\n\r\n**[Learn Page](https://www.fluentdictation.com/en/learn/o1Y4Z0oh1GE)**\r\n![learn](https://github.com/user-attachments/assets/43b11216-bb29-4ffd-a0b4-ec68aeb7e7e6)\r\n\r\n",
+    "created_at": "2024-11-26T01:42:33Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5594"
+  },
+  {
+    "id": 5593,
+    "title": "【文章自荐】B站知名up主何同学为盗用开源项目道歉，原作者发视频感谢中国网友",
+    "content": "[B站知名up主何同学为盗用开源项目道歉，原作者发视频感谢中国网友](https://mp.weixin.qq.com/s?__biz=MzI3Njk5ODg4OQ==&mid=2247490013&idx=1&sn=5a393ca6a4408a59d5b5cf3dbc9ffd4b&chksm=eb6da65bdc1a2f4dfb23f92e1c4ed51ab07ee28199949f0a920497963009d55dfa2263f009de&token=1064747686&lang=zh_CN#rd)",
+    "created_at": "2024-11-26T00:58:41Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5593"
+  },
+  {
+    "id": 5592,
+    "title": "【浏览器插件推荐】ChatGPT all in one",
+    "content": "大家好，给大家推荐一个浏览器插件。\r\n\r\n侧边栏显示，集成多种模型，免订阅，弹性计费。\r\n\r\n\r\n🔗 相关链接\r\n\r\nEdge商店: [安装地址](https://microsoftedge.microsoft.com/addons/detail/npnkbbodbicjbkocdefleejmdggmefha)\r\n\r\nChrome商店：[安装地址](https://chromewebstore.google.com/detail/chatgpt%E4%BE%A7%E8%BE%B9%E6%A0%8F-%E6%A8%A1%E5%9E%8B%E8%81%9A%E5%90%88%E5%9B%BD%E5%86%85%E5%85%8D%E8%B4%B9%E7%9B%B4%E8%BF%9E/ifadpoaijfjngolmchdccdcggdfkphgl?hl=zh-CN&authuser=0)\r\n\r\n使用介绍：[地址](http://doc.omegaxyz.cn/)\r\n\r\n\r\n如果觉得好用，欢迎去 Chrome /Egde 商店评分~\r\n",
+    "created_at": "2024-11-25T14:10:07Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5592"
+  },
+  {
+    "id": 5591,
+    "title": "【工具自荐】免费AI作业助手，识别照片并给出解题步骤",
+    "content": "AI作业助手，助力更好的学习！\r\n\r\n免费使用、无需登录，支持识别照片并给出解题步骤。\r\n\r\n地址：https://notegpt.io/ai-homework-helper\r\n\r\n![image](https://github.com/user-attachments/assets/8e869920-8e07-42d8-8b1b-aad3a999482e)\r\n\r\n支持：输入文本内容和上传自己的照片和截图，AI可以给出详细的解题步骤。\r\n\r\n输入文本内容实例：\r\n![image](https://github.com/user-attachments/assets/30eae417-9f3b-4d67-be73-23ea61264766)\r\n\r\n上传图片实例：\r\n![image](https://github.com/user-attachments/assets/b41501bf-4834-40c2-a65a-e4ee9af8477a)\r\n\r\n\r\n\r\n",
+    "created_at": "2024-11-25T06:19:13Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5591"
+  },
+  {
+    "id": 5590,
+    "title": "「网站自荐」 Nyt 小游戏集合网站",
+    "content": "网站地址：[www.nytgames.top](https://www.nytgames.top)",
+    "created_at": "2024-11-25T05:46:24Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5590"
+  },
+  {
+    "id": 5589,
+    "title": "【开源自荐】GitHub 用户分析、AI 总结、分数排名",
+    "content": "<img width=\"1294\" alt=\"image\" src=\"https://github.com/user-attachments/assets/c6e6de17-6304-4d21-b468-c7ab14eebd11\">\r\n\r\n网站地址：https://github-persona.pages.dev/\r\n\r\n仓库地址：https://github.com/ray-d-song/github-persona\r\n\r\n使用 Octokit 获取数据，Cloudflare AI 的 mistral-7b 模型生成用户画像，以及 D1 数据库存储数据。  ",
+    "created_at": "2024-11-25T04:35:28Z",
+    "labels": [
+      "weekly"
+    ],
+    "url": "https://github.com/ruanyf/weekly/issues/5589"
+  },
+  {
+    "id": 5588,
+    "title": "【网站自荐】Next.js 精选资源导航站 - 十一个大分类，一键检索上百个 Next.js 精选资源",
+    "content": "## 网站简介\r\n[Next.js 精选资源导航站](https://nextjs.batchtool.com/?utm=ruanyf)，包含 Next.js Starter/Boilerplates、Next.js AI 项目、Next.js 电商项目、Next.js 应用（Next.js 12 - Next.js 15）、Next.js Landing Page、Next.js SaaS 模版等 11 个分类。通过本网站提供的搜索功能，比如，使用 `nextjs 15` 关键字，快速搜索一些不错的 **Next.js 15**  项目，作为学习资源，辅助学习 **Next.js 15** 的新特性。\r\n\r\n> 欢迎大家在下方评论区，分享你觉得不错的 Next.js 资源或你的 Next.js 开源项目。\r\n\r\n## 网站截图\r\n### [首页](https://nextjs.batchtool.com/?utm=ruanyf)\r\n![nextjs-starter-directory-home](https://github.com/user-attachments/assets/540d1ef2-fb2a-4271-87b7-f0b971578403)\r\n\r\n### [搜索页](https://nextjs.batchtool.com/?utm=ruanyf)\r\n![nextjs-starter-directory-search](https://github.com/user-attachments/assets/4512a88c-66e4-4602-bc0e-bac4d72e4e9c)\r\n",
+    "created_at": "2024-11-24T15:47:46Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5588"
+  },
+  {
+    "id": 5587,
+    "title": "【浏览器插件自荐】UICloner：一键克隆任意网页UI组件，生成代码",
+    "content": "大家好，给大家推荐一个我开发的浏览器插件。\r\n\r\nUICloner 是一个基于LLM的浏览器插，可以让你一键克隆任意网页上的 UI 组件,并自动生成对应的代码实现（需自配LLM API）。\r\n\r\n### 演示- Clone the Facebook login form\r\n![Demo](https://github.com/AndySpider/uicloner-extension/blob/develop/screenshots/clone-facebook-login-demo.gif?raw=true)\r\n\r\n## 🔗 相关链接\r\n- Chrome 商店: [安装地址](https://chromewebstore.google.com/detail/uicloner/glnjgjbljegeblecpjphamopdikhflpd)\r\n- GitHub: [源码地址](https://github.com/AndySpider/uicloner-extension)\r\n\r\n## 🙏 最后\r\n如果觉得好用，欢迎去 Chrome 商店评分和 GitHub 点星支持~\r\n有任何问题和建议都可以在评论区或 GitHub Issues 反馈。",
+    "created_at": "2024-11-24T13:03:48Z",
+    "labels": [
+      "weekly"
+    ],
+    "url": "https://github.com/ruanyf/weekly/issues/5587"
+  },
+  {
+    "id": 5586,
+    "title": "【网站推荐】W3C 提议成立 Web 可持续发展工作组",
+    "content": "小组：https://www.w3.org/groups/ig/sustainableweb/  \r\n\r\n> 小组旨在提供以事实证据为基础的指南和方法，观察、衡量并提升数字产品与服务的可持续性。通过这个由 \r\nWeb 开发者、实现者以及互联网经济的其他攸关方创建的指南，他们可以更好地理解互联网对各种形式的可持续发展报告和不断演变的 ESG（环境、社会、治理）实践的影响。这不仅包括数字化碳排放，还包括可能进一步影响数字可持续性的互联变量。设计人员、开发者以及产品团队可以将管理原则应用于通过互联网交付的数字产品、服务和数据，以应对这些挑战。\r\n\r\n（摘自 https://lists.w3.org/Archives/Public/public-china/2024Jun/0001.html ）\r\n\r\n规范：[Web Sustainability Guidelines (WSG) 1.0](https://w3c.github.io/sustyweb)  \r\n",
+    "created_at": "2024-11-24T13:00:48Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5586"
+  },
+  {
+    "id": 5585,
+    "title": "【vscode插件自荐】Git Stats：通过交互式图表和直观的界面，帮助了解团队成员的工作情况",
+    "content": "\r\n点击 VS Code 状态栏中的 Git Stats 图标即可打开统计界面。\r\n\r\n![screenshot](https://github.com/user-attachments/assets/97c2fde1-5a07-4693-875e-63a1f6a165da)\r\n\r\n\r\n下载地址： https://marketplace.visualstudio.com/items?itemName=lixianmin.git-stats\r\n开源地址： https://github.com/lixianmin/git.stats/blob/HEAD/README_CN.md\r\n",
+    "created_at": "2024-11-24T08:57:09Z",
+    "labels": [
+      "weekly"
+    ],
+    "url": "https://github.com/ruanyf/weekly/issues/5585"
+  },
+  {
+    "id": 5584,
+    "title": "【工具自荐】AutoAPI ，一个基于 OpenAPI / Swagger 文档自动生成原子化请求方法和 TypeScript 类型的工具",
+    "content": "# AutoAPI\r\n\r\n[AutoAPI](https://github.com/shixianqin/autoapi) 是一个基于 OpenAPI / Swagger 文档自动生成原子化请求方法和 TypeScript 类型的工具。\r\n\r\n## 特性\r\n+ **原子化请求方法**：独立且随处调用，并利于摇树优化\r\n+ **自动生成类型**：无需手动维护，自动生成参数类型和响应类型，彻底摆脱参照文档书写类型的烦恼，并减少遗漏和出错的可能性\r\n+ **类型推断**：就是可以将 JSON 数据转换为 TypeScript 类型。假如没有文档，或者文档中缺少结构定义，那么你就可以通过配置手动请求将响应的数据转换为响应类型\r\n+ **精细化控制**：灵活配置过滤、分组、命名规则、类型结构等生成细节\r\n+ **适配器机制**：使用自定义适配器以适应不同的业务场景\r\n+ **支持 SSR**：可在服务端渲染时可传递上下文参数，需手动在适配器中添加参数透传的逻辑\r\n+ **优秀的 API 结构管理**：支持多文档、多分组",
+    "created_at": "2024-11-24T08:47:29Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5584"
+  },
+  {
+    "id": 5583,
+    "title": "【工具自荐】像素画家 - 简单易用的像素画编辑器",
+    "content": "这款App界面简洁，操作直观，即使是新手也能轻松上手。\r\n它基于.NET MAUI框架开发，支持iOS和Android平台。\r\n\r\n下载地址：\r\n[iOS](https://apps.apple.com/app/pixel-one/id6504689184) [Android](https://appgallery.huawei.com/app/C108067113)\r\n\r\n![2](https://github.com/user-attachments/assets/8b3d8946-4ef2-45e5-8b74-9e06ab1a6e01)\r\n![3](https://github.com/user-attachments/assets/2454021a-1bab-4185-8bbf-bd1a22777cf9)\r\n",
+    "created_at": "2024-11-24T06:32:11Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5583"
+  },
+  {
+    "id": 5582,
+    "title": "【网站自荐】maomaoyu.coffee - 猫猫鱼AI工具窝 欢迎提交网站",
+    "content": "# 网站介绍\r\n\r\n猫猫鱼AI工具窝是一个致力于收集和推荐各种AI工具的平台，旨在帮助用户发现和获取他们所需的AI工具。该网站提供了一个免费的AI工具目录，包括AI写作、营销、改写、SEO、学习、生成、研究、艺术、音乐、视频、编码和图片工具等。用户可以轻松浏览并访问这些工具，以满足不同的需求。\r\n\r\n# 网站网址\r\n\r\n[猫猫鱼AI工具窝](https://www.maomaoyu.coffee/)\r\n\r\n# 功能特点\r\n\r\n- **免费AI工具目录**：用户可以免费访问并发现他们喜爱的AI工具。\r\n- **提交工具免费**：用户可以免费向猫猫鱼AI工具窝提交他们的AI工具，但需要添加本网站的反链。\r\n- **支持多种AI工具类别**：网站将支持所有类型的AI工具，目前正在逐步完善中。\r\n- **每日更新**：AI工具列表将每天更新，确保用户能够获取最新的工具信息。\r\n- **内容生成**：AI工具的描述内容由OpenAI的GPT-4o生成，确保信息的准确性和可靠性。\r\n- **国际化**：网站支持热门17种语言\r\n\r\n# 网站截图\r\n\r\n![猫猫鱼AI工具窝](https://img.maomaoyu.coffee/ai-tools/2bf5cdfc-a13b-44c2-be85-f8f916c63c58.webp \"猫猫鱼AI工具窝\")",
+    "created_at": "2024-11-24T03:40:40Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5582"
+  },
+  {
+    "id": 5581,
+    "title": "【网站自荐】selfh.app - 自托管服务的综合性导航平台",
+    "content": "## 核心功能\r\n- 自建服务导航\r\n- 虚拟化方案\r\n- 网络配置指南\r\n<img width=\"1258\" alt=\"SCR-20241124-kaep\" src=\"https://github.com/user-attachments/assets/15e546c3-a824-471a-a4b6-8bfee1b1f24c\">\r\n<img width=\"1258\" alt=\"SCR-20241124-kagv\" src=\"https://github.com/user-attachments/assets/513312ce-c295-420d-ba5b-9229c2c5d4d6\">\r\n",
+    "created_at": "2024-11-24T03:03:02Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5581"
+  },
+  {
+    "id": 5580,
+    "title": "【工具推荐】: fast-create-variable 任何地方一个命令，用选项自动帮你创建变量",
+    "content": "[fast-create-variable](https://github.com/Simon-He95/fast-create-variable)\r\n\r\n这个插件能极大程度的减少你的专注度在来回滚动找对应位置，再手动敲变量的问题，对于一个超过 100 行的文件中去写代码，你一定会用到滚轮去在对应语法的 script 中写逻辑，再回到 template 中写布局，而这个插件就可以在任意的地方去瞬间帮助你插入css、变量、函数、import 语句、自定义的代码片段，并且是定制化的 vue、svelte、react、ts、jsx 等语言中插入到对应需要的位置\r\n\r\n![录屏2024-11-24 10 44 43](https://github.com/user-attachments/assets/217ad84c-ce85-43f8-a9dc-695846072e49)\r\n\r\n",
+    "created_at": "2024-11-24T02:49:18Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5580"
+  },
+  {
+    "id": 5579,
+    "title": "【工具自荐】LobeChat - 一键部署支持所有模型的高颜值 AI Chat 工具",
+    "content": "### 描述\r\n全由设计师打造的开源 AI Chat 工具，支持几乎所有 AI 大模型，支持 Artifacts 交互，支持联网，颜值高，体验好。\r\n\r\n### 官网\r\n[https://lobehub.com/](https://lobehub.com/?utm_source=ruanyifeng.com)\r\n\r\n### 特点\r\n- 支持 Artifacts 交互\r\n- 话题管理，对话分支能力\r\n- 知识库 RAG 对话\r\n- 丰富的助手及插件生态\r\n- 支持 ollama 本地模型\r\n\r\n![image](https://github.com/user-attachments/assets/352fded3-bce8-438a-848f-6145d9dd09f8)\r\n\r\n---\r\n\r\n![image](https://github.com/user-attachments/assets/40a2f4cd-c9b5-4aa0-8888-202d6bf2fff0)\r\n![image](https://github.com/user-attachments/assets/6e192227-445c-40cc-8013-d2610c7147a1)\r\n![image](https://github.com/user-attachments/assets/365307ac-2d2c-4391-8e2c-3920b3d723d8)\r\n\r\n\r\n\r\n\r\n\r\n",
+    "created_at": "2024-11-23T10:20:55Z",
+    "labels": [
+      "weekly"
+    ],
+    "url": "https://github.com/ruanyf/weekly/issues/5579"
+  },
+  {
+    "id": 5578,
+    "title": "【工具自荐/开源】四象限编辑器，可以用来做项目管理、规划（个人用来做PPT）",
+    "content": "![image](https://github.com/user-attachments/assets/d0f04964-c0d3-4463-addc-0e5c86a76273)\r\n\r\n界面上看到的元素基本都可以配置，包括坐标轴位置等，数据也支持导入导出\r\n\r\n访问地址 https://slide-lab.kwok.ink/quadrant\r\nGitHub仓库地址 https://github.com/KwokKwok/slide-lab\r\n\r\n背景：这周用 Cursor 来帮着弄 PPT （个人相对更熟悉 Web 排版，有 AI 协助也很快。就根据自己的需求弄出来网页，然后截图放 PPT 里）。这个四象限的效果感觉比较通用就完善了一下，做成一个小工具",
+    "created_at": "2024-11-23T07:45:16Z",
+    "labels": [
+      "weekly"
+    ],
+    "url": "https://github.com/ruanyf/weekly/issues/5578"
+  },
+  {
+    "id": 5577,
+    "title": "【资源推荐】100 多款参与黑色星期五优惠活动的 Mac 应用合集",
+    "content": "很多商家都会在黑色星期五推出相当大的优惠活动，这里收集了全网大概 100 多款参与活动的 Mac 应用，折扣大多在 30%～70%之间。\r\n\r\nhttps://github.com/s1ntoneli/Awesome-Black-Friday-Cyber-Monday-for-Mac-Apps\r\n\r\n**目录和部分应用截图：**\r\n\r\n![97C902A8-D646-48D7-960A-CA979F0BB5CB](https://github.com/user-attachments/assets/2d37553c-307c-439a-b83c-bda0106cc5a2)\r\n",
+    "created_at": "2024-11-23T07:32:45Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5577"
+  },
+  {
+    "id": 5576,
+    "title": "【工具推荐】Distributer - 一键分发和同步文章、动态内容",
+    "content": "作为一名开发者，平时也会时不时在各大自媒体平台活跃一下。\r\n\r\n不论是发布长篇文章的公众号、头条号、知乎等，还是发布短篇动态的微博、即刻等，甚至是国外的推特、脸书、Medium 等主流平台，都会同步分发一下自己的创作内容。毕竟好不容易辛辛苦苦写完一篇文章，不多发几个平台，多一点被看到的概率就亏大了哈哈。\r\n\r\n不知道看到这篇文章的小伙伴有没有尝试过自媒体，或者未来准备试一下。从我的角度出发，平时会遇到以下问题：\r\n\r\n1、手动将文字和图片一次次粘贴到众多平台太耗时间，做几次就烦了，严重影响创作时间；\r\n2、使用蚁小二等第三方客户端太贵，而且有同步次数和账号数量限制，并且很多平台的文章格式有问题；\r\n3、有时候需要在国外平台发布，最后将文章同时翻译成对应国家的语言，但是再翻译一遍又额外增加了工作量；\r\n4、有时候只有一些灵感关键词，还没想好如何串联，如果能有懂我的 ai 就好了。\r\n在众多急待提高效率的场景需求下，distributer 工具出现了，而且是以浏览器插件的形式，很轻巧，完全没有安装客户端的束缚感。\r\n\r\n![image](https://github.com/user-attachments/assets/4f50642b-5a41-477c-9990-08fe0977d389)\r\n\r\n在使用了一段时间后，我有如下感受：\r\n\r\n1、distributer 插件是侧边栏打开的形式，完全不影响浏览器网页的使用，在使用插件功能的同时，依然可以正常使用网页的功能。\r\n\r\n![image](https://github.com/user-attachments/assets/753c8c24-d847-4be8-881f-6cd383a39d2e)\r\n\r\n2、distributer 插件主要针对于图文内容，比较符合我的需求，因为我也不发视频。目前同步的成功率还是挺高的，偶尔会有同步异常，但是重试一下就好了。\r\n\r\n3、插件的特点是辅助打开所有需要同步的平台，并将图文内容排版，但是不会自动发布出去。因为不同平台有一些个性化的设置，为了达到更好的效果是最好手动勾选上的。而插件本身不自动发布也给了我们一次机会去快速检查和微调排版（虽然会花点时间，但是值得，毕竟大头的时间已经被插件替代了）。\r\n\r\n4、distributer 的显著特点就是可以为不同平台设置不同的语言。比如我的文章既需要发布到国内平台，又希望能够在国外也传播一下，但是国外各个国家的语言又有所差异，使用中文分发的效果肯定是会打折扣的。而这个插件可以将上传的中文内容翻译成好几种语言（目前只支持英语、日语），然后可以为不同的平台勾选对应的语言，这样发出去的内容就是各个语言的翻译版，非常不错的一个功能。\r\n\r\n![image](https://github.com/user-attachments/assets/2214a96a-8986-4acd-b9d9-ba0e94e33578)\r\n\r\n5、在 ai 加持下，插件当然也支持生成文字。目前可以根据输入的灵感内容，自动生成一篇小作文，不过这个我目前用到的不多，主要还是分发已经写好的内容。\r\n\r\n6、由于插件支持的平台比较多，所有平台排列出来还是比较杂的，但不是所有平台都是我所需要的。distributer 有一个比较人性化的一点就是可以自由拖动各个平台的排列顺序，从而把自己经常用到的平台放在最前面，排过一次后，下次打开插件就不用再排了。\r\n总体来说，作为一个以插件形式存在的小工具，完善度还是不错的，界面也相对简洁，也有对应的官网支持。但毫无疑问，工具还是有一些需要优化的地方。\r\n\r\n比如目前只支持邮箱本箱注册登录，还没有对接第三方平台一键登录，这就稍微麻烦了点；然后 ai 生成功能还是差强人意，没有人写的真情实感，但快是真的。\r\n\r\n如果你也遇到过我前面所描述的一些问题，这个插件还是值得一试的，整体上还是能节约不少分发和同步的时间。而且插件刚起步，还在不断升级完善中，相信以后会越来越好用。\r\n\r\n最后附上插件的地址：https://distributer.top/",
+    "created_at": "2024-11-23T05:46:18Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5576"
+  },
+  {
+    "id": 5575,
+    "title": "【工具推荐】分享一个刚发布的Favicon Generator工具",
+    "content": "# 一个简单快速的Favicon生成器\r\n\r\n## 背景\r\n开发网站时发现生成favicon很繁琐，市面工具要么功能单一，要么使用复杂。为此开发了这个工具。\r\n\r\n## 核心问题\r\n- 跨设备兼容性\r\n- 图标清晰度  \r\n- 生成效率\r\n\r\n## 产品特色\r\n1. **SVG格式输出，保证清晰度**\r\n2. 一键生成多尺寸(16x16至512x512)\r\n3. 支持自定义:\r\n  - 文字内容和字体\r\n  - 背景形状\r\n  - 颜色搭配\r\n4. 自动生成HTML代码\r\n5. 支持.ico格式，兼容旧浏览器\r\n\r\n## 体验地址\r\n[favicongenerator.io](https://favicongenerator.io)\r\n\r\n## 未来计划\r\n- 增加更多字体选项\r\n- 添加自定义形状功能\r\n\r\n欢迎试用反馈，特别是用户体验和功能扩展建议。",
+    "created_at": "2024-11-22T14:22:59Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5575"
+  },
+  {
+    "id": 5574,
+    "title": "【开源自荐】弹幕画中画播放器 - 增强版画中画播放器",
+    "content": "## 简介\r\n使用了最新的[画中画API](https://developer.chrome.com/docs/web-platform/document-picture-in-picture/)，可以在画中画里控制进度条，音量等功能\r\n![1ab54173fce05db28da29](https://github.com/user-attachments/assets/4c1eeec7-9d00-4ce1-8f38-bcbd4965a2b4)\r\n\r\n虽然名字里有[弹幕]，但还是可以在很多没弹幕的网站上用的，比如youtube上\r\n![f9f471a9965c94799d102](https://github.com/user-attachments/assets/3bc860c5-2d86-4941-9bb0-0c7c0a1898c4)\r\n\r\n- [功能演示](https://www.youtube.com/watch?v=NOoO9XR1oiI)\r\n- [开源地址](https://github.com/apades/dmMiniPlayer)\r\n\r\n## 目前功能\r\n- 在画中画窗口中拖动、键盘控制进度、调整音量，调节倍速\r\n- 弹幕播放和发送\r\n    - bilibili视频 + 直播\r\n    - 斗鱼直播\r\n    - CC直播\r\n    - 动画疯\r\n    - youtube直播\r\n    - twitch直播\r\n    - 抖音直播\r\n- 支持bilibili、youtube的视频字幕播放\r\n- 支持外挂.srt .ass字幕\r\n- 与bilibili一样的长按右键快进功能\r\n\r\n## 发布商店\r\n- [chrome商店](https://chrome.google.com/webstore/detail/%E5%BC%B9%E5%B9%95%E7%94%BB%E4%B8%AD%E7%94%BB%E6%92%AD%E6%94%BE%E5%99%A8/nahbabjlllhocabmecfjmcblchhpoclj)\r\n- [edge商店](https://microsoftedge.microsoft.com/addons/detail/hohfhljppjpiemblilibldgppjpclfbl)\r\n\r\n非chromium的浏览器不支持该新API所以不打算上架，且需要chromium版本处于116及以上才能使用该API，对于其他套皮浏览器的兼容性未知\r\n\r\n",
+    "created_at": "2024-11-22T11:14:26Z",
+    "labels": [
+      "weekly"
+    ],
+    "url": "https://github.com/ruanyf/weekly/issues/5574"
+  },
+  {
+    "id": 5573,
+    "title": "【在线工具自荐】AI Video在线工具 - 主流图生视频AI模型聚合工具",
+    "content": "大家好，我是Leo。\r\n最近一直在研究各种不同主流图生视频AI模型，每一种模型都有自己的优势，可能也会满足不了所有用户的要求。所以我这边花了两周的时间，终于开发了这款[AI Video在线工具](https://videoweb.ai/)。以下是我这款工具的介绍：\r\n\r\n## 支持的AI视频模型\r\n- Kling AI: 快手对外提供的AI视频模型，目前支持了Kling AI 1.0版本，新的1.5版本和视频扩展功能即将升级上线；\r\n- Luma AI: 这是Luma AI开发的Dream Machine AI视频模型，拥有很好的图生视频效果；\r\n- Runway Gen3: 这是Runway开发的视频模型，目前Runway支持Gen3 Turbo，具备更快、镜头控制更好的效果；\r\n- Hailuo AI: 这是MiniMax开发的视频模型，文生视频的效果比较经验；\r\n- Mochi 1: 这是 Genmo AI开源的视频模型，目前效果也还不错；\r\n\r\n## 交互独特设计说明\r\n通过AI Video在线工具，用户可以根据自己的需要，选择一个或多个AI模型去生成视频，方便对比不同视频的效果，支持异步等待视频生成。\r\n\r\n## 其他功能说明\r\n目前我们的工具还支持Flux AI生图功能和AI音乐工具，希望通过我们的这款工具可以让用户体验到更完善的AI多媒体服务\r\n\r\n欢迎大家体验，更具体请点击链接：[AI Video在线工具](https://videoweb.ai/)\r\n",
+    "created_at": "2024-11-22T10:29:17Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5573"
+  },
+  {
+    "id": 5572,
+    "title": "【jetbrains插件推荐】AI Git Commit：自动生成git commit message",
+    "content": "![image](https://github.com/user-attachments/assets/91af3751-4a3e-482d-87c1-352cc3f43fa6)\r\n\r\n支持使用配置好的AI大模型生成git commit message .\r\n\r\n插件地址：https://plugins.jetbrains.com/plugin/24851-ai-git-commit?noRedirect=true",
+    "created_at": "2024-11-22T08:40:47Z",
+    "labels": [
+      "weekly"
+    ],
+    "url": "https://github.com/ruanyf/weekly/issues/5572"
+  },
+  {
+    "id": 5571,
+    "title": "【浏览器插件自荐】Nice NewTab 极简新标签页与专注工作台",
+    "content": "\r\n<img width=\"1512\" alt=\"image\" src=\"https://github.com/user-attachments/assets/4caacb3b-c326-4703-af22-6b48890e9c39\">\r\n\r\nNice NewTab是一个极简的新标签页，快速搜索书签与网页、设定今日目标、开始番茄时钟与专注工作台\r\n1、快速搜索\r\n轻松快速地搜索您的书签和网页内容。\r\n2、今日目标\r\n设定每日目标，提高工作效率。\r\n3、番茄时钟\r\n使用番茄工作法提高专注力和效率。\r\n4、专注工作台\r\n干净、简约的界面可帮助您保持专注。可定制的背景选项。\r\n\r\n- [商店下载地址](https://chromewebstore.google.com/detail/icdelibkfnkghpbknlpilccddfeiiece)\r\n- 官网：https://nicenewtab.com/\r\n\r\n------\r\n\r\n## 001/作者信息\r\n\r\n作者推特：https://x.com/youngquantongxu\r\n插件推特：https://x.com/nicenewtab\r\n作者博客：https://struy.cn\r\n\r\n## 002/目前功能 V0.0.2\r\n\r\n1、🌟极简新标签页，搜索，时钟，番茄钟\r\n2、📷内置壁纸，新版本支持自定义壁纸\r\n3、🔍快捷搜索书签和网页（支持常见搜索引擎）\r\n4、💬一段内置的金句引用（后续版本支持自定义）\r\n5、✍️快速设定每日目标\r\n6、🍅快速开始番茄钟\r\n7、📢番茄钟完成后的强提醒（通知，声音，已打开标签页的遮罩提醒）\r\n8、🔐暂时所有功能不联网，隐私安全，免费\r\n\r\n\r\n## 003/插件预览：\r\n\r\n### 快捷检索书签，网页，设定今日目标：\r\n![image](https://github.com/user-attachments/assets/db8d23c9-9bd1-49bc-ba3e-1c7d51707a03)\r\n\r\n### 书签和搜索引擎快捷选择：\r\n![image](https://github.com/user-attachments/assets/0d343578-48fe-4ba8-9a73-21ae002b1a28)\r\n\r\n### 壁纸切换与上传：\r\n![image](https://github.com/user-attachments/assets/65db30bd-df18-472d-b1c5-f2429a75b16e)\r\n\r\n\r\n### 番茄钟设置以及全局查看：\r\n![image](https://github.com/user-attachments/assets/143f38e9-473a-456c-845d-b9f117b1a72c)\r\n\r\n### 番茄钟强提醒界面：\r\n![image](https://github.com/user-attachments/assets/df7dad20-8496-436b-bb62-268f8be8136e)\r\n\r\n### 支持中英文：\r\n\r\n![image](https://github.com/user-attachments/assets/9c182c69-e097-479f-8f1a-ccf6c267478a)\r\n\r\n![image](https://github.com/user-attachments/assets/0fb2ce66-8043-4fea-af3f-0ec5a960c2a0)\r\n\r\n",
+    "created_at": "2024-11-22T07:55:37Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5571"
+  },
+  {
+    "id": 5570,
+    "title": "1111111111111111111111111111111",
+    "content": "11111111111111111111111111111111111111111",
+    "created_at": "2024-11-22T04:10:06Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5570"
+  },
+  {
+    "id": 5569,
+    "title": "【网站自荐】GitHub Insights Pro - 专业的 GitHub 数据分析与可视化平台，提供全方位的数据洞察服务。",
+    "content": "## 一、网站简介\r\n\r\nGitHub Insights Pro 是一款专业的 GitHub 数据分析与可视化平台，作为 GitHub 数据分析的瑞士军刀，我们提供全方位的数据洞察服务。从每日更新的全球、中国开发者及项目排行榜到每 6 小时更新一次的热门开发者、项目趋势，从个性化的代码足迹分析到趣味性的报告生成，我们致力于让冰冷的代码数据焕发生命力。通过多维度分析和精美的可视化呈现，为开发者讲述独特的代码故事，连接全球开源社区，让每一行代码都被倾听和理解。\r\n\r\n官网：[ https://github-insights-pro.toolsnav.top/ ]( https://github-insights-pro.toolsnav.top/ )\r\n\r\n截图：\r\n\r\n1）首页\r\n\r\n![01-github-insghts-pro-github数据分析及可视化工具-首页-home](https://github.com/user-attachments/assets/af8931be-c2d5-4353-9faa-60542f21316b)\r\n\r\n2）个人 github 数据可视化展示\r\n\r\n![02-github-insghts-pro-github数据分析及可视化工具-个人数据分析-personal-data-analytics](https://github.com/user-attachments/assets/d451f045-3b59-4936-a1cd-3e50fb3bfe93)\r\n\r\n3）排行榜\r\n\r\n![03-github-insghts-pro-github数据分析及可视化工具-排行榜-rank](https://github.com/user-attachments/assets/d8a5c9c0-632c-41d4-9981-94d41371990f)\r\n\r\n4）趋势榜\r\n\r\n![04-github-insghts-pro-github数据分析及可视化工具-趋势榜-trends](https://github.com/user-attachments/assets/1522e85d-d29b-4af4-a096-e7d586ee8144)\r\n\r\n5）开发者收据\r\n\r\n![05-github-insghts-pro-github数据分析及可视化工具-开发者收据-receipt](https://github.com/user-attachments/assets/022d7ce3-9a5d-4734-ad6a-3b818df46376)\r\n\r\n6）开源通缉令\r\n\r\n![06-github-insghts-pro-github数据分析及可视化工具-开源通缉令-wanted-poster](https://github.com/user-attachments/assets/e10140ca-a20c-472b-8335-c60ff3efe989)\r\n\r\n\r\n## 二、核心特性\r\n\r\n### 1. 数据可视化大师\r\n- 深入分析开发者影响力和项目热度\r\n- 多维度排名指标，全面评估开发者实力\r\n- 代码贡献统计和时间分布分析\r\n- 项目语言偏好和技术栈洞察\r\n- 交互式数据探索体验\r\n\r\n### 2. 热门排行榜及趋势榜\r\n- 每日更新全球/中国区 Top 100 开发者排名\r\n- 追踪全球 Top 50 最受欢迎开源项目\r\n- 每 6 小时更新的热门开发者和项目推荐\r\n\r\n### 3. 个性化报告系统\r\n- 通缉令风格：趣味性展现开发者画像\r\n- 收据风格：清晰呈现代码贡献数据\r\n- 支持一键导出分享，展示极客范\r\n\r\n### 4. 极致的隐私保护\r\n- 所有分析在浏览器本地完成\r\n- 零数据存储，不保存任何个人信息\r\n- 完全遵循 GitHub API 规范\r\n- HTTPS 加密确保数据传输安全\r\n- 仅读取公开仓库数据\r\n\r\n## 三、使用场景\r\n\r\n### 1. 技术管理者视角\r\n- 帮助了解团队成员代码偏好\r\n- 发现潜在技术债务\r\n- 优化团队协作效率\r\n- 提升项目管理水平\r\n\r\n### 2. 开发者视角\r\n- 展示个人技术实力\r\n- 生成年度代码报告\r\n- 追踪编程成长轨迹\r\n- 发现优秀开源项目\r\n\r\n### 3. 招聘者视角\r\n- 快速评估候选人实力\r\n- 了解技术栈匹配度\r\n- 验证项目经验真实性\r\n- 提高招聘效率\r\n\r\n## 四、未来规划\r\n\r\n### 1. 功能扩展\r\n- 代码质量深度分析\r\n- 团队协作网络图谱\r\n- 更多创意报告模板\r\n- 自定义数据分析维度\r\n\r\n### 2. 性能优化\r\n- 支持更大规模数据处理\r\n- 优化分析响应速度\r\n- 提升交互流畅度\r\n- 降低资源占用\r\n\r\n### 3. 生态建设\r\n- 开放 API 接口\r\n- 建设开发者社区\r\n- 提供插件扩展机制\r\n- 支持自定义数据源",
+    "created_at": "2024-11-22T03:37:45Z",
+    "labels": [
+      "weekly"
+    ],
+    "url": "https://github.com/ruanyf/weekly/issues/5569"
+  },
+  {
+    "id": 5568,
+    "title": "fix: update Rslib site link",
+    "content": "修复原博客文章中 Rslib 链接错误，将链接从 https://rspress.dev/zh/ 更正为 https://lib.rsbuild.dev/zh/。\r\n\r\n目前，Rslib 站点尚未支持中文，但添加 `/zh/` 路径不会影响站点正常访问，并为未来支持中文提供兼容性。",
+    "created_at": "2024-11-22T02:21:23Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/pull/5568"
+  },
+  {
+    "id": 5567,
+    "title": "【网站自荐】在线导航",
+    "content": "网站介绍\r\n---\r\n从互联网上收集常用/有用的站点\r\n\r\n网站网址\r\n---\r\nhttps://urls.whoops.space/\r\n\r\n功能特点\r\n---\r\n1. 每周日自动检测网站的可用性\r\n2. 支持夜间模式\r\n3. 自适应手机端\r\n4. 中英文\r\n5. 快捷搜索\r\n\r\n网站截图\r\n---\r\n![image](https://github.com/user-attachments/assets/8127901c-87b2-4b19-ab3b-5794f830c8f8)",
+    "created_at": "2024-11-22T02:11:03Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5567"
+  },
+  {
+    "id": 5566,
+    "title": "【网站自荐】一个将模糊图片变清晰的AI图片修复处理工具",
+    "content": "一个可以将模糊图片变清晰的网站：\r\n网站截图：\r\n![image](https://github.com/user-attachments/assets/d69f0246-798f-4e27-ad43-e9930ea9d557)\r\n效果图：\r\n![image](https://github.com/user-attachments/assets/c6f8fc26-8e0f-4ae6-ac4f-fd4073fb70fd)\r\n![image](https://github.com/user-attachments/assets/92cf9c25-1edb-4322-a53e-4a13af6c3e89)\r\n\r\n\r\n网站主要功能；\r\n1、使用AI将模糊图片变清晰；\r\n2、只需要30秒，即可还你一张清晰的图片，让儿时的记忆不在模糊；\r\n\r\n地址：https://unblur.app",
+    "created_at": "2024-11-22T01:46:29Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5566"
+  },
+  {
+    "id": 5565,
+    "title": "【开源自荐】Karpor：一个现代化的 Kubernetes 可视化工具",
+    "content": "# Karpor - Intelligence for Kubernetes\r\n\r\n### 项目地址\r\n[https://github.com/KusionStack/karpor](https://github.com/KusionStack/karpor)\r\n\r\n### 项目简介\r\nKarpor 是一个轻量级、厂商中立的现代化 Kubernetes 可视化工具。它通过三大核心能力帮助开发者和平台团队更好地管理和理解 Kubernetes：\r\n\r\n#### 1. 🔍 智能搜索\r\n- **自动同步**：跨多云平台自动、实时同步所有集群资源\r\n- **符合直觉的搜索**：支持多种友好的搜索方式（SQL、自然语言），低心智负担快速跨集群定位资源，支持智能补全\r\n   \r\n#### 2. 📊 深度洞察\r\n- **合规治理**：自动扫描资源合规情况，生成合规检查报告，更加安全的使用 Kubernetes\r\n- **资源拓扑**：直观展示资源间的逻辑和拓扑关系，快速理解资源间的关系\r\n- **自定义资源组**：自定义领域特有的资源组，比如应用、环境等，方便将 Kubernetes 概念和企业内部概念进行映射\r\n\r\n#### 3. ✨ AI 赋能\r\n- **自然语言搜索**：使用自然语言更直观的搜索 Kubernetes 资源\r\n- AI 诊断等功能正在开发中\r\n\r\n### 项目愿景\r\n我们的愿景是打造一个**小而美**的开源项目，通过简单易用的界面和智能化能力，帮助用户突破 Kubernetes 日益增长的复杂性，让集群管理变得更简单、更高效。\r\n\r\n![价值主张](https://github.com/GitHubDaily/GitHubDaily/assets/9360247/2e72c1d4-f508-4ee8-b0ae-3b2def87cf2c)\r\n\r\n### 演示视频\r\n\r\nhttps://github.com/KusionStack/karpor/assets/49401013/7cf31cc0-7123-42f6-8543-5addcbf4975c\r\n\r\n\r\n### 功能截图\r\n\r\n![搜索智能补全](https://github.com/GitHubDaily/GitHubDaily/assets/9360247/d5e74b07-b96b-493f-a4c1-ef50e02e9d3e)\r\n\r\n![搜索结果](https://github.com/GitHubDaily/GitHubDaily/assets/9360247/d5647860-d5bb-451b-8e22-cffcc9d805bc)\r\n\r\n![合规报告](https://github.com/GitHubDaily/GitHubDaily/assets/9360247/899f5f49-6294-4ee4-bb80-ae055d4203fa)\r\n\r\n![自定义资源组](https://github.com/GitHubDaily/GitHubDaily/assets/9360247/16d3cdb8-26a0-42c1-bdd0-8dac3c893836)",
+    "created_at": "2024-11-21T08:42:03Z",
+    "labels": [
+      "weekly"
+    ],
+    "url": "https://github.com/ruanyf/weekly/issues/5565"
+  },
+  {
+    "id": 5564,
+    "title": "【软件自荐】支持搜索历史截图的剪切板管理工具",
+    "content": "最新版本下载地址 https://tietieapp.com/\r\n\r\n### 软件使用方式\r\n![image](https://imgur.com/tgg7s6b.gif)\r\n使用三部曲\r\n1 、 ctrl+T快捷键唤起软件\r\n2 、 搜索复制项，搜索功能超级好用。\r\n3 、 找到匹配项, enter键快捷复制到当前输入框\r\n\r\n### 特点\r\n- 内置OCR，支持搜索历史截图。\r\n- 复制记录永久保存。\r\n- 支持多种格式。文本、图片、文件。\r\n- 支持添加自定义标签页，支持可复制项添加备注。\r\n- 文本复制项在预览中支持编辑\r\n- 图片复制项在预览中可以直接选中文字进行复制。",
+    "created_at": "2024-11-21T03:29:01Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5564"
+  },
+  {
+    "id": 5563,
+    "title": "【网站自荐】免费发票排版助手 | 拖拽排序，批量排版，100%数据安全，免登录免费使用！",
+    "content": "网站名称：免费发票排版助手\r\n费用：免费免登录\r\n平台：WEB\r\n网站地址：https://fapiao.365yhb.com/\r\n\r\n### 功能特点：\r\n* 发票排版 ，支持每页2张,3张，4张\r\n* 支持PDF,PNG,JPG格式的电子发票\r\n* 上传自动合并，一次支持200+\r\n* 拖动排序，自由调整发票顺序\r\n* 免费使用，无需任何费用\r\n\r\n### 使用说明\r\n1. 上传发票\r\n2. 调整发票顺序\r\n3. 确认预览的效果\r\n4. 下载合并后的发票\r\n\r\n### 数据安全\r\n* 纯客户端操作，所有文件均在本地处理\r\n* 无需登录或注册，零数据泄露风险\r\n* 支持断网使用，完全离线操作\r\n* 隐私保障，不会上传任何数据到服务器\r\n\r\n### 网站简介\r\n发票排版助手 | 财务报销人员必备工具，早下班利器\r\n支持PDF、PNG、JPG，拖拽排序，批量排版，100%数据安全，免登录免费使用！\r\n无需登录，快速批量合并发票，保障数据隐私，操作简单，高效快捷。\r\n\r\n\r\n\r\n",
+    "created_at": "2024-11-20T09:04:26Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5563"
+  },
+  {
+    "id": 5562,
+    "title": "【文章自荐】排版引擎纵谈：程序员的视角（介绍并对比了 HTML & CSS、LaTeX、LaTeX.js、Typst 和 react-pdf 作为排版引擎的优缺点）",
+    "content": "文章：\r\n\r\n- 中文版：[排版引擎纵谈：程序员的视角](https://blog.ppresume.com/posts/zh-cn/on-typesetting-engines)\r\n- 英文版：[On Typesetting Engines: A Programmer's Perspective](https://blog.ppresume.com/posts/on-typesetting-engines)\r\n\r\n文章主要介绍了以下五种技术作为排版引擎的优缺点：\r\n\r\n- HTML & CSS\r\n- [LaTeX](https://www.latex-project.org/)\r\n- [LaTeX.js](https://latex.js.org/)\r\n- [Typst](https://typst.app/)\r\n- [react-pdf](https://react-pdf.org/)\r\n\r\n文章上周在 hackernews 的讨论：https://news.ycombinator.com/item?id=42100660\r\n\r\n目录：\r\n\r\n- [译文](https://blog.ppresume.com/posts/zh-cn/on-typesetting-engines#%E8%AF%91%E6%96%87)\r\n- [序言](https://blog.ppresume.com/posts/zh-cn/on-typesetting-engines#%E5%BA%8F%E8%A8%80)\r\n- [评估标准](https://blog.ppresume.com/posts/zh-cn/on-typesetting-engines#%E8%AF%84%E4%BC%B0%E6%A0%87%E5%87%86)\r\n  - [神圣的换行算法](https://blog.ppresume.com/posts/zh-cn/on-typesetting-engines#%E7%A5%9E%E5%9C%A3%E7%9A%84%E6%8D%A2%E8%A1%8C%E7%AE%97%E6%B3%95)\r\n  - [CJK 排版的复杂性](https://blog.ppresume.com/posts/zh-cn/on-typesetting-engines#cjk-%E6%8E%92%E7%89%88%E7%9A%84%E5%A4%8D%E6%9D%82%E6%80%A7)\r\n    - [CJK 字符集庞大](https://blog.ppresume.com/posts/zh-cn/on-typesetting-engines#cjk-%E5%AD%97%E7%AC%A6%E9%9B%86%E5%BA%9E%E5%A4%A7)\r\n    - [文化的细微差别](https://blog.ppresume.com/posts/zh-cn/on-typesetting-engines#%E6%96%87%E5%8C%96%E7%9A%84%E7%BB%86%E5%BE%AE%E5%B7%AE%E5%88%AB)\r\n    - [字体搭配](https://blog.ppresume.com/posts/zh-cn/on-typesetting-engines#%E5%AD%97%E4%BD%93%E6%90%AD%E9%85%8D)\r\n- [HTML & CSS](https://blog.ppresume.com/posts/zh-cn/on-typesetting-engines#html--css)\r\n  - [换行](https://blog.ppresume.com/posts/zh-cn/on-typesetting-engines#%E6%8D%A2%E8%A1%8C)\r\n  - [CJK](https://blog.ppresume.com/posts/zh-cn/on-typesetting-engines#cjk)\r\n  - [分页](https://blog.ppresume.com/posts/zh-cn/on-typesetting-engines#%E5%88%86%E9%A1%B5)\r\n  - [实时预览](https://blog.ppresume.com/posts/zh-cn/on-typesetting-engines#%E5%AE%9E%E6%97%B6%E9%A2%84%E8%A7%88)\r\n  - [结论](https://blog.ppresume.com/posts/zh-cn/on-typesetting-engines#%E7%BB%93%E8%AE%BA)\r\n- [LaTeX](https://blog.ppresume.com/posts/zh-cn/on-typesetting-engines#latex)\r\n  - [换行](https://blog.ppresume.com/posts/zh-cn/on-typesetting-engines#%E6%8D%A2%E8%A1%8C-1)\r\n  - [CJK](https://blog.ppresume.com/posts/zh-cn/on-typesetting-engines#cjk-1)\r\n  - [分页](https://blog.ppresume.com/posts/zh-cn/on-typesetting-engines#%E5%88%86%E9%A1%B5-1)\r\n  - [实时预览](https://blog.ppresume.com/posts/zh-cn/on-typesetting-engines#%E5%AE%9E%E6%97%B6%E9%A2%84%E8%A7%88-1)\r\n  - [结论](https://blog.ppresume.com/posts/zh-cn/on-typesetting-engines#%E7%BB%93%E8%AE%BA-1)\r\n- [LaTeX.js](https://blog.ppresume.com/posts/zh-cn/on-typesetting-engines#latexjs)\r\n  - [换行](https://blog.ppresume.com/posts/zh-cn/on-typesetting-engines#%E6%8D%A2%E8%A1%8C-2)\r\n  - [CJK](https://blog.ppresume.com/posts/zh-cn/on-typesetting-engines#cjk-2)\r\n  - [分页](https://blog.ppresume.com/posts/zh-cn/on-typesetting-engines#%E5%88%86%E9%A1%B5-2)\r\n  - [实时预览](https://blog.ppresume.com/posts/zh-cn/on-typesetting-engines#%E5%AE%9E%E6%97%B6%E9%A2%84%E8%A7%88-2)\r\n  - [结论](https://blog.ppresume.com/posts/zh-cn/on-typesetting-engines#%E7%BB%93%E8%AE%BA-2)\r\n- [Typst](https://blog.ppresume.com/posts/zh-cn/on-typesetting-engines#typst)\r\n  - [换行](https://blog.ppresume.com/posts/zh-cn/on-typesetting-engines#%E6%8D%A2%E8%A1%8C-3)\r\n  - [CJK](https://blog.ppresume.com/posts/zh-cn/on-typesetting-engines#cjk-3)\r\n  - [分页](https://blog.ppresume.com/posts/zh-cn/on-typesetting-engines#%E5%88%86%E9%A1%B5-3)\r\n  - [实时预览](https://blog.ppresume.com/posts/zh-cn/on-typesetting-engines#%E5%AE%9E%E6%97%B6%E9%A2%84%E8%A7%88-3)\r\n  - [结论](https://blog.ppresume.com/posts/zh-cn/on-typesetting-engines#%E7%BB%93%E8%AE%BA-3)\r\n- [React-pdf](https://blog.ppresume.com/posts/zh-cn/on-typesetting-engines#react-pdf)\r\n  - [换行](https://blog.ppresume.com/posts/zh-cn/on-typesetting-engines#%E6%8D%A2%E8%A1%8C-4)\r\n  - [CJK](https://blog.ppresume.com/posts/zh-cn/on-typesetting-engines#cjk-4)\r\n  - [分页](https://blog.ppresume.com/posts/zh-cn/on-typesetting-engines#%E5%88%86%E9%A1%B5-4)\r\n  - [实时预览](https://blog.ppresume.com/posts/zh-cn/on-typesetting-engines#%E5%AE%9E%E6%97%B6%E9%A2%84%E8%A7%88-4)\r\n  - [结论](https://blog.ppresume.com/posts/zh-cn/on-typesetting-engines#%E7%BB%93%E8%AE%BA-4)\r\n- [总结](https://blog.ppresume.com/posts/zh-cn/on-typesetting-engines#%E6%80%BB%E7%BB%93)",
+    "created_at": "2024-11-20T02:41:54Z",
+    "labels": [
+      "weekly"
+    ],
+    "url": "https://github.com/ruanyf/weekly/issues/5562"
+  },
+  {
+    "id": 5561,
+    "title": "【网站自荐】Block Blast 求解器",
+    "content": "使用 [Block Blast Solver ](https://blockblastsolver.pro/)获得游戏高分。\r\n\r\nUtilize [Block Blast Solver ](https://blockblastsolver.pro/)to enhance your gameplay with optimal move suggestions.",
+    "created_at": "2024-11-19T17:12:38Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5561"
+  },
+  {
+    "id": 5560,
+    "title": "【AI应用】职业照相馆 - 实现你的职业梦想!",
+    "content": "[职业照相馆 - 实现你的职业梦想!](https://www.coze.cn/s/iATEjkcQ/)\r\n\r\n小时候, 我们经常被问起的一个问题 -- 长大以后做什么?\r\n还记得你曾经梦想的职业吗?\r\n来职业照相馆, 穿上你向往的职业装, 实现你儿时的梦想!\r\n\r\n![image](https://github.com/user-attachments/assets/cc1567a4-feb8-43e5-9a2b-2ff8b3686e0b)\r\n\r\n![img_v3_02gp_679d7b23-54a5-4b1a-bc5f-1aebeb666bcg](https://github.com/user-attachments/assets/7e1b1814-09ab-43c8-9620-1d1196f285b8)\r\n",
+    "created_at": "2024-11-19T10:18:18Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5560"
+  },
+  {
+    "id": 5559,
+    "title": "【网站自荐】Claude3.5 开发的完整推箱子游戏",
+    "content": "# 功能\r\n\r\n完整的[推箱子游戏](https://gallery.selfboot.cn/en/games/sokoban)，使用良好的游戏设计图，带移动小人的动画，自带100个关卡。通过关卡后本地有记录，下次可以继续挑战下一个关卡。\r\n\r\n<img width=\"1561\" alt=\"image\" src=\"https://github.com/user-attachments/assets/5ba40c82-8e55-437b-b08c-678850d95051\">\r\n\r\n除了自定义关卡，还支持编辑自己的关卡，编辑完之后可以保存下来，分享链接给其他人玩。\r\n\r\n<img width=\"1590\" alt=\"image\" src=\"https://github.com/user-attachments/assets/1b0d299d-7ed9-4252-949b-82979db50915\">\r\n\r\n# Claude 辅助实现\r\n\r\n个人是后端开发，没有前端开发经验。使用 Claude3.5 和 cursor ，在周末快速完成推箱子游戏的开发。AI 帮助实现代码，帮助解决一些 bug，整体体验很流畅。\r\n\r\n地址： [https://gallery.selfboot.cn/en/games/sokoban ](https://gallery.selfboot.cn/en/games/sokoban)",
+    "created_at": "2024-11-19T03:32:43Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5559"
+  },
+  {
+    "id": 5558,
+    "title": "【开源工具自荐】MD2HTML：纯前端的 Markdown 和 HTML 双向转换工具（网页版）",
+    "content": "# MD2HTML: 纯前端的 Markdown 和 HTML 双向转换工具\r\n\r\nMD2HTML 是一个开源的在线工具，打开网页即可使用，帮助用户在 Markdown 和 HTML 格式之间轻松转换。**特别适用于 WordPress 内容发布和将 AI 工具（如 ChatGPT、Claude、Perplexity）的输出转换为 HTML 格式。**\r\n\r\n## 开发背景\r\n我会借助 AI 进行创作，比如 Perplexity 搜集材料后，往往我复制的内容均是 Markdown 格式，在 Wordpress 里原生并不能支持 Markdown 的样式，于是我会一键转成 HTML 的格式，粘贴到Wordpress 的文本格式里…… 这方便我自己使用，于是就有了这款在线版工具。\r\n\r\n虽然看起来很小的需求点，但我也尽量把产品做的美观、简洁。 需求往往来自自身所需，在 AI 加持下做自己喜欢的工具很有乐趣。如果能得到阮一峰老师的推荐，有更多的有同样需求的朋友一起加入更好，Thanks\r\n\r\n## 特点\r\n\r\n1. **纯前端实现**：完全在浏览器端运行，无需后端服务，保护用户隐私\r\n2. **双向转换**：支持 Markdown 转 HTML 和 HTML 转 Markdown\r\n3. **实时预览**：转换结果即时可见，支持 HTML 预览\r\n4. **智能清理**：自动去除 AI 工具（如 Perplexity）生成内容中的引用标记\r\n5. **深色模式**：支持浅色/深色主题切换，自动适应系统主题\r\n6. **多语言支持**：内置中英文界面，可扩展其他语言\r\n7. **便捷功能**：一键复制、下载 HTML 文件、实时预览等\r\n\r\n## 技术栈\r\n\r\n- 原生 JavaScript（ES6+）\r\n- Marked.js（Markdown 解析）\r\n- Turndown（HTML 转 Markdown）\r\n- CSS3（响应式设计）\r\n\r\n## 在线体验\r\n\r\n访问 [MD2HTML.com](https://md2html.com) 即可免费使用。\r\n\r\n## 开源地址\r\n\r\n- GitHub: [github.com/pdmaker/Markdown-to-html](https://github.com/pdmaker/Markdown-to-html)\r\n\r\n这是一个轻量级但功能完整的工具，代码结构清晰。欢迎贡献代码或提供建议。",
+    "created_at": "2024-11-18T14:14:04Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5558"
+  },
+  {
+    "id": 5557,
+    "title": "【文章自荐】机器人首次跑完马拉松比赛",
+    "content": "https://cnnews.chosun.com/client/news/viw.asp?nNewsNumb=20241161926&cate=C01&mcate=M1001\r\nKAIST开发的机器人，在世界上首个跑完马拉松比赛",
+    "created_at": "2024-11-18T08:04:27Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5557"
+  },
+  {
+    "id": 5556,
+    "title": "【开源自荐】基于 VitePress 的极简个人博客 & 周刊模板",
+    "content": "## 概览\r\n\r\n写博客和写周刊的朋友似乎越来越多了，而使用 Vitepress 用来搭建一个静态网站是一个非常好的选择，但 Vitepress 本身是面向文档网站的，做博客/周刊网站需要一定的自定义。\r\n\r\n所以就出现了如下两种模板，方便写博客/周刊的朋友快速开始自己的写作之旅，去注重内容而非搭建网站本身。\r\n\r\n- [博客模板](https://github.com/Justin3go/justin3go.com)：相对于周刊模板多了博客列表页、归档页、赞助页等，定制化程度更深，功能更丰富\r\n- [周刊模板](https://github.com/Justin3go/FAV0)：仅有一个阅读页面，但带所有基础功能的模板，更加简单，适合二开\r\n\r\n都具备的基础功能：\r\n\r\n- 🌓 提供明暗模式切换功能，适应不同的阅读环境。\r\n- 🌍 支持中英双语界面，方便不同语言用户的使用。\r\n- 📡 提供RSS订阅功能，支持中英文内容更新推送。\r\n- 💬 集成Giscus评论系统，便于用户交流和反馈。\r\n- 🖼️ 支持高清大图预览，优化视觉体验。\r\n- 📜 允许自定义字体设置，提升阅读舒适度。\r\n- 🔍 进行SEO优化，包括Sitemap生成、Twitter Card和Open Graph标签支持，提高搜索引擎可见性。\r\n\r\n## 博客模板预览\r\n\r\n- [开源链接](https://github.com/Justin3go/justin3go.com)\r\n- [线上预览](https://justin3go.com/)\r\n\r\n预览图片：\r\n\r\n![image](https://github.com/user-attachments/assets/8b83b400-5f00-4294-83ea-a3ef35f690c8)\r\n\r\n![image](https://github.com/user-attachments/assets/cebb7098-e114-4621-801a-63a5493a5e52)\r\n\r\n![image](https://github.com/user-attachments/assets/1d8fb8b8-0ec4-490c-898c-4bf47ddcde62)\r\n\r\n\r\n## 周刊模板预览\r\n\r\n- [开源链接](https://github.com/Justin3go/FAV0)\r\n- [线上预览](https://fav0.com/)\r\n\r\n预览图片：\r\n\r\n![image](https://github.com/user-attachments/assets/b20b0dba-d6d7-4fc6-9ebe-2b33e0b69b90)\r\n\r\n",
+    "created_at": "2024-11-18T07:45:17Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5556"
+  },
+  {
+    "id": 5555,
+    "title": "ReadKidz：一站式多媒体儿童故事创作平台。",
+    "content": "### 网站网址：https://www.readkidz.com/\r\n将想法转化为故事，整合文本、图像和音频。创作叙事，生成插图，并创建可在 KDP 和 YouTube 上发布的作品。简化从灵感到出版的流程，将想象力转化为收入\r\n![产品介绍图1](https://github.com/user-attachments/assets/9c0c91bd-9a67-4cf6-b754-c2a85a5af126)\r\n![产品介绍图2](https://github.com/user-attachments/assets/4da0a546-c062-42f3-b4c1-6ab24571cd41)\r\n![产品介绍图3](https://github.com/user-attachments/assets/cc26cea9-5f4d-4f12-bdf1-2ec5deb5a575)\r\n### 产品优势：\r\n- 一站式解决方案，集成故事创作、插图生成、排版和视频制作。\r\n- 支持更多语言，便于创作国际化内容。\r\n- 清晰的版权政策，允许商业使用。\r\n- 减少用户在多个平台间切换的需求。\r\n- 适合各种技术水平的用户，从新手到专业创作者。\r\n- 能根据用户输入生成高度个性化的内容。\r\n",
+    "created_at": "2024-11-18T07:02:15Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5555"
+  },
+  {
+    "id": 5554,
+    "title": "【网站自荐】Sound Box 专业的免费在线情境音效平台，提供多种自然环境音效以及白噪音，帮助用户打造完美的声音空间。无论是为了专注工作、放松心情，还是助眠解压，都能找到最适合的声音组合。",
+    "content": "## 一、网站简介\r\n\r\nSound Box 是一款专业的免费在线情境音效平台，提供多种自然环境音效以及白噪音，帮助用户打造完美的声音空间。无论是为了专注工作、放松心情，还是助眠解压，都能找到最适合的声音组合。\r\n\r\n官网：[ https://soundbox.fun/ ]( https://soundbox.fun/ )\r\n\r\n截图：\r\n![sound-box-fun-专业在线免费情境音生成器-professional-online-free-soundscape-white-noise-generator-full-page](https://github.com/user-attachments/assets/e667d628-1377-4f74-83fb-5988757a0f6d)\r\n\r\n\r\n## 二、核心特性\r\n\r\n### 1. 丰富的声音库\r\n- 精选优质环境音效：雨声、海浪、鸟鸣、虫鸣等自然声音\r\n- 白噪音与环境音：咖啡厅、火焰、风声等氛围音效\r\n- 每个音效都经过专业处理，确保最佳音质\r\n\r\n### 2. 专业混音功能\r\n- 支持多声道混音，可同时播放多个音效\r\n- 独立音量控制，精确调节每个声道\r\n- 智能音量平滑过渡，避免突兀变化\r\n- 总音量控制，一键调节整体效果\r\n\r\n### 3. 绚丽的可视化效果\r\n- 三种动态可视化效果：频谱、波形、柱状图\r\n- 实时响应音频变化，提供视听盛宴\r\n- 深色模式支持，保护夜间使用体验\r\n\r\n### 4. 智能预设系统\r\n- 内置多种场景预设：晨间冥想、雨天咖啡、海边黄昏等\r\n- 支持保存自定义预设\r\n- 预设导入导出功能，方便分享和备份\r\n\r\n### 5. 贴心的定时功能\r\n- 支持最长 3 小时定时播放\r\n- 渐弱效果，温和地结束播放\r\n- 精确到分钟的时间控制\r\n\r\n## 三、网站优势\r\n\r\n### 1. 简约而不简单\r\n- 极简设计理念，界面清爽直观\r\n- 功能强大但操作简单\r\n- 响应式设计，完美适配各种设备\r\n\r\n### 2. 注重用户隐私\r\n- 所有数据本地存储，保护用户隐私\r\n- 采用 HTTPS 加密传输\r\n- 无需注册登录，即开即用\r\n\r\n### 3. 全平台支持\r\n- 支持所有主流浏览器\r\n- 完美适配电脑、平板、手机\r\n- 无需安装，随时随地使用\r\n\r\n### 4. 社交分享\r\n- 支持多平台一键分享\r\n- 场景配置保存与分享\r\n- 轻松传递美好声音体验\r\n\r\n## 四、使用场景\r\n\r\n- 工作专注：屏蔽干扰，提升工作效率\r\n- 睡眠助眠：营造舒适的睡眠环境\r\n- 冥想放松：帮助身心放松，减轻压力\r\n- 阅读伴侣：提供完美的阅读背景音\r\n- 创作灵感：激发创作灵感的氛围营造\r\n- 瑜伽冥想：打造专业的冥想环境\r\n\r\n## 五、未来规划\r\n\r\n- 更多音效：持续扩充优质声音库\r\n- AI 推荐：智能推荐个性化声音组合\r\n- 离线支持：支持音效离线使用\r\n- 音效分类：更细致的场景分类\r\n- 社区互动：用户分享交流平台",
+    "created_at": "2024-11-16T16:28:12Z",
+    "labels": [
+      "weekly"
+    ],
+    "url": "https://github.com/ruanyf/weekly/issues/5554"
+  },
+  {
+    "id": 5553,
+    "title": "【网站自荐】yes还是no随机生成器",
+    "content": "# 网站介绍\r\n生成随机yes或者no答案的网站，每次点击oracle按钮，可以生成yes或者no的随机答案，帮助选择困难症用户，轻松选择yes还是no\r\n\r\n# 网站网址\r\nhttps://yesnooracle.dev/\r\n\r\n# 功能特点\r\n1、yes或者no随机生成\r\n2、免费无登录不注册\r\n3、支持多语言，不完善\r\n\r\n# 网站截图\r\n![yesno](https://github.com/user-attachments/assets/ed94e98f-f092-4681-9520-d6ca3b7aecd2)\r\n\r\n",
+    "created_at": "2024-11-16T14:12:21Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5553"
+  },
+  {
+    "id": 5551,
+    "title": "【网站自荐】完全使用Ai开发的工具聚合站（Ai工具、开发辅助等），从布局、到样式、到逻辑代码皆由Ai生成",
+    "content": "甚至包括 自动化部署脚本以及Logo ☺\r\n\r\n免登录、免费使用\r\n\r\nhttps://ai-pandora.xyz\r\n\r\nAi × 愛\r\n\r\n![image](https://github.com/user-attachments/assets/799bfc3e-d9e7-48b0-b7e1-24250baf18dc)\r\n\r\n![image](https://github.com/user-attachments/assets/52984968-480f-4edb-b524-0964e5e212d5)\r\n\r\n![image](https://github.com/user-attachments/assets/724e65a2-465a-4358-aed9-b20f1af156c5)\r\n\r\n",
+    "created_at": "2024-11-15T09:23:40Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5551"
+  }
+]
