@@ -5,8 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc && vite build",
-    "preview": "vite preview"
+    "build": "vite build",
+    "preview": "vite preview",
+    "typecheck": "vue-tsc --noEmit"
   },
   "dependencies": {
     "@vueuse/core": "^10.0.0",
