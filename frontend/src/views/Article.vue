@@ -120,6 +120,10 @@ main {
   flex-wrap: wrap;
   gap: 8px;
 }
+img {
+  width: 600px;
+  height: auto;
+}
 
 .label {
   padding: 6px 14px;
@@ -167,6 +171,10 @@ main {
 .markdown-body p {
   margin-bottom: 1.5em;
   letter-spacing: 0.02em;
+}
+
+.markdown-body >>> img{
+    width: 100%;
 }
 
 /* 图片容器和图片样式 */
