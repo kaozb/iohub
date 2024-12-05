@@ -7,11 +7,14 @@ on:
   push:
     branches: [ main ]   # 当 main 分支有推送时也触发
 
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write     # 允许写入内容
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -72,9 +75,6 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     needs: build
     runs-on: ubuntu-latest
-    permissions:
-      pages: write
-      id-token: write
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
