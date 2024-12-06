@@ -35,7 +35,7 @@ jobs:
       - name: Fetch articles and update data
         run: |
           cd backend
-          python backend/main.py
+          python main.py
           
       - name: Setup pnpm
         uses: pnpm/action-setup@v3
