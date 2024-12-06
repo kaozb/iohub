@@ -1,5 +1,45 @@
 [
   {
+    "id": 5658,
+    "title": "【开源/工具自荐】自带中文手写字体和 AI 功能的画板",
+    "content": "项目地址：https://github.com/KwokKwok/excalidraw\r\n在线使用：https://draw.kwok.ink\r\n\r\n这是一个 Excalidraw 的 fork 项目，增加了\r\n1. 中文手写字体\r\n2. 可配置的 AI 功能。\r\n\r\nExcalidraw 本身的 AI 功能，部分需要请求他们官方的 AI 后端，部分需要配置 OpenAI 的密钥（但是不能配置 baseURL等），有较多相关 issue 但是官方也没有响应（可能出于商业考量？）\r\n\r\n这个 fork 直接把相关的 AI 功能统一调整为使用前端直接请求，并可以指定 baseURL、视觉模型、语言模型等\r\n\r\n---\r\n\r\n目前在画流程图、根据当前画板出一个简单的页面上比较有用\r\n\r\n<img width=\"1207\" alt=\"image\" src=\"https://github.com/user-attachments/assets/8d9e6486-957f-4b6b-9fa2-5cff82874d39\">\r\n\r\n<img width=\"1207\" alt=\"image\" src=\"https://github.com/user-attachments/assets/2e1109b0-3732-482c-8eb0-03a1afef195e\">\r\n\r\n\r\n---\r\n视频展示\r\n\r\nhttps://github.com/user-attachments/assets/29958d45-d959-486b-afa4-8f44e470bed3\r\n\r\n",
+    "created_at": "2024-12-06T03:06:53Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5658"
+  },
+  {
+    "id": 5657,
+    "title": "【网站自荐】在浏览器里共享自己的屏幕给朋友！无需下载，非常好用",
+    "content": "\r\n\r\n每次想要给朋友演示东西，都觉得很麻烦。因为只通过微信，是做不到的，只能靠截图、或者打视频电话，非常麻烦。\r\n\r\n所以我做了这么一个网站。\r\n\r\n分享后，会生成一个链接；把链接给朋友，你的朋友就可以看到你的实时桌面了。\r\n\r\nhttps://screensharing.net/\r\n\r\n请一定要试试看，连我自己都觉得挺神奇的..\r\n\r\n<video width=\"720\" height=\"480\" controls>\r\n    <source src=\"[movie.mp4](https://github.com/user-attachments/assets/add63197-3ba0-4c25-bf70-e7d3f5bb6394)\" type=\"video/mp4\">\r\n</video>\r\n\r\nhttps://github.com/user-attachments/assets/add63197-3ba0-4c25-bf70-e7d3f5bb6394\r\n\r\n",
+    "created_at": "2024-12-06T02:28:03Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5657"
+  },
+  {
+    "id": 5656,
+    "title": "【网站自荐】Numberpairs: 一个没有Web开发经验的程序猿使用Cursor写的益智类小游戏站",
+    "content": "### Curosr\r\n简单看过Nuxt.js的文档，从0开始使用Cursor搭建项目，从一个页面逐渐到多页面、适配多语言、文案的生成都是AI协助完成，一些简单的游戏或者说特别出名的游戏，比如俄罗斯方块、2048使用Cursor都能自行完成\r\n\r\n### Vercel\r\nVercel支持一件部署、配合Cloudflare一键绑定域名，轻轻松松上线一个网站\r\n\r\n### 关于Numberpairs\r\n- 益智类小游戏网站在线玩扫雷、2048、数独等等，好玩耐玩\r\n- 页面设计布局简洁，配色以浅色为主，适合休息摸鱼\r\n\r\n网站地址：[https://www.numberpairs.org](https://www.numberpairs.org)\r\n\r\n",
+    "created_at": "2024-12-05T13:30:08Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5656"
+  },
+  {
+    "id": 5655,
+    "title": "【浏览器扩展/插件自荐】上帝小助手-浏览器插件开发平台（使用低代码和用户脚本自由地改变网络）",
+    "content": "* 名称：上帝小助手\r\n* 网址/二维码：\r\n  * Chrome 浏览器请 [从 Chrome 应用商店安装](https://chromewebstore.google.com/detail/lgidjfclkbjgbjfbebecgapobjddolbd)\r\n  * Edge 浏览器请 [从 Edge 应用商店安装](https://microsoftedge.microsoft.com/addons/detail/badfbconebmibddbkhlnmljjagcfkgdo)\r\n  * [从 GitHub 下载离线包安装](https://github.com/bingoogolapple/bga-god-assistant-config)\r\n  * [从 Gitee 下载离线包安装](https://gitee.com/bingoogolapple/bga-programmer-assistant-config)\r\n\r\n| 微信群                                       | 微信公众号                             | 作者微信                              |\r\n| -------------------------------------------------------------------- | -------------------------------------------------------------- | ------------------------------------------------------------- |\r\n| <img width=\"180\" alt=\"微信群\" src=\"https://github.com/bingoogolapple/bga-god-assistant-config/raw/main/images/WeChatGroup1QrCode.jpg\"> | <img width=\"180\" alt=\"公众号\" src=\"https://github.com/bingoogolapple/bga-god-assistant-config/raw/main/images/GongZhongHao.png\"> | <img width=\"180\" alt=\"作者微信\" src=\"https://github.com/bingoogolapple/bga-god-assistant-config/raw/main/images/BGAQrCode.png\"> |\r\n* 介绍：上帝小助手浏览器扩展程序是一个浏览器扩展开发平台，使用低代码和用户脚本自由地改变网络\r\n* 作者：[bingoogolapple](https://github.com/bingoogolapple)\r\n",
+    "created_at": "2024-12-05T13:26:38Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5655"
+  },
+  {
+    "id": 5654,
+    "title": "【网站自荐】Genie 2：首个大规模基础世界模型，能将单张图像转换为完全交互式的 3D 环境",
+    "content": "Genie 2 是一个突破性的基础世界模型，能够生成无限多样的、可操控的、可玩的 3D 环境。\r\n\r\nGenie 2 代表着世界建模技术的重大突破。是 Google DeepMind 最新的创新成果，能够从单个提示图像生成无限多样的丰富交互式 3D 环境，为 AI 训练和评估开创了前所未有的可能性。\r\n\r\n与仅限于 2D 世界的前代 Genie 1 不同，Genie 2 创建了具有复杂物理特性、角色动画和对象交互的 3D 环境。从模拟水效果到建模重力和光照，Genie 2 展示了在生成持续一分钟的连贯可玩世界方面的卓越能力。\r\n\r\n我开发了一个网站，介绍了关于 Genie 2 的详细情况。\r\n\r\n网站地址：https://genie2.co/",
+    "created_at": "2024-12-05T10:05:52Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5654"
+  },
+  {
     "id": 5653,
     "title": "【网站自荐】EasyTransfer：匿名、加密、方便易用的端到端文件传输工具",
     "content": "## 一句话简介\r\n\r\n一款端到端文件传输工具，主打匿名和方便易用。\r\n\r\n**👉链接：[file.ch3nyang.top](https://file.ch3nyang.top/)**\r\n\r\n**👉GitHub 地址：[WCY-dt/EasyTransfer](https://github.com/WCY-dt/EasyTransfer)**\r\n\r\n## 应用简介\r\n\r\n![example](https://github.com/user-attachments/assets/8f542bea-42a8-494d-868e-57c49f67421f)\r\n\r\n该工具使用 WebRTC 实现端到端加密传输。\r\n\r\n使用时，在需要传输文件的两台设备上都打开网站，在其中一台设备上输入另一台的四位代码，即可完成连接。\r\n\r\n该工具支持文件、文字、拍照等多种传输格式。\r\n\r\n该项目全部开源。如果不放心，一行命令也不用输入就可以自行部署。\r\n\r\n## 应用特色\r\n\r\n- 免费：都开源了，运营成本也极低，当然免费\r\n- 匿名：无需登录，且每次连接的信息会在 10 分钟内销毁\r\n- 加密：WebRTC 默认加密传输\r\n- 去中心化：服务器仅用于辅助连接，后续传输不会通过服务器（需要内网穿透的除外）\r\n- 适应性强：部署了 STUN 和 TURN 服务器，支持各种网络环境，局域网和广域网都能传\r\n- 易用：输入四位代码就能连接，不需要分享链接等繁琐操作\r\n- 高速：支持并行传输，加快传输速度\r\n\r\n## 备注\r\n\r\n对于个人开发者，这个功能很难在国内备案通过。因此暂时部署在境外。不过有需求的话，自行部署也很方便。",
@@ -802,23 +842,5 @@
     "created_at": "2024-11-18T07:45:17Z",
     "labels": [],
     "url": "https://github.com/ruanyf/weekly/issues/5556"
-  },
-  {
-    "id": 5555,
-    "title": "ReadKidz：一站式多媒体儿童故事创作平台。",
-    "content": "### 网站网址：https://www.readkidz.com/\r\n将想法转化为故事，整合文本、图像和音频。创作叙事，生成插图，并创建可在 KDP 和 YouTube 上发布的作品。简化从灵感到出版的流程，将想象力转化为收入\r\n![产品介绍图1](https://github.com/user-attachments/assets/9c0c91bd-9a67-4cf6-b754-c2a85a5af126)\r\n![产品介绍图2](https://github.com/user-attachments/assets/4da0a546-c062-42f3-b4c1-6ab24571cd41)\r\n![产品介绍图3](https://github.com/user-attachments/assets/cc26cea9-5f4d-4f12-bdf1-2ec5deb5a575)\r\n### 产品优势：\r\n- 一站式解决方案，集成故事创作、插图生成、排版和视频制作。\r\n- 支持更多语言，便于创作国际化内容。\r\n- 清晰的版权政策，允许商业使用。\r\n- 减少用户在多个平台间切换的需求。\r\n- 适合各种技术水平的用户，从新手到专业创作者。\r\n- 能根据用户输入生成高度个性化的内容。\r\n",
-    "created_at": "2024-11-18T07:02:15Z",
-    "labels": [],
-    "url": "https://github.com/ruanyf/weekly/issues/5555"
-  },
-  {
-    "id": 5554,
-    "title": "【网站自荐】Sound Box 专业的免费在线情境音效平台，提供多种自然环境音效以及白噪音，帮助用户打造完美的声音空间。无论是为了专注工作、放松心情，还是助眠解压，都能找到最适合的声音组合。",
-    "content": "## 一、网站简介\r\n\r\nSound Box 是一款专业的免费在线情境音效平台，提供多种自然环境音效以及白噪音，帮助用户打造完美的声音空间。无论是为了专注工作、放松心情，还是助眠解压，都能找到最适合的声音组合。\r\n\r\n官网：[ https://soundbox.fun/ ]( https://soundbox.fun/ )\r\n\r\n截图：\r\n![sound-box-fun-专业在线免费情境音生成器-professional-online-free-soundscape-white-noise-generator-full-page](https://github.com/user-attachments/assets/e667d628-1377-4f74-83fb-5988757a0f6d)\r\n\r\n\r\n## 二、核心特性\r\n\r\n### 1. 丰富的声音库\r\n- 精选优质环境音效：雨声、海浪、鸟鸣、虫鸣等自然声音\r\n- 白噪音与环境音：咖啡厅、火焰、风声等氛围音效\r\n- 每个音效都经过专业处理，确保最佳音质\r\n\r\n### 2. 专业混音功能\r\n- 支持多声道混音，可同时播放多个音效\r\n- 独立音量控制，精确调节每个声道\r\n- 智能音量平滑过渡，避免突兀变化\r\n- 总音量控制，一键调节整体效果\r\n\r\n### 3. 绚丽的可视化效果\r\n- 三种动态可视化效果：频谱、波形、柱状图\r\n- 实时响应音频变化，提供视听盛宴\r\n- 深色模式支持，保护夜间使用体验\r\n\r\n### 4. 智能预设系统\r\n- 内置多种场景预设：晨间冥想、雨天咖啡、海边黄昏等\r\n- 支持保存自定义预设\r\n- 预设导入导出功能，方便分享和备份\r\n\r\n### 5. 贴心的定时功能\r\n- 支持最长 3 小时定时播放\r\n- 渐弱效果，温和地结束播放\r\n- 精确到分钟的时间控制\r\n\r\n## 三、网站优势\r\n\r\n### 1. 简约而不简单\r\n- 极简设计理念，界面清爽直观\r\n- 功能强大但操作简单\r\n- 响应式设计，完美适配各种设备\r\n\r\n### 2. 注重用户隐私\r\n- 所有数据本地存储，保护用户隐私\r\n- 采用 HTTPS 加密传输\r\n- 无需注册登录，即开即用\r\n\r\n### 3. 全平台支持\r\n- 支持所有主流浏览器\r\n- 完美适配电脑、平板、手机\r\n- 无需安装，随时随地使用\r\n\r\n### 4. 社交分享\r\n- 支持多平台一键分享\r\n- 场景配置保存与分享\r\n- 轻松传递美好声音体验\r\n\r\n## 四、使用场景\r\n\r\n- 工作专注：屏蔽干扰，提升工作效率\r\n- 睡眠助眠：营造舒适的睡眠环境\r\n- 冥想放松：帮助身心放松，减轻压力\r\n- 阅读伴侣：提供完美的阅读背景音\r\n- 创作灵感：激发创作灵感的氛围营造\r\n- 瑜伽冥想：打造专业的冥想环境\r\n\r\n## 五、未来规划\r\n\r\n- 更多音效：持续扩充优质声音库\r\n- AI 推荐：智能推荐个性化声音组合\r\n- 离线支持：支持音效离线使用\r\n- 音效分类：更细致的场景分类\r\n- 社区互动：用户分享交流平台",
-    "created_at": "2024-11-16T16:28:12Z",
-    "labels": [
-      "weekly"
-    ],
-    "url": "https://github.com/ruanyf/weekly/issues/5554"
   }
 ]

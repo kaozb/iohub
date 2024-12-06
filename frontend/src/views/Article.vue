@@ -2,7 +2,6 @@
   <div class="container">
     <div class="article-detail" v-if="article">
       <header>
-        <router-link to="/" class="back-link">← 返回首页</router-link>
         <h1>{{ article.title }}</h1>
         <div class="meta">
           <span class="date">{{ formatDate(article.created_at) }}</span>
@@ -83,76 +82,130 @@ window.handleImageClick = handleImageClick
 
 <style scoped>
 .container {
-  max-width: 800px;
+  max-width: 60%;
   margin: 0 auto;
-  padding: 20px;
+  padding: 24px;
+  min-height: calc(100vh - 64px);
 }
 
-main {
-  width: 100%;
-  overflow: hidden;  /* 防止图片溢出 */
-}
-
-.back-link {
-  display: inline-block;
-  margin-bottom: 20px;
-  color: #666;
-  text-decoration: none;
-}
-
-.back-link:hover {
-  color: #3498db;
+h1 {
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: #111827;
+  margin-bottom: 16px;
+  line-height: 1.3;
+  letter-spacing: -0.025em;
 }
 
 .meta {
-  margin: 20px 0;
-  color: #666;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 16px 0;
 }
 
 .date {
-  display: block;
-  margin: 15px 0;
+  color: #6b7280;
+  font-size: 0.875rem;
 }
 
 .labels {
-  margin-top: 10px;
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
-}
-img {
-  width: 600px;
-  height: auto;
+  gap: 6px;
 }
 
 .label {
-  padding: 6px 14px;
-  border-radius: 20px;
-  font-size: 13px;
+  padding: 4px 12px;
+  border-radius: 16px;
+  font-size: 12px;
   font-weight: 500;
-  color: #fff;
-  background: linear-gradient(135deg, #2563eb, #3b82f6);
-  box-shadow: 0 2px 10px rgba(99, 102, 241, 0.2);
-  transition: all 0.3s ease;
-  cursor: pointer;
+  color: #16a34a;
+  background: #dcfce7;
+  transition: all 0.2s ease;
+  cursor: default;
   display: inline-flex;
   align-items: center;
-  line-height: 1;
+  line-height: 1.2;
 }
 
 .label:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+  background: #bbf7d0;
+}
+
+main {
+  background: white;
+  padding: 32px;
+  border-radius: 16px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  border: 1px solid #f0f0f0;
+}
+
+.markdown-body {
+  color: #374151;
+  line-height: 1.8;
+  font-size: 1rem;
+}
+
+.markdown-body >>> img {
+  width: 100%;
+}
+
+.markdown-body p {
+  margin: 1.2em 0;
+  line-height: 1.7;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4 {
+  color: #111827;
+  font-weight: 600;
+  margin: 1.5em 0 1em;
+  line-height: 1.3;
+}
+
+.markdown-body h1 { font-size: 1.5rem; }
+.markdown-body h2 { font-size: 1.375rem; }
+.markdown-body h3 { font-size: 1.25rem; }
+.markdown-body h4 { font-size: 1.125rem; }
+
+.markdown-body pre {
+  background: #f8fafc;
+  padding: 16px;
+  border-radius: 8px;
+  overflow-x: auto;
+  margin: 1.5em 0;
+  border: 1px solid #e5e7eb;
+  font-size: 0.9375rem;
+}
+
+.markdown-body code {
+  font-family: ui-monospace, monospace;
+  color: #374151;
+}
+
+.markdown-body blockquote {
+  margin: 1.5em 0;
+  padding: 0.5em 1em;
+  border-left: 4px solid #e5e7eb;
+  background: #f9fafb;
+  color: #4b5563;
 }
 
 .source {
-  margin-top: 40px;
-  padding-top: 20px;
-  border-top: 1px solid #eee;
+  margin-top: 24px;
+  padding-top: 16px;
+  border-top: 1px solid #f3f4f6;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .source a {
-  color: #3498db;
+  font-size: 0.875rem;
+  color: #2563eb;
+  font-weight: 500;
   text-decoration: none;
 }
 
@@ -160,162 +213,6 @@ img {
   text-decoration: underline;
 }
 
-/* Markdown 样式 */
-.markdown-body {
-  color: #24292e;
-  line-height: 1.8;
-  padding: 20px 0;
-  font-size: 16px;
-}
-
-.markdown-body p {
-  margin-bottom: 1.5em;
-  letter-spacing: 0.02em;
-}
-
-.markdown-body >>> img{
-    width: 100%;
-}
-
-/* 图片容器和图片样式 */
-.markdown-body .article-img-wrapper {
-  width: 100%;
-  max-width: 600px;
-  margin: 1.5rem auto;
-}
-
-.markdown-body .img-container {
-  position: relative;
-  width: 100%;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
-}
-
-.markdown-body .img-container img {
-  width: 100%;
-  height: auto;
-  object-fit: contain;
-  background-color: #f5f5f5;
-  transition: transform 0.3s ease;
-  cursor: zoom-in;
-  display: block;
-}
-
-.markdown-body .img-container:hover img {
-  transform: scale(1.05);
-}
-
-/* 预览模式时显示完整图片 */
-.image-preview img {
-  width: auto;
-  height: auto;
-  max-width: 90%;
-  max-height: 90vh;
-  position: relative;
-  object-fit: contain;
-}
-
-/* 移动端适配 */
-@media (max-width: 768px) {
-  .markdown-body .article-img-wrapper {
-    max-width: 100%; /* 移动端占满宽度 */
-    margin: 1rem 0;
-  }
-  
-  .markdown-body .img-container {
-    padding-bottom: 66.67%; /* 3:2 比例，可以根据需要调整 */
-    border-radius: 8px;
-  }
-}
-
-/* 优化代码块显示 */
-.markdown-body pre {
-  padding: 16px;
-  overflow: auto;
-  font-size: 85%;
-  line-height: 1.45;
-  background-color: #f6f8fa;
-  border-radius: 6px;
-  margin-bottom: 16px;
-  border: 1px solid #eaecef;
-}
-
-.markdown-body pre code {
-  padding: 0;
-  background: none;
-  border-radius: 0;
-  font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
-}
-
-/* 优化引用块样式 */
-.markdown-body blockquote {
-  padding: 0.5em 1em;
-  color: #6a737d;
-  border-left: 0.25em solid #dfe2e5;
-  margin: 1em 0;
-  background-color: #f6f8fa;
-  border-radius: 0 4px 4px 0;
-}
-
-/* 标题样式 */
-.markdown-body h1,
-.markdown-body h2,
-.markdown-body h3,
-.markdown-body h4,
-.markdown-body h5,
-.markdown-body h6 {
-  margin-top: 24px;
-  margin-bottom: 16px;
-  font-weight: 600;
-  line-height: 1.25;
-}
-
-.markdown-body h1 { font-size: 2em; }
-.markdown-body h2 { font-size: 1.5em; }
-.markdown-body h3 { font-size: 1.25em; }
-
-/* 适配移动端 */
-@media (max-width: 768px) {
-  .container {
-    padding: 15px;
-  }
-
-  .markdown-body {
-    padding: 15px;
-  }
-
-  .markdown-body img {
-    max-width: 100%;
-    border-radius: 8px;
-  }
-
-  .markdown-body p:has(img) {
-    margin: 20px auto;
-  }
-
-  .label {
-    padding: 4px 12px;
-    font-size: 12px;
-    font-weight: normal;
-  }
-
-  .image-preview img {
-    max-width: 95%;
-    max-height: 95vh;
-  }
-}
-
-/* 优化图片说明文字 */
-.markdown-body p:has(img) + p {
-  text-align: center;
-  color: #666;
-  font-size: 14px;
-  margin-top: -20px;
-  margin-bottom: 30px;
-}
-
-/* 图片预览遮罩层 */
 .image-preview {
   position: fixed;
   top: 0;
@@ -328,7 +225,6 @@ img {
   align-items: center;
   z-index: 1000;
   cursor: zoom-out;
-  animation: fadeIn 0.3s ease;
 }
 
 .image-preview img {
@@ -336,26 +232,23 @@ img {
   max-height: 90vh;
   object-fit: contain;
   border-radius: 8px;
-  animation: zoomIn 0.3s ease;
-  transition: transform 0.1s ease;
-  cursor: move;
-  transform-origin: center center;
-  user-select: none;
 }
 
-@keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
-}
-
-@keyframes zoomIn {
-  from {
-    opacity: 0;
-    transform: scale(0.95);
+@media (max-width: 768px) {
+  .container {
+    padding: 16px;
   }
-  to {
-    opacity: 1;
-    transform: scale(1);
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  main {
+    padding: 20px;
+  }
+
+  .meta {
+    gap: 8px;
   }
 }
 </style> 

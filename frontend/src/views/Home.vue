@@ -1,7 +1,6 @@
 <template>
   <div class="container">
     <header>
-      <h1>GitHub Weekly 分享站点</h1>
       <div class="search">
         <input v-model="searchQuery" placeholder="搜索文章...">
       </div>
@@ -91,13 +90,28 @@ watch(searchQuery, () => {
 })
 
 const getFirstImage = (content: string) => {
-  const imgMatch = content.match(/!\[.*?\]\((.*?)\)/)
-  if (imgMatch && imgMatch[1]) {
-    const imgUrl = imgMatch[1]
-    if (imgUrl.includes('assets/')) {
-      return imgUrl
+  // 匹配 Markdown 图片语法
+  const mdMatches = content.match(/!\[.*?\]\((.*?)\)/g)
+  if (mdMatches) {
+    for (const match of mdMatches) {
+      const imgUrl = match.match(/!\[.*?\]\((.*?)\)/)[1]
+      if (imgUrl.includes('assets/') || imgUrl.startsWith('http')) {
+        return imgUrl
+      }
     }
   }
+
+  // 匹配 HTML img 标签
+  const htmlMatches = content.match(/<img[^>]+src="([^">]+)"/g)
+  if (htmlMatches) {
+    for (const match of htmlMatches) {
+      const imgUrl = match.match(/src="([^">]+)"/)[1]
+      if (imgUrl.includes('assets/') || imgUrl.startsWith('http')) {
+        return imgUrl
+      }
+    }
+  }
+
   return null
 }
 
@@ -138,143 +152,146 @@ const formatDate = (dateStr: string) => {
 </script>
 
 <style scoped>
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 24px;
+  min-height: calc(100vh - 64px);
 }
 
 header {
-  margin-bottom: 40px;
+  margin-bottom: 24px;
   text-align: center;
 }
 
-h1 {
-  margin-bottom: 20px;
-  color: #2c3e50;
+.search {
+  max-width: 600px;
+  margin: 0 auto;
+  position: relative;
 }
 
 .search input {
   width: 100%;
-  max-width: 600px;
   padding: 12px 20px;
-  font-size: 16px;
-  border: 2px solid #ddd;
-  border-radius: 8px;
-  transition: border-color 0.3s;
+  font-size: 0.875rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  background: white;
+  transition: all 0.2s ease;
+  color: #374151;
 }
 
 .search input:focus {
-  border-color: #3498db;
+  border-color: #2563eb;
   outline: none;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+}
+
+.search input::placeholder {
+  color: #9ca3af;
 }
 
 .articles {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-  gap: 30px;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 24px;
+  padding: 12px;
 }
 
 article {
-  padding: 25px;
-  border: 1px solid #eee;
-  border-radius: 12px;
+  padding: 20px;
+  border-radius: 16px;
   background: white;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
-  transition: transform 0.2s;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  transition: all 0.2s ease;
   display: flex;
   flex-direction: column;
+  border: 1px solid #f0f0f0;
 }
 
 article:hover {
-  transform: translateY(-3px);
+  transform: translateY(-2px);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
 }
 
 article h2 {
-  font-size: 1.2rem;
-  margin-bottom: 15px;
-  color: #2c3e50;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+  line-height: 1.4;
+  color: #111827;
+}
+
+article h2 a {
+  color: inherit;
+  text-decoration: none;
 }
 
 .labels {
-  margin-top: 10px;
+  margin: 12px 0;
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
+  gap: 6px;
 }
 
 .label {
-  padding: 6px 14px;
-  border-radius: 20px;
-  font-size: 13px;
+  padding: 4px 12px;
+  border-radius: 16px;
+  font-size: 12px;
   font-weight: 500;
-  color: #fff;
-  background: linear-gradient(135deg, #2563eb, #3b82f6);
-  box-shadow: 0 2px 10px rgba(99, 102, 241, 0.2);
-  transition: all 0.3s ease;
-  cursor: pointer;
+  color: #16a34a;
+  background: #dcfce7;
+  transition: all 0.2s ease;
+  cursor: default;
   display: inline-flex;
   align-items: center;
-  line-height: 1;
+  line-height: 1.2;
 }
 
 .label:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+  background: #bbf7d0;
 }
 
 .content {
   position: relative;
-  color: #666;
-  line-height: 1.6;
-  margin: 15px 0;
-  min-height: 48px;
-  max-height: 72px;
-  overflow: hidden;
+  margin: 12px 0;
+  min-height: 40px;
 }
 
 .content p {
   margin: 0;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: #4b5563;
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
-  text-overflow: ellipsis;
-  font-size: 14px;
-  color: #666;
-}
-
-.content-fade {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 24px;
-  background: linear-gradient(transparent, white);
-  pointer-events: none;
 }
 
 .article-footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 20px;
-  padding-top: 15px;
-  border-top: 1px solid #eee;
+  margin-top: 16px;
+  padding-top: 12px;
+  border-top: 1px solid #f3f4f6;
 }
 
 .date {
-  color: #999;
-  font-size: 0.9rem;
+  color: #6b7280;
+  font-size: 0.875rem;
 }
 
-a {
-  color: #3498db;
-  text-decoration: none;
+.article-footer a {
+  font-size: 0.875rem;
+  color: #2563eb;
   font-weight: 500;
+  text-decoration: none;
 }
 
-a:hover {
+.article-footer a:hover {
   text-decoration: underline;
 }
 
@@ -283,9 +300,10 @@ a:hover {
   width: 100%;
   height: 0;
   padding-bottom: 56.25%;
-  margin-bottom: 15px;
-  border-radius: 8px;
+  margin-bottom: 12px;
+  border-radius: 12px;
   overflow: hidden;
+  background: #f9fafb;
 }
 
 .preview-image img {
@@ -306,45 +324,71 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20px;
-  margin-top: 40px;
-  padding: 20px 0;
+  gap: 16px;
+  margin-top: 48px;
+  padding: 24px 0;
 }
 
 .page-btn {
   padding: 8px 16px;
-  border: none;
-  border-radius: 8px;
-  background: #3498db;
-  color: white;
-  font-size: 14px;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  background: white;
+  color: #374151;
+  font-size: 0.875rem;
+  font-weight: 500;
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 100px;
 }
 
 .page-btn:hover:not(:disabled) {
-  background: #2980b9;
-  transform: translateY(-1px);
+  background: #f3f4f6;
+  border-color: #d1d5db;
+  color: #111827;
 }
 
 .page-btn:disabled {
-  background: #ccc;
+  background: #f9fafb;
+  border-color: #e5e7eb;
+  color: #9ca3af;
   cursor: not-allowed;
 }
 
 .page-info {
-  font-size: 14px;
-  color: #666;
+  font-size: 0.875rem;
+  color: #6b7280;
+  font-weight: 500;
+  padding: 0 8px;
 }
 
 @media (max-width: 768px) {
+  .container {
+    padding: 16px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+
+  .search input {
+    padding: 10px 16px;
+  }
+
   .pagination {
-    gap: 10px;
+    gap: 12px;
+    margin-top: 32px;
+    padding: 16px 0;
   }
 
   .page-btn {
     padding: 6px 12px;
-    font-size: 13px;
+    min-width: 80px;
+    font-size: 0.813rem;
   }
 }
 </style> 
