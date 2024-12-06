@@ -13,6 +13,7 @@ permissions:
   id-token: write
 
 jobs:
+  # 构建工作
   build:
     runs-on: ubuntu-latest
     steps:
@@ -28,19 +29,14 @@ jobs:
 
       - name: Install Python dependencies
         run: |
-          pip install httpx
+          cd backend
+          pip install -r requirements.txt
 
       - name: Fetch articles and update data
         run: |
+          cd backend
           python backend/main.py
           
-      - name: Commit and Push if changed
-        run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git add frontend/src/data/articles.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Update articles.json by GitHub Action" && git push)
-
       - name: Setup pnpm
         uses: pnpm/action-setup@v3
         with:
@@ -48,8 +44,6 @@ jobs:
 
       - name: Setup Node
         uses: actions/setup-node@v4
-        with:
-          node-version: '18'
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
@@ -69,6 +63,7 @@ jobs:
         with:
           path: ./frontend/dist
 
+  # 部署工作
   deploy:
     environment:
       name: github-pages

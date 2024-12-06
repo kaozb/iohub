@@ -1,5 +1,21 @@
 [
   {
+    "id": 5656,
+    "title": "【网站自荐】Numberpairs: 一个没有Web开发经验的程序猿使用Cursor写的益智类小游戏站",
+    "content": "### Curosr\r\n简单看过Nuxt.js的文档，从0开始使用Cursor搭建项目，从一个页面逐渐到多页面、适配多语言、文案的生成都是AI协助完成，一些简单的游戏或者说特别出名的游戏，比如俄罗斯方块、2048使用Cursor都能自行完成\r\n\r\n### Vercel\r\nVercel支持一件部署、配合Cloudflare一键绑定域名，轻轻松松上线一个网站\r\n\r\n### 关于Numberpairs\r\n- 益智类小游戏网站在线玩扫雷、2048、数独等等，好玩耐玩\r\n- 页面设计布局简洁，配色以浅色为主，适合休息摸鱼\r\n\r\n网站地址：[https://www.numberpairs.org](https://www.numberpairs.org)\r\n\r\n",
+    "created_at": "2024-12-05T13:30:08Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5656"
+  },
+  {
+    "id": 5655,
+    "title": "【浏览器扩展/插件自荐】上帝小助手-浏览器插件开发平台（使用低代码和用户脚本自由地改变网络）",
+    "content": "* 名称：上帝小助手\r\n* 网址/二维码：\r\n  * Chrome 浏览器请 [从 Chrome 应用商店安装](https://chromewebstore.google.com/detail/lgidjfclkbjgbjfbebecgapobjddolbd)\r\n  * Edge 浏览器请 [从 Edge 应用商店安装](https://microsoftedge.microsoft.com/addons/detail/badfbconebmibddbkhlnmljjagcfkgdo)\r\n  * [从 GitHub 下载离线包安装](https://github.com/bingoogolapple/bga-god-assistant-config)\r\n  * [从 Gitee 下载离线包安装](https://gitee.com/bingoogolapple/bga-programmer-assistant-config)\r\n\r\n| 微信群                                       | 微信公众号                             | 作者微信                              |\r\n| -------------------------------------------------------------------- | -------------------------------------------------------------- | ------------------------------------------------------------- |\r\n| <img width=\"180\" alt=\"微信群\" src=\"https://github.com/bingoogolapple/bga-god-assistant-config/raw/main/images/WeChatGroup1QrCode.jpg\"> | <img width=\"180\" alt=\"公众号\" src=\"https://github.com/bingoogolapple/bga-god-assistant-config/raw/main/images/GongZhongHao.png\"> | <img width=\"180\" alt=\"作者微信\" src=\"https://github.com/bingoogolapple/bga-god-assistant-config/raw/main/images/BGAQrCode.png\"> |\r\n* 介绍：上帝小助手浏览器扩展程序是一个浏览器扩展开发平台，使用低代码和用户脚本自由地改变网络\r\n* 作者：[bingoogolapple](https://github.com/bingoogolapple)\r\n",
+    "created_at": "2024-12-05T13:26:38Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5655"
+  },
+  {
     "id": 5654,
     "title": "【网站自荐】Genie 2：首个大规模基础世界模型，能将单张图像转换为完全交互式的 3D 环境",
     "content": "Genie 2 是一个突破性的基础世界模型，能够生成无限多样的、可操控的、可玩的 3D 环境。\r\n\r\nGenie 2 代表着世界建模技术的重大突破。是 Google DeepMind 最新的创新成果，能够从单个提示图像生成无限多样的丰富交互式 3D 环境，为 AI 训练和评估开创了前所未有的可能性。\r\n\r\n与仅限于 2D 世界的前代 Genie 1 不同，Genie 2 创建了具有复杂物理特性、角色动画和对象交互的 3D 环境。从模拟水效果到建模重力和光照，Genie 2 展示了在生成持续一分钟的连贯可玩世界方面的卓越能力。\r\n\r\n我开发了一个网站，介绍了关于 Genie 2 的详细情况。\r\n\r\n网站地址：https://genie2.co/",
@@ -828,21 +844,5 @@
       "weekly"
     ],
     "url": "https://github.com/ruanyf/weekly/issues/5554"
-  },
-  {
-    "id": 5553,
-    "title": "【网站自荐】yes还是no随机生成器",
-    "content": "# 网站介绍\r\n生成随机yes或者no答案的网站，每次点击oracle按钮，可以生成yes或者no的随机答案，帮助选择困难症用户，轻松选择yes还是no\r\n\r\n# 网站网址\r\nhttps://yesnooracle.dev/\r\n\r\n# 功能特点\r\n1、yes或者no随机生成\r\n2、免费无登录不注册\r\n3、支持多语言，不完善\r\n\r\n# 网站截图\r\n![yesno](https://github.com/user-attachments/assets/ed94e98f-f092-4681-9520-d6ca3b7aecd2)\r\n\r\n",
-    "created_at": "2024-11-16T14:12:21Z",
-    "labels": [],
-    "url": "https://github.com/ruanyf/weekly/issues/5553"
-  },
-  {
-    "id": 5551,
-    "title": "【网站自荐】完全使用Ai开发的工具聚合站（Ai工具、开发辅助等），从布局、到样式、到逻辑代码皆由Ai生成",
-    "content": "甚至包括 自动化部署脚本以及Logo ☺\r\n\r\n免登录、免费使用\r\n\r\nhttps://ai-pandora.xyz\r\n\r\nAi × 愛\r\n\r\n![image](https://github.com/user-attachments/assets/799bfc3e-d9e7-48b0-b7e1-24250baf18dc)\r\n\r\n![image](https://github.com/user-attachments/assets/52984968-480f-4edb-b524-0964e5e212d5)\r\n\r\n![image](https://github.com/user-attachments/assets/724e65a2-465a-4358-aed9-b20f1af156c5)\r\n\r\n",
-    "created_at": "2024-11-15T09:23:40Z",
-    "labels": [],
-    "url": "https://github.com/ruanyf/weekly/issues/5551"
   }
 ]
