@@ -402,20 +402,44 @@ article h2 a {
     width: 100%;
     box-sizing: border-box;
   }
+
+  article h2 {
+    font-size: 1.125rem;  /* 调小标题字体 */
+    margin-bottom: 8px;
+    line-height: 1.4;
+  }
+
+  .preview-image {
+    margin-bottom: 8px;  /* 减小图片下方间距 */
+  }
+
+  .content p {
+    font-size: 0.875rem;
+    line-height: 1.5;
+    -webkit-line-clamp: 2;  /* 移动端显示2行 */
+  }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 400px) {
   .container {
     padding: 12px 8px;
+    width: 100%;
+    box-sizing: border-box;
   }
 
   .articles {
     padding: 4px;
     gap: 12px;
+    width: 100%;
+    box-sizing: border-box;
   }
 
   article {
-    padding: 16px;
+    padding: 12px;
+    width: 100%;
+    min-width: 300px;
+    max-width: 100%;
+    box-sizing: border-box;
   }
 
   .article-footer {
@@ -431,6 +455,23 @@ article h2 a {
 
   .pagination {
     padding: 16px 8px;
+  }
+
+  article h2 {
+    font-size: 1rem;  /* 更小屏幕进一步缩小标题 */
+  }
+
+  article {
+    padding: 12px;  /* 减小卡片内边距 */
+  }
+
+  .labels {
+    margin: 8px 0;
+  }
+
+  .label {
+    padding: 2px 8px;  /* 减小标签内边距 */
+    font-size: 11px;   /* 稍微调小标签字体 */
   }
 }
 </style> 

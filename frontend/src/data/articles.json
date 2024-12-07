@@ -1,5 +1,45 @@
 [
   {
+    "id": 5663,
+    "title": "【开源自荐】Readest：极简设计的跨平台阅读软件",
+    "content": "<div align=\"center\">\r\n  <a href=\"https://readest.com?utm_source=ruanyf&utm_medium=referral&utm_campaign=weekly\" target=\"_blank\">\r\n    <img src=\"https://cdn.readest.com/images/readest-icon.png\" alt=\"Readest Logo\" width=\"20%\" />\r\n  </a>\r\n  <h1>Readest</h1>\r\n  <br>\r\n</div>\r\n\r\n### 项目地址\r\n项目 GitHub 主页：https://github.com/chrox/readest\r\n访问官网下载 Readest： https://readest.com\r\n或立即体验 Readest Web 版： https://web.readest.com\r\n\r\n<div align=\"center\">\r\n  <a href=\"https://readest.com?utm_source=ruanyf&utm_medium=referral&utm_campaign=weekly\" target=\"_blank\">\r\n    <img src=\"https://cdn.readest.com/images/readest_landing_preview.png\" alt=\"Readest Banner\" width=\"100%\" />\r\n  </a>\r\n</div>\r\n\r\n<div align=\"center\">\r\n推荐一款全新的开源电子书阅读器 —— Readest，专为追求沉浸式深度阅读体验的用户打造！ Readest 是经典阅读器 Foliate 的现代化重写版，使用了最新技术栈 Next.js 15 和 Tauri v2 ，支持 macOS 、Windows 、Linux 和 Web 平台，未来还将支持 iOS 和 Android 。\r\n</div>\r\n\r\n### 预览\r\n\r\n<img src=\"https://cdn.readest.com/images/Annotations-anim-gif.webp\" alt=\"Readest Annotator Anim\" width=\"100%\" />\r\n\r\n<img src=\"https://cdn.readest.com/images/Readest_annotations.png\" alt=\"Readest Annotator\" width=\"100%\" />\r\n\r\n<img src=\"https://cdn.readest.com/images/Readest_dark_mode.png\" alt=\"Readest Dark Mode\" width=\"100%\" />\r\n\r\n### 已支持的功能：\r\n* 支持多种电子书格式：支持 EPUB 、MOBI 、AZW3 、PDF 等多种格式；\r\n* 分页/滚动阅读模式：自由切换，适应不同阅读习惯；\r\n* 高效注释与标记：支持高亮、书签和笔记，轻松整理知识点；\r\n* 全文搜索与翻译：支持全文搜索，还能通过 DeepL 轻松翻译文本；\r\n* 双屏平行阅读：支持同时阅读两本书籍，满足学术研究和对比需求；\r\n* 个性化排版设置：字体、主题、颜色随心定制，专属阅读体验。\r\n\r\n### 未来计划支持的功能：\r\n* 支持 iOS 和 Android 平台；\r\n* 支持 Readest 多设备进度；\r\n* 与 Koreader 设备同步；\r\n* 与 OPDS / Calibre 集成；\r\n* 支持手写注释与语音朗读；\r\n* 支持高级阅读统计；\r\n* 支持 AI 自动生成大纲摘要。\r\n\r\n### 立即体验 Readest ！\r\n* 🔗 访问官网下载 Readest： https://readest.com \r\n* 🔗 或访问 GitHub 下载 Readest： https://github.com/chrox/readest/releases\r\n* 🔗 也可直接访问 Readest Web 版体验： https://web.readest.com\r\n* 🔧 欢迎开发者加🌟和 fork 代码，参与贡献： https://github.com/chrox/readest\r\n\r\n欢迎大家尝试并分享反馈，一起打造极致的阅读体验！\r\n❤️ 让阅读回归纯粹的乐趣！",
+    "created_at": "2024-12-06T16:52:41Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5663"
+  },
+  {
+    "id": 5662,
+    "title": "【方言地图】听方言猜位置的游戏，大模型吐槽",
+    "content": "https://dialect.quotemap.site/game 听方言，猜位置，接受奇怪的吐槽\r\n![Dialect Map (11)](https://github.com/user-attachments/assets/3e640ffb-ce8d-455f-b687-60eddfe087a1)\r\n",
+    "created_at": "2024-12-06T14:25:38Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5662"
+  },
+  {
+    "id": 5661,
+    "title": "【文章自荐】简明写作指南",
+    "content": "[简明写作指南](https://ramsayleung.github.io/zh/post/2024/%E7%AE%80%E6%98%8E%E5%86%99%E4%BD%9C%E6%8C%87%E5%8D%97/)",
+    "created_at": "2024-12-06T09:30:29Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5661"
+  },
+  {
+    "id": 5660,
+    "title": "推荐一个免费好用的编程工具网站",
+    "content": "[https://www.coderutil.com/](https://www.coderutil.com/)",
+    "created_at": "2024-12-06T08:15:57Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5660"
+  },
+  {
+    "id": 5659,
+    "title": "【网站自荐】一个分享有趣实用的资源、软件和站点",
+    "content": "小默分享站\r\n\r\n本站分享各种资源、教程、影视剧、福利，收集各种好玩实用的软件和APP的下载、安装和使用方法，发现一些稀奇古怪的网站，提供有趣实用的教程，关注互联网和AI领域等最新动态，探索新领域，发现新美好，分享快乐。\r\n\r\n地址：[https://xiaomook.com](https://xiaomook.com)\r\n\r\n### 图片\r\n![image](https://github.com/user-attachments/assets/2c75da75-ed41-4bc6-8e82-7fd83fc822a4)\r\n",
+    "created_at": "2024-12-06T06:17:42Z",
+    "labels": [],
+    "url": "https://github.com/ruanyf/weekly/issues/5659"
+  },
+  {
     "id": 5658,
     "title": "【开源/工具自荐】自带中文手写字体和 AI 功能的画板",
     "content": "项目地址：https://github.com/KwokKwok/excalidraw\r\n在线使用：https://draw.kwok.ink\r\n\r\n这是一个 Excalidraw 的 fork 项目，增加了\r\n1. 中文手写字体\r\n2. 可配置的 AI 功能。\r\n\r\nExcalidraw 本身的 AI 功能，部分需要请求他们官方的 AI 后端，部分需要配置 OpenAI 的密钥（但是不能配置 baseURL等），有较多相关 issue 但是官方也没有响应（可能出于商业考量？）\r\n\r\n这个 fork 直接把相关的 AI 功能统一调整为使用前端直接请求，并可以指定 baseURL、视觉模型、语言模型等\r\n\r\n---\r\n\r\n目前在画流程图、根据当前画板出一个简单的页面上比较有用\r\n\r\n<img width=\"1207\" alt=\"image\" src=\"https://github.com/user-attachments/assets/8d9e6486-957f-4b6b-9fa2-5cff82874d39\">\r\n\r\n<img width=\"1207\" alt=\"image\" src=\"https://github.com/user-attachments/assets/2e1109b0-3732-482c-8eb0-03a1afef195e\">\r\n\r\n\r\n---\r\n视频展示\r\n\r\nhttps://github.com/user-attachments/assets/29958d45-d959-486b-afa4-8f44e470bed3\r\n\r\n",
@@ -802,45 +842,5 @@
     "created_at": "2024-11-19T17:12:38Z",
     "labels": [],
     "url": "https://github.com/ruanyf/weekly/issues/5561"
-  },
-  {
-    "id": 5560,
-    "title": "【AI应用】职业照相馆 - 实现你的职业梦想!",
-    "content": "[职业照相馆 - 实现你的职业梦想!](https://www.coze.cn/s/iATEjkcQ/)\r\n\r\n小时候, 我们经常被问起的一个问题 -- 长大以后做什么?\r\n还记得你曾经梦想的职业吗?\r\n来职业照相馆, 穿上你向往的职业装, 实现你儿时的梦想!\r\n\r\n![image](https://github.com/user-attachments/assets/cc1567a4-feb8-43e5-9a2b-2ff8b3686e0b)\r\n\r\n![img_v3_02gp_679d7b23-54a5-4b1a-bc5f-1aebeb666bcg](https://github.com/user-attachments/assets/7e1b1814-09ab-43c8-9620-1d1196f285b8)\r\n",
-    "created_at": "2024-11-19T10:18:18Z",
-    "labels": [],
-    "url": "https://github.com/ruanyf/weekly/issues/5560"
-  },
-  {
-    "id": 5559,
-    "title": "【网站自荐】Claude3.5 开发的完整推箱子游戏",
-    "content": "# 功能\r\n\r\n完整的[推箱子游戏](https://gallery.selfboot.cn/en/games/sokoban)，使用良好的游戏设计图，带移动小人的动画，自带100个关卡。通过关卡后本地有记录，下次可以继续挑战下一个关卡。\r\n\r\n<img width=\"1561\" alt=\"image\" src=\"https://github.com/user-attachments/assets/5ba40c82-8e55-437b-b08c-678850d95051\">\r\n\r\n除了自定义关卡，还支持编辑自己的关卡，编辑完之后可以保存下来，分享链接给其他人玩。\r\n\r\n<img width=\"1590\" alt=\"image\" src=\"https://github.com/user-attachments/assets/1b0d299d-7ed9-4252-949b-82979db50915\">\r\n\r\n# Claude 辅助实现\r\n\r\n个人是后端开发，没有前端开发经验。使用 Claude3.5 和 cursor ，在周末快速完成推箱子游戏的开发。AI 帮助实现代码，帮助解决一些 bug，整体体验很流畅。\r\n\r\n地址： [https://gallery.selfboot.cn/en/games/sokoban ](https://gallery.selfboot.cn/en/games/sokoban)",
-    "created_at": "2024-11-19T03:32:43Z",
-    "labels": [],
-    "url": "https://github.com/ruanyf/weekly/issues/5559"
-  },
-  {
-    "id": 5558,
-    "title": "【开源工具自荐】MD2HTML：纯前端的 Markdown 和 HTML 双向转换工具（网页版）",
-    "content": "# MD2HTML: 纯前端的 Markdown 和 HTML 双向转换工具\r\n\r\nMD2HTML 是一个开源的在线工具，打开网页即可使用，帮助用户在 Markdown 和 HTML 格式之间轻松转换。**特别适用于 WordPress 内容发布和将 AI 工具（如 ChatGPT、Claude、Perplexity）的输出转换为 HTML 格式。**\r\n\r\n## 开发背景\r\n我会借助 AI 进行创作，比如 Perplexity 搜集材料后，往往我复制的内容均是 Markdown 格式，在 Wordpress 里原生并不能支持 Markdown 的样式，于是我会一键转成 HTML 的格式，粘贴到Wordpress 的文本格式里…… 这方便我自己使用，于是就有了这款在线版工具。\r\n\r\n虽然看起来很小的需求点，但我也尽量把产品做的美观、简洁。 需求往往来自自身所需，在 AI 加持下做自己喜欢的工具很有乐趣。如果能得到阮一峰老师的推荐，有更多的有同样需求的朋友一起加入更好，Thanks\r\n\r\n## 特点\r\n\r\n1. **纯前端实现**：完全在浏览器端运行，无需后端服务，保护用户隐私\r\n2. **双向转换**：支持 Markdown 转 HTML 和 HTML 转 Markdown\r\n3. **实时预览**：转换结果即时可见，支持 HTML 预览\r\n4. **智能清理**：自动去除 AI 工具（如 Perplexity）生成内容中的引用标记\r\n5. **深色模式**：支持浅色/深色主题切换，自动适应系统主题\r\n6. **多语言支持**：内置中英文界面，可扩展其他语言\r\n7. **便捷功能**：一键复制、下载 HTML 文件、实时预览等\r\n\r\n## 技术栈\r\n\r\n- 原生 JavaScript（ES6+）\r\n- Marked.js（Markdown 解析）\r\n- Turndown（HTML 转 Markdown）\r\n- CSS3（响应式设计）\r\n\r\n## 在线体验\r\n\r\n访问 [MD2HTML.com](https://md2html.com) 即可免费使用。\r\n\r\n## 开源地址\r\n\r\n- GitHub: [github.com/pdmaker/Markdown-to-html](https://github.com/pdmaker/Markdown-to-html)\r\n\r\n这是一个轻量级但功能完整的工具，代码结构清晰。欢迎贡献代码或提供建议。",
-    "created_at": "2024-11-18T14:14:04Z",
-    "labels": [],
-    "url": "https://github.com/ruanyf/weekly/issues/5558"
-  },
-  {
-    "id": 5557,
-    "title": "【文章自荐】机器人首次跑完马拉松比赛",
-    "content": "https://cnnews.chosun.com/client/news/viw.asp?nNewsNumb=20241161926&cate=C01&mcate=M1001\r\nKAIST开发的机器人，在世界上首个跑完马拉松比赛",
-    "created_at": "2024-11-18T08:04:27Z",
-    "labels": [],
-    "url": "https://github.com/ruanyf/weekly/issues/5557"
-  },
-  {
-    "id": 5556,
-    "title": "【开源自荐】基于 VitePress 的极简个人博客 & 周刊模板",
-    "content": "## 概览\r\n\r\n写博客和写周刊的朋友似乎越来越多了，而使用 Vitepress 用来搭建一个静态网站是一个非常好的选择，但 Vitepress 本身是面向文档网站的，做博客/周刊网站需要一定的自定义。\r\n\r\n所以就出现了如下两种模板，方便写博客/周刊的朋友快速开始自己的写作之旅，去注重内容而非搭建网站本身。\r\n\r\n- [博客模板](https://github.com/Justin3go/justin3go.com)：相对于周刊模板多了博客列表页、归档页、赞助页等，定制化程度更深，功能更丰富\r\n- [周刊模板](https://github.com/Justin3go/FAV0)：仅有一个阅读页面，但带所有基础功能的模板，更加简单，适合二开\r\n\r\n都具备的基础功能：\r\n\r\n- 🌓 提供明暗模式切换功能，适应不同的阅读环境。\r\n- 🌍 支持中英双语界面，方便不同语言用户的使用。\r\n- 📡 提供RSS订阅功能，支持中英文内容更新推送。\r\n- 💬 集成Giscus评论系统，便于用户交流和反馈。\r\n- 🖼️ 支持高清大图预览，优化视觉体验。\r\n- 📜 允许自定义字体设置，提升阅读舒适度。\r\n- 🔍 进行SEO优化，包括Sitemap生成、Twitter Card和Open Graph标签支持，提高搜索引擎可见性。\r\n\r\n## 博客模板预览\r\n\r\n- [开源链接](https://github.com/Justin3go/justin3go.com)\r\n- [线上预览](https://justin3go.com/)\r\n\r\n预览图片：\r\n\r\n![image](https://github.com/user-attachments/assets/8b83b400-5f00-4294-83ea-a3ef35f690c8)\r\n\r\n![image](https://github.com/user-attachments/assets/cebb7098-e114-4621-801a-63a5493a5e52)\r\n\r\n![image](https://github.com/user-attachments/assets/1d8fb8b8-0ec4-490c-898c-4bf47ddcde62)\r\n\r\n\r\n## 周刊模板预览\r\n\r\n- [开源链接](https://github.com/Justin3go/FAV0)\r\n- [线上预览](https://fav0.com/)\r\n\r\n预览图片：\r\n\r\n![image](https://github.com/user-attachments/assets/b20b0dba-d6d7-4fc6-9ebe-2b33e0b69b90)\r\n\r\n",
-    "created_at": "2024-11-18T07:45:17Z",
-    "labels": [],
-    "url": "https://github.com/ruanyf/weekly/issues/5556"
   }
 ]

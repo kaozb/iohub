@@ -234,46 +234,34 @@ main {
   border-radius: 8px;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .container {
     max-width: 100%;
     padding: 16px;
   }
 
   h1 {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
+    margin-bottom: 12px;
   }
 
-  main {
-    padding: 20px;
-  }
-
-  .meta {
-    gap: 8px;
-  }
-
-  .markdown-body {
-    font-size: 0.9375rem;
-  }
-
-  .markdown-body h1 { font-size: 1.375rem; }
-  .markdown-body h2 { font-size: 1.25rem; }
-  .markdown-body h3 { font-size: 1.125rem; }
-  .markdown-body h4 { font-size: 1rem; }
-
-  .markdown-body pre {
-    padding: 12px;
-    font-size: 0.875rem;
-  }
+  .markdown-body h1 { font-size: 1.25rem; }
+  .markdown-body h2 { font-size: 1.125rem; }
+  .markdown-body h3 { font-size: 1rem; }
+  .markdown-body h4 { font-size: 0.938rem; }
 }
 
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
   .container {
-    padding: 12px;
+    padding: 12px 8px;
+  }
+
+  h1 {
+    font-size: 1.125rem;
   }
 
   main {
-    padding: 16px;
+    padding: 12px;
   }
 
   .markdown-body {
