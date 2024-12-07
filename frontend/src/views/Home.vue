@@ -130,7 +130,7 @@ const getArticleExcerpt = (content: string) => {
     .filter(p => !p.includes('---'))
     .filter(p => p.length > 30)
   
-  const keywords = ['介绍', '简介', '概述', '背景', '主要', '核心', '特点', '功能']
+  const keywords = ['介���', '简介', '概述', '背景', '主要', '核心', '特点', '功能']
   const importantParagraph = paragraphs.find(p => 
     keywords.some(keyword => p.includes(keyword))
   )
@@ -370,18 +370,32 @@ article h2 a {
     padding: 16px;
   }
 
-  h1 {
-    font-size: 1.5rem;
-    margin-bottom: 20px;
-  }
-
   .search input {
     padding: 10px 16px;
+    font-size: 0.875rem;
+  }
+
+  .articles {
+    grid-template-columns: 1fr;
+    gap: 16px;
+    padding: 8px;
+  }
+
+  article {
+    padding: 16px;
+  }
+
+  article h2 {
+    font-size: 1.125rem;
+  }
+
+  .preview-image {
+    padding-bottom: 52.25%;
   }
 
   .pagination {
     gap: 12px;
-    margin-top: 32px;
+    margin-top: 24px;
     padding: 16px 0;
   }
 
@@ -389,6 +403,30 @@ article h2 a {
     padding: 6px 12px;
     min-width: 80px;
     font-size: 0.813rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 12px;
+  }
+
+  .search {
+    max-width: 100%;
+  }
+
+  .articles {
+    padding: 4px;
+  }
+
+  .content p {
+    font-size: 0.875rem;
+  }
+
+  .article-footer {
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
   }
 }
 </style> 

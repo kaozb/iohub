@@ -64,4 +64,32 @@
 .nav-link.router-link-active {
   color: #2563eb;
 }
+
+@media (max-width: 768px) {
+  .nav-container {
+    height: 56px;
+    padding: 0 16px;
+  }
+
+  .nav-logo {
+    font-size: 1.125rem;
+  }
+
+  .github-link svg {
+    height: 20px;
+    width: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+  }
+
+  #app {
+    padding-top: 56px;  /* 为固定导航栏留出空间 */
+  }
+}
 </style> 

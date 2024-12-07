@@ -236,6 +236,7 @@ main {
 
 @media (max-width: 768px) {
   .container {
+    max-width: 100%;
     padding: 16px;
   }
 
@@ -249,6 +250,48 @@ main {
 
   .meta {
     gap: 8px;
+  }
+
+  .markdown-body {
+    font-size: 0.9375rem;
+  }
+
+  .markdown-body h1 { font-size: 1.375rem; }
+  .markdown-body h2 { font-size: 1.25rem; }
+  .markdown-body h3 { font-size: 1.125rem; }
+  .markdown-body h4 { font-size: 1rem; }
+
+  .markdown-body pre {
+    padding: 12px;
+    font-size: 0.875rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 12px;
+  }
+
+  main {
+    padding: 16px;
+  }
+
+  .markdown-body {
+    font-size: 0.875rem;
+  }
+
+  .image-preview img {
+    max-width: 95%;
+    max-height: 95vh;
+  }
+
+  .labels {
+    margin: 8px 0;
+  }
+
+  .source {
+    margin-top: 16px;
+    padding-top: 12px;
   }
 }
 </style> 
