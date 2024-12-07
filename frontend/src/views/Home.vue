@@ -130,7 +130,7 @@ const getArticleExcerpt = (content: string) => {
     .filter(p => !p.includes('---'))
     .filter(p => p.length > 30)
   
-  const keywords = ['介���', '简介', '概述', '背景', '主要', '核心', '特点', '功能']
+  const keywords = ['介绍', '简介', '概述', '背景', '主要', '核心', '特点', '功能']
   const importantParagraph = paragraphs.find(p => 
     keywords.some(keyword => p.includes(keyword))
   )
@@ -365,68 +365,72 @@ article h2 a {
   padding: 0 8px;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .container {
     padding: 16px;
-  }
-
-  .search input {
-    padding: 10px 16px;
-    font-size: 0.875rem;
+    width: 100%;
+    box-sizing: border-box;
   }
 
   .articles {
-    grid-template-columns: 1fr;
+    display: grid;
+    grid-template-columns: 1fr;  /* 强制单列 */
     gap: 16px;
     padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  article {
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  .preview-image {
+    width: 100%;
+    padding-bottom: 52.25%;
+  }
+
+  .search {
+    width: 100%;
+    padding: 0 8px;
+    box-sizing: border-box;
+  }
+
+  .search input {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    padding: 12px 8px;
+  }
+
+  .articles {
+    padding: 4px;
+    gap: 12px;
   }
 
   article {
     padding: 16px;
   }
 
-  article h2 {
-    font-size: 1.125rem;
-  }
-
-  .preview-image {
-    padding-bottom: 52.25%;
-  }
-
-  .pagination {
-    gap: 12px;
-    margin-top: 24px;
-    padding: 16px 0;
-  }
-
-  .page-btn {
-    padding: 6px 12px;
-    min-width: 80px;
-    font-size: 0.813rem;
-  }
-}
-
-@media (max-width: 480px) {
-  .container {
-    padding: 12px;
-  }
-
-  .search {
-    max-width: 100%;
-  }
-
-  .articles {
-    padding: 4px;
-  }
-
-  .content p {
-    font-size: 0.875rem;
-  }
-
   .article-footer {
     flex-direction: column;
     gap: 8px;
     align-items: flex-start;
+  }
+
+  .content p {
+    font-size: 0.875rem;
+    -webkit-line-clamp: 3;
+  }
+
+  .pagination {
+    padding: 16px 8px;
   }
 }
 </style> 

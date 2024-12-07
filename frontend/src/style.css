@@ -24,3 +24,21 @@ body {
   width: 100%;
   margin: 0 auto;
 } 
+
+/* 确保所有元素都使用 border-box */
+* {
+  box-sizing: border-box;
+}
+
+/* 移动端基础样式 */
+@media screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+    width: 100%;
+  }
+
+  #app {
+    width: 100%;
+    overflow-x: hidden;
+  }
+}

@@ -65,10 +65,20 @@
   color: #2563eb;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
+  .nav {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+
   .nav-container {
     height: 56px;
     padding: 0 16px;
+    width: 100%;
+    box-sizing: border-box;
   }
 
   .nav-logo {
@@ -81,15 +91,13 @@
   }
 }
 
-@media (max-width: 480px) {
-  .nav {
-    position: fixed;
-    width: 100%;
-    top: 0;
+@media screen and (max-width: 480px) {
+  #app {
+    padding-top: 56px;
   }
 
-  #app {
-    padding-top: 56px;  /* 为固定导航栏留出空间 */
+  .nav-container {
+    padding: 0 12px;
   }
 }
 </style> 
