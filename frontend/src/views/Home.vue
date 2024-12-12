@@ -90,56 +90,96 @@ watch(searchQuery, () => {
 })
 
 const getFirstImage = (content: string) => {
-  // 匹配 Markdown 图片语法
-  const mdMatches = content.match(/!\[.*?\]\((.*?)\)/g)
-  if (mdMatches) {
-    for (const match of mdMatches) {
-      const imgUrl = match.match(/!\[.*?\]\((.*?)\)/)[1]
-      if (imgUrl.includes('assets/') || imgUrl.startsWith('http')) {
-        return imgUrl
+  try {
+    // 确保 content 存在且为字符串
+    if (!content || typeof content !== 'string') {
+      return null
+    }
+
+    // 提取图片 URL 的函数
+    const extractUrl = (pattern: RegExp, str: string): string | null => {
+      const matches = str.match(pattern)
+      return matches && matches[1] ? matches[1] : null
+    }
+
+    // 验证 URL 是否有效
+    const isValidUrl = (url: string): boolean => {
+      return url.includes('assets/') || url.startsWith('http')
+    }
+
+    // 尝试匹配 Markdown 图片
+    const mdPattern = /!\[.*?\]\((.*?)\)/g
+    const mdMatches = content.match(mdPattern)
+    if (mdMatches) {
+      for (const match of mdMatches) {
+        const url = extractUrl(/!\[.*?\]\((.*?)\)/, match)
+        if (url && isValidUrl(url)) {
+          return url
+        }
       }
     }
-  }
 
-  // 匹配 HTML img 标签
-  const htmlMatches = content.match(/<img[^>]+src="([^">]+)"/g)
-  if (htmlMatches) {
-    for (const match of htmlMatches) {
-      const imgUrl = match.match(/src="([^">]+)"/)[1]
-      if (imgUrl.includes('assets/') || imgUrl.startsWith('http')) {
-        return imgUrl
+    // 尝试匹配 HTML 图片
+    const htmlPattern = /<img[^>]+src="([^">]+)"/g
+    const htmlMatches = content.match(htmlPattern)
+    if (htmlMatches) {
+      for (const match of htmlMatches) {
+        const url = extractUrl(/src="([^">]+)"/, match)
+        if (url && isValidUrl(url)) {
+          return url
+        }
       }
     }
-  }
 
-  return null
+    return null
+  } catch (error) {
+    // 只在开发环境下打印详细错误信息
+    if (process.env.NODE_ENV === 'development') {
+      console.error('解析图片URL时出错:', error)
+    }
+    return null
+  }
 }
 
 const getArticleExcerpt = (content: string) => {
-  const textContent = content
-    .replace(/!\[.*?\]\(.*?\)/g, '')
-    .replace(/```[\s\S]*?```/g, '')
-    .replace(/\[.*?\]\(.*?\)/g, '')
-    .replace(/#+ /g, '')
-    .replace(/\*\*/g, '')
-    .trim()
-  
-  const paragraphs = textContent
-    .split('\n')
-    .filter(p => p.trim().length > 0)
-    .filter(p => !p.includes('---'))
-    .filter(p => p.length > 30)
-  
-  const keywords = ['介绍', '简介', '概述', '背景', '主要', '核心', '特点', '功能']
-  const importantParagraph = paragraphs.find(p => 
-    keywords.some(keyword => p.includes(keyword))
-  )
-  
-  const selectedParagraph = importantParagraph || paragraphs[0] || ''
-  
-  return selectedParagraph.length > 120 
-    ? selectedParagraph.slice(0, 120) + '...'
-    : selectedParagraph
+  try {
+    if (!content) return ''
+    
+    const textContent = content
+      .replace(/!\[.*?\]\(.*?\)/g, '')  // 移除 Markdown 图片
+      .replace(/```[\s\S]*?```/g, '')   // 移除代码块
+      .replace(/\[.*?\]\(.*?\)/g, '')   // 移除链接
+      .replace(/#+ /g, '')              // 移除标题标记
+      .replace(/\*\*/g, '')             // 移除加粗标记
+      .trim()
+    
+    // 分段并过滤
+    const paragraphs = textContent
+      .split('\n')
+      .map(p => p.trim())
+      .filter(p => p.length > 0)        // 移除空行
+      .filter(p => !p.includes('---'))  // 移除分隔线
+      .filter(p => p.length > 30)       // 保留较长的段落
+    
+    if (paragraphs.length === 0) return ''
+    
+    // 查找包含关键词的段落
+    const keywords = ['介绍', '简介', '概述', '背景', '主要', '核心', '特点', '功能']
+    const importantParagraph = paragraphs.find(p => 
+      keywords.some(keyword => p.includes(keyword))
+    )
+    
+    const selectedParagraph = importantParagraph || paragraphs[0] || ''
+    
+    // 截取合适长度
+    return selectedParagraph.length > 120 
+      ? selectedParagraph.slice(0, 120) + '...'
+      : selectedParagraph
+      
+  } catch (error) {
+    console.error('提取文章摘要时出错:', error)
+    return ''
+  }
 }
 
 const formatDate = (dateStr: string) => {
