@@ -69,10 +69,11 @@ const filteredArticles = computed(() => {
   if (!searchQuery.value) return articles
   
   const query = searchQuery.value.toLowerCase()
-  return articles.filter(article => 
-    article.title.toLowerCase().includes(query) ||
-    article.content.toLowerCase().includes(query)
-  )
+  return articles.filter(article => {
+    const title = article.title || ''
+    const content = article.content || ''
+    return title.toLowerCase().includes(query) || content.toLowerCase().includes(query)
+  })
 })
 
 const totalPages = computed(() => 
