@@ -1,7 +1,6 @@
 iohub/
 ├── backend/
-│   └── spider/
-│       └── main.py
+│   └── main.py
 ├── frontend/
 │   ├── src/
 │   │   ├── assets/
