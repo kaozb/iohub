@@ -8,6 +8,7 @@
 - 定时抓取数据到json文件
 - Vue构建静态站点部署到GitHub
 - GitHub Action定时更新同步
+- 支持滚动加载和分页模式
 
 ## 预览
 <https://iohub.inshub.cn/>

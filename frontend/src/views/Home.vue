@@ -1,12 +1,19 @@
 <template>
-  <div class="container">
+  <div class="container" :style="{minHeight:fullShow?'calc(100vh - 100px)':'auto'}">
     <header>
       <div class="search">
         <input v-model="searchQuery" placeholder="搜索文章...">
       </div>
     </header>
 
-    <main>
+    <main 
+      :class="{ 'hide-scrollbar': props.fullShow }"
+      :style="{
+        overflowY: props.fullShow ? 'auto' : 'hidden',
+        height: props.fullShow ? 'calc(100vh - 180px)' : 'auto'
+      }" 
+      v-on:scrollend="scorllEnd"
+    >
       <div class="articles">
         <article v-for="article in paginatedArticles" :key="article.id">
           <h2>
@@ -33,7 +40,7 @@
         </article>
       </div>
 
-      <div class="pagination" v-if="totalPages > 1">
+      <div class="pagination" v-if="totalPages > 1 && !fullShow">
         <button 
           class="page-btn" 
           :disabled="currentPage === 1"
@@ -52,6 +59,7 @@
           下一页
         </button>
       </div>
+      <div v-if="fullShow" class="loading"></div>
     </main>
   </div>
 </template>
@@ -61,8 +69,15 @@ import { ref, computed, watch } from 'vue'
 import { marked } from 'marked'
 import articles from '../data/articles.json'
 
+const props = defineProps<{
+  fullShow: boolean
+}>()
+
+const emit = defineEmits(['update:fullShow'])
+
 const searchQuery = ref('')
 const currentPage = ref(1)
+const timeSeed = ref(null as NodeJS.Timeout | null)
 const pageSize = 6 // 每页显示的文章数量
 
 const filteredArticles = computed(() => {
@@ -81,10 +96,28 @@ const totalPages = computed(() =>
 )
 
 const paginatedArticles = computed(() => {
-  const start = (currentPage.value - 1) * pageSize
-  const end = start + pageSize
+  let [start,end] = [0,0];
+  if(props.fullShow) {
+    end = pageSize + (currentPage.value - 1) * pageSize
+  } else {
+    start = (currentPage.value - 1) * pageSize
+    end = start + pageSize
+  }
+  
   return filteredArticles.value.slice(start, end)
 })
+
+const scorllEnd = () => {
+  if(!props.fullShow) {
+    return
+  }
+  if(timeSeed.value) {
+    clearTimeout(timeSeed.value)
+  }
+  timeSeed.value = setTimeout(() => {
+    currentPage.value = currentPage.value === totalPages.value ? currentPage.value : currentPage.value + 1
+  }, 500);
+}
 
 watch(searchQuery, () => {
   currentPage.value = 1
@@ -213,7 +246,7 @@ header {
 }
 
 .search input {
-  width: 100%;
+  display: inline-block;
   padding: 12px 20px;
   font-size: 0.875rem;
   border: 1px solid #e5e7eb;
@@ -221,6 +254,15 @@ header {
   background: white;
   transition: all 0.2s ease;
   color: #374151;
+  width: 100%;
+}
+
+.search input {
+  width: 80%;
+}
+
+.search input[type="checkbox"] {
+  width: 5%;
 }
 
 .search input:focus {
@@ -406,6 +448,21 @@ article h2 a {
   padding: 0 8px;
 }
 
+.loading {
+  border: 4px solid #f3f3f3; 
+  border-top: 4px solid #3498db; 
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  animation: spin 2s linear infinite;
+  margin: 10px auto; 
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
 @media screen and (max-width: 768px) {
   .container {
     padding: 16px;
@@ -515,4 +572,14 @@ article h2 a {
     font-size: 11px;   /* 稍微调小标签字体 */
   }
 }
+
+.hide-scrollbar {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari and Opera */
+}
+
 </style> 
