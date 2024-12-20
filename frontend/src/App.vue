@@ -8,7 +8,7 @@
         <label class="toggle-switch">
           <input type="checkbox" v-model="fullShow" id="fullShow">
           <span class="slider"></span>
-          <span class="label-text">{{ fullShow ? '滚动' : '分页' }}</span>
+          <span class="label-text">{{ fullShow ? '分页' : '滚动' }}</span>
         </label>
         <a href="https://github.com/inshub/iohub" target="_blank" class="nav-link github-link">
           <svg height="24" width="24" viewBox="0 0 16 16" class="github-icon">
@@ -24,7 +24,7 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 
-const fullShow = ref(true)
+const fullShow = ref(false)
 </script>
 
 <style>

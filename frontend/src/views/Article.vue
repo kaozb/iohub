@@ -19,7 +19,7 @@
         </div>
       </main>
       <div class="image-preview" v-if="previewImage" @click="closePreview">
-        <img :src="previewImage" alt="preview">
+        <img :src="previewImage" alt="preview" >
       </div>
     </div>
   </div>
@@ -35,7 +35,8 @@ const props = defineProps<{
 }>()
 
 const article = computed(() => 
-  articles.find(a => a.id === parseInt(props.id))
+  articles.find(a => a.id === parseInt(props.id)) //
+
 )
 
 const formatDate = (dateStr: string) => {
@@ -53,6 +54,8 @@ const handleImageClick = (event: MouseEvent) => {
   if (target.tagName === 'IMG') {
     previewImage.value = target.src
     document.body.style.overflow = 'hidden'
+    // 添加 referrerpolicy="no-referrer"
+    target.setAttribute('referrerpolicy', 'no-referrer')
   }
 }
 

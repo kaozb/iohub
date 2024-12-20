@@ -22,7 +22,7 @@
             </router-link>
           </h2>
           <div class="preview-image" v-if="getFirstImage(article.content)">
-            <img :src="getFirstImage(article.content)" :alt="article.title">
+            <img :src="getFirstImage(article.content)" :alt="article.title" referrerpolicy="no-referrer" >
           </div>
           <div class="labels">
             <span v-for="label in article.labels" :key="label" class="label">
